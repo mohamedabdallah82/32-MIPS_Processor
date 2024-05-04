@@ -1,0 +1,57 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=design0
+
+[Library]
+design0=.\design0.lib
+
+[$LibMap$]
+design0=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+FAMILY=
+FLOWTOOLS=ONLY_IMPL
+
+[IMPLEMENTATION]
+UCF=
+
+[Files]
+/PC.vhd=-1
+/Instruction memory.vhd=-1
+/AND.vhd=-1
+/ALU.vhd=-1
+/Registers.vhd=-1
+/MUX.vhd=-1
+/Signed-extend.vhd=-1
+/Data memory.vhd=-1
+/Shift left 2.vhd=-1
+/Add-ALU.vhd=-1
+
+[Files.Data]
+.\src\PC.vhd=VHDL Source Code
+.\src\Instruction memory.vhd=VHDL Source Code
+.\src\AND.vhd=VHDL Source Code
+.\src\ALU.vhd=VHDL Source Code
+.\src\Registers.vhd=VHDL Source Code
+.\src\MUX.vhd=VHDL Source Code
+.\src\Signed-extend.vhd=VHDL Source Code
+.\src\Data memory.vhd=VHDL Source Code
+.\src\Shift left 2.vhd=VHDL Source Code
+.\src\Add-ALU.vhd=VHDL Source Code
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=

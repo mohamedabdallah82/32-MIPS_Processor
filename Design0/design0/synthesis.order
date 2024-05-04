@@ -1,0 +1,10 @@
+i<>.\src\PC.vhd
+i<>.\src\Instruction memory.vhd
+i<>.\src\AND.vhd
+i<>.\src\ALU.vhd
+i<>.\src\Registers.vhd
+i<>.\src\MUX.vhd
+i<>.\src\Signed-extend.vhd
+i<>.\src\Data memory.vhd
+i<>.\src\Shift left 2.vhd
+i<>.\src\Add-ALU.vhd

@@ -53,8 +53,8 @@ type register_file is array (0 to 31) of 	--creating 2D array containing 32 regi
 	
 begin
      -- reading register
-     RD1_Data<= array_reg(to_integer(unsigned( RD1))); -- read rs from an r-type	  
-     RD2_Data <= array_reg(to_integer(unsigned( RD2)));-- read rt from an r-type
+     RD1_Data<= array_reg(to_integer(unsigned( RD1))); -- read rs 	  
+     RD2_Data <= array_reg(to_integer(unsigned( RD2)));-- read rt 
 	 
     --writing in file register
      process(RegWrit)

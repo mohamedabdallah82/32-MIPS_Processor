@@ -1,5 +1,5 @@
 
- LIBRARY IEEE;
+  LIBRARY IEEE;
 USE IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL;
 ENTITY data_Memory IS
@@ -12,8 +12,8 @@ ENTITY data_Memory IS
 	);
 END data_Memory;
 ARCHITECTURE Behavioral OF data_Memory IS
-	TYPE RAM_16_x_32 IS ARRAY(0 TO 15) OF std_logic_vector(31 DOWNTO 0);
-	SIGNAL DM : RAM_16_x_32 := (
+	TYPE  data_mem IS ARRAY(0 TO 15) OF std_logic_vector(31 DOWNTO 0);
+	SIGNAL dm : data_mem := (
 		x"00000000",  
 		x"00000000",
 		x"00000000",
@@ -36,10 +36,10 @@ BEGIN
  
 	BEGIN
 		IF (memory_Write = '1') THEN
-			DM((to_integer(unsigned(addr)) - 268500992) / 4) <= wr_Data;
+			dm((to_integer(unsigned(addr)) - 268500992) / 4) <= wr_Data;
 		END IF;
 		IF (memory_Read = '1') THEN
-			Data_out <= DM((to_integer(unsigned(addr)) - 268500992)/4);
+			Data_out <= dm((to_integer(unsigned(addr)) - 268500992)/4);
 		END IF;
 		 
 	END PROCESS;

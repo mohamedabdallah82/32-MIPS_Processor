@@ -17,7 +17,7 @@ ARCHITECTURE Behavioral OF InstructionMemory IS
 	SIGNAL instr : Inst_set := (
 
                        x"01285024", -- 0x0040 0000: add 	$t2, 	$t1, 	$t0
-		       x"018b6825", -- 0x0040 0004: or 	  $t5, 	$t4, 	$t3
+		       x"018b6825", -- 0x0040 0004: or 	        $t5, 	$t4, 	$t3
                        x"01285020", -- 0x0040 0008: and 	$t2, 	$t1, 	$t0
 		       x"01285022", -- 0x0040 000c: sub 	$t5, 	$t1, 	$t0
 		       x"0149402a", -- 0x0040 0010: slt 	$t0, 	$t2, 	$t1
@@ -27,9 +27,9 @@ ARCHITECTURE Behavioral OF InstructionMemory IS
 		       x"01284120", -- 0x0040 0020: add 	$t2, 	$t1, 	$t0
 		       x"01285022", -- 0x0040 001b: sub 	$t5, 	$t1, 	$t0
 		       x"0162483a", -- 0x0040 0010: slt 	$t0, 	$t2, 	$t1
-                       x"08100000", -- 0x0040 002C: lw    $s0,  	28($s1)
-		       x"121468ad", -- 0x0040 0017: sw    $s1,    30($s3) 
-		       x"13a485da", -- 0x0040 00a8: lw    $s3,  	48($s4)
+                       x"08100000", -- 0x0040 002C: lw          $s0,  	28($s1)
+		       x"121468ad", -- 0x0040 0017: sw          $s1,    30($s3) 
+		       x"13a485da", -- 0x0040 00a8: lw          $s3,  	48($s4)
 	               x"00000000",
 		       x"00000000"
 		       );

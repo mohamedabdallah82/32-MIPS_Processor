@@ -2,7 +2,7 @@ library IEEE;
 use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;
 
-entity alu is
+entity ALU is
   port (
   a: in std_logic_vector(31 downto 0);
   b: in std_logic_vector(31 downto 0);
@@ -11,9 +11,9 @@ entity alu is
   result: out std_logic_vector(31 downto 0);
   zf: out std_logic -- zero flag
   );
-end entity alu;
+end entity ALU;
 
-architecture behav of alu is
+architecture behav of ALU is
   signal resultSig : std_logic_vector(31 downto 0);
 begin
   process(a, b, alu_control)

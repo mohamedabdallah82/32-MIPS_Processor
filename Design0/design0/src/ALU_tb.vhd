@@ -2,10 +2,10 @@ library IEEE;
 use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;
 
-entity alu_tb is
-    end alu_tb;
+entity ALU_tb is
+    end ALU_tb;
 
-architecture behavior of alu_tb is
+architecture behavior of ALU_tb is
       -- Constants for ALU control signals
     constant AND_OP : std_logic_vector(2 downto 0) := "000";
     constant OR_OP  : std_logic_vector(2 downto 0) := "001";
@@ -22,7 +22,7 @@ architecture behavior of alu_tb is
 
 begin
     -- Instantiate the ALU
-    UUT: entity work.alu
+    UUT: entity work.ALU
     port map (
                  a           => a,
                  b           => b,

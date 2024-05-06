@@ -1,3 +1,5 @@
-MESSAGE "File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\PC.vhd" 
-ERROR COMP96_0003: "Source file is empty." 
-FAILURE "Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [s]" 
+MESSAGE "File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\AND.vhd" 
+MESSAGE "Compile Entity "AND_GATE"" 
+MESSAGE "Entity `AND_GATE' has been skipped - no difference detected." 
+MESSAGE "Compile Architecture "Behavioral" of Entity "AND_GATE"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]" 

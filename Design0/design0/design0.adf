@@ -26,6 +26,12 @@ FLOWTOOLS=ONLY_IMPL
 [IMPLEMENTATION]
 UCF=
 
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=add_alu|behavioral|0 and_gate|behavioral|0 pc|behavioral|0 
+ShowHide=ShowTopLevel
+Selected=
+
 [Files]
 /PC.vhd=-1
 /Instruction memory.vhd=-1
@@ -37,6 +43,11 @@ UCF=
 /Data memory.vhd=-1
 /Shift left 2.vhd=-1
 /Add-ALU.vhd=-1
+/MUX waveform.awf=-1
+/Add_ALU waveform.awf=-1
+/PC wavefrom.awf=-1
+/PC waveform.awf=-1
+/AND_GATE waveform.awf=-1
 
 [Files.Data]
 .\src\PC.vhd=VHDL Source Code
@@ -49,9 +60,9 @@ UCF=
 .\src\Data memory.vhd=VHDL Source Code
 .\src\Shift left 2.vhd=VHDL Source Code
 .\src\Add-ALU.vhd=VHDL Source Code
+.\src\MUX waveform.awf=Waveform File
+.\src\Add_ALU waveform.awf=Waveform File
+.\src\PC wavefrom.awf=Waveform File
+.\src\PC waveform.awf=Waveform File
+.\src\AND_GATE waveform.awf=Waveform File
 
-[HierarchyViewer]
-SortInfo=u
-HierarchyInformation=
-ShowHide=ShowTopLevel
-Selected=

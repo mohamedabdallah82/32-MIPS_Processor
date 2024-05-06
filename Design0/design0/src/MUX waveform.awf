@@ -1,0 +1,177 @@
+$WAVE4
+$RESOLUTION 1000
+$ENDTIME 400000
+I 1 "a#32#std_logic_vector((n-1) downto 0)1 ricd31 0 e#9#std_logicc9 UX01ZWLH-"
+I 2 "e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 1 1 32 input_0
+$SC 2-33
+$BUS IN +1 1 32 6 0 "1"
+$SC +1-66
+$BUS OUT +2 1 32 output
+$SC +1-+31
+$IN 67 2 sel
+P 0 1-+99 CS "0"
+P 0 34 Stimulator "VAL:FRM:Override:00011111010101010111010101111111:<= 00011111010101010111010101111111:1:"
+P 0 67 Stimulator "VAL:FRM:Override:0:<= 0:1:"
+P 0 1 Stimulator "VAL:FRM:Override:11111111010101010101010101110101:<= 11111111010101010101010101110101:1:"
+$WAVES 2
+=0 T 0
+=1 D 300k 1
+$VALUES
+V 1
+0
+V 1
+1
+$END
+$WAVES 3
+*0
+*1
+$VALUES
+V 1
+0
+V 1
+1
+$END
+$WAVES 4
+*0
+*1
+$VALUES
+V 1
+0
+V 1
+1
+$END
+$WAVES 5-9 +2-27/2 +1 +1-+4/2 +5-+4 +2-+8/2 +1 +1-+6/2 +1 +1-+4/2
+*0
+$VALUES
+V 1
+1
+$END
+$WAVES 10-26/2 +4 +2 +3-+2 +6-+8/2 +4-+4/2
+*0
+$VALUES
+V 1
+0
+$END
+$WAVES +4
+*0
+=2 D 200k 1
+$VALUES
+V 1
+0
+V 1
+1
+$END
+$WAVES +2
+*0
+*2
+$VALUES
+V 1
+0
+V 1
+1
+$END
+$WAVES +2
+*0
+=3 D 100k 1
+*2
+$VALUES
+V 1
+0
+V 1
+1
+V 1
+0
+$END
+$WAVES +2
+*0
+=4 D 0 1
+=5 D 300k 2
+$VALUES
+V 2
+U
+0
+V 1
+1
+$END
+$WAVES +1
+*0
+*4
+*5
+$VALUES
+V 2
+U
+0
+V 1
+1
+$END
+$WAVES +1
+*0
+*4
+*5
+$VALUES
+V 2
+U
+0
+V 1
+1
+$END
+$WAVES +1-+4 +2-94/2 +1 +1-+4/2
+*0
+*4
+$VALUES
+V 2
+U
+1
+$END
+$WAVES 77-+8/2 +4-+4/2
+*0
+*4
+$VALUES
+V 2
+U
+0
+$END
+$WAVES 87
+*0
+*4
+=6 D 100k 2
+=7 D 200k 2
+$VALUES
+V 2
+U
+0
+V 1
+1
+V 1
+0
+$END
+$WAVES 97
+*0
+*4
+*7
+*6
+$VALUES
+V 2
+U
+0
+V 1
+1
+V 1
+0
+$END
+$WAVES +2
+*0
+*4
+*7
+*6
+$VALUES
+V 2
+U
+0
+V 1
+1
+V 1
+0
+$END
+$ENDWAVE

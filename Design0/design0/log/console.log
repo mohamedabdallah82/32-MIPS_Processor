@@ -1,0 +1,384 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom $DSN/src/Add-ALU.vhd
+# Compile...
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Add-ALU.vhd
+# Compile Entity "ADD_ALU"
+# Compile Architecture "Behavioral" of Entity "ADD_ALU"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/PC.vhd
+# Compile...
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\PC.vhd
+# Compile Entity "PC"
+# Entity `PC' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "PC"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim add_alu behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2417 kB (elbread=1070 elab2=299 kernel=1048 sdf=0)
+# 10:38 PM, Monday, May 6, 2024
+# Simulation has been initialized
+# Selected Top-Level: add_alu (behavioral)
+# Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim pc behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2417 kB (elbread=1070 elab2=299 kernel=1048 sdf=0)
+# 10:40 PM, Monday, May 6, 2024
+# Simulation has been initialized
+# Selected Top-Level: pc (behavioral)
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# All when statements cleared.
+# Simulation has been stopped
+acom $DSN/src/PC.vhd
+# Compile...
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\PC.vhd
+# Compile Entity "PC"
+# Entity `PC' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "PC"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+asim pc behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2416 kB (elbread=1070 elab2=298 kernel=1048 sdf=0)
+# 10:43 PM, Monday, May 6, 2024
+# Simulation has been initialized
+# Selected Top-Level: pc (behavioral)
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# All when statements cleared.
+# Simulation has been stopped
+acom $DSN/src/PC.vhd
+# Compile...
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\PC.vhd
+# Compile Entity "PC"
+# Entity `PC' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "PC"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim pc behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2417 kB (elbread=1070 elab2=299 kernel=1048 sdf=0)
+# 10:44 PM, Monday, May 6, 2024
+# Simulation has been initialized
+# Selected Top-Level: pc (behavioral)
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# All when statements cleared.
+# Simulation has been stopped
+acom $DSN/src/PC.vhd
+# Compile...
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\PC.vhd
+# Compile Entity "PC"
+# Entity `PC' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "PC"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim pc behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2417 kB (elbread=1070 elab2=299 kernel=1048 sdf=0)
+# 10:49 PM, Monday, May 6, 2024
+# Simulation has been initialized
+# Selected Top-Level: pc (behavioral)
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# All when statements cleared.
+# Simulation has been stopped
+acom $DSN/src/PC.vhd
+# Compile...
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\PC.vhd
+# Compile Entity "PC"
+# Entity `PC' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "PC"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim pc behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2417 kB (elbread=1070 elab2=299 kernel=1048 sdf=0)
+# 10:53 PM, Monday, May 6, 2024
+# Simulation has been initialized
+# Selected Top-Level: pc (behavioral)
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom $DSN/src/pc.vhd "$DSN/src/instruction memory.vhd" $DSN/src/and.vhd $DSN/src/alu.vhd $DSN/src/registers.vhd $DSN/src/mux.vhd $DSN/src/signed-extend.vhd "$DSN/src/data memory.vhd" "$DSN/src/shift left 2.vhd" $DSN/src/add-alu.vhd
+# Compile...
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\PC.vhd
+# Compile Entity "PC"
+# Entity `PC' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "PC"
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Instruction memory.vhd
+# Compile Entity "InstructionMemory"
+# Entity `InstructionMemory' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "InstructionMemory"
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\AND.vhd
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\ALU.vhd
+# Error: COMP96_0003: Source file is empty.
+# Compile Entity "ALU"
+# Entity `ALU' has been skipped - no difference detected.
+# Compile Architecture "behav" of Entity "ALU"
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Registers.vhd
+# Compile Entity "Register_File"
+# Entity `Register_File' has been skipped - no difference detected.
+# Compile Architecture "Behavioural" of Entity "Register_File"
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\MUX.vhd
+# Compile Entity "MUX"
+# Entity `MUX' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "MUX"
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Signed-extend.vhd
+# Compile Entity "Sign_Extend"
+# Entity `Sign_Extend' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "Sign_Extend"
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Data memory.vhd
+# Compile Entity "data_Memory"
+# Entity `data_Memory' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "data_Memory"
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Shift left 2.vhd
+# Compile Entity "Shift_Left_2"
+# Entity `Shift_Left_2' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "Shift_Left_2"
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Add-ALU.vhd
+# Compile Entity "ADD_ALU"
+# Entity `ADD_ALU' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "ADD_ALU"
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.8 [s]
+acom $DSN/src/pc.vhd "$DSN/src/instruction memory.vhd" $DSN/src/and.vhd $DSN/src/alu.vhd $DSN/src/registers.vhd $DSN/src/mux.vhd $DSN/src/signed-extend.vhd "$DSN/src/data memory.vhd" "$DSN/src/shift left 2.vhd" $DSN/src/add-alu.vhd
+# Compile...
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\PC.vhd
+# Compile Entity "PC"
+# Entity `PC' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "PC"
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Instruction memory.vhd
+# Compile Entity "InstructionMemory"
+# Entity `InstructionMemory' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "InstructionMemory"
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\AND.vhd
+# Compile Entity "AND_GATE"
+# Compile Architecture "Behavioral" of Entity "AND_GATE"
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\ALU.vhd
+# Compile Entity "ALU"
+# Entity `ALU' has been skipped - no difference detected.
+# Compile Architecture "behav" of Entity "ALU"
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Registers.vhd
+# Compile Entity "Register_File"
+# Entity `Register_File' has been skipped - no difference detected.
+# Compile Architecture "Behavioural" of Entity "Register_File"
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\MUX.vhd
+# Compile Entity "MUX"
+# Entity `MUX' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "MUX"
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Signed-extend.vhd
+# Compile Entity "Sign_Extend"
+# Entity `Sign_Extend' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "Sign_Extend"
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Data memory.vhd
+# Compile Entity "data_Memory"
+# Entity `data_Memory' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "data_Memory"
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Shift left 2.vhd
+# Compile Entity "Shift_Left_2"
+# Entity `Shift_Left_2' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "Shift_Left_2"
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Add-ALU.vhd
+# Compile Entity "ADD_ALU"
+# Entity `ADD_ALU' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "ADD_ALU"
+# Compile success 0 Errors 0 Warnings  Analysis time :  1.0 [s]
+acom $DSN/src/AND.vhd
+# Compile...
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\AND.vhd
+# Compile Entity "AND_GATE"
+# Entity `AND_GATE' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "AND_GATE"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+endsim
+# All when statements cleared.
+# Simulation has been stopped
+acom $DSN/src/AND.vhd
+# Compile...
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\AND.vhd
+# Compile Entity "AND_GATE"
+# Entity `AND_GATE' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "AND_GATE"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+asim pc behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2417 kB (elbread=1070 elab2=299 kernel=1048 sdf=0)
+# 11:04 PM, Monday, May 6, 2024
+# Simulation has been initialized
+# Selected Top-Level: pc (behavioral)
+# Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim and_gate behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2415 kB (elbread=1070 elab2=297 kernel=1048 sdf=0)
+# 11:05 PM, Monday, May 6, 2024
+# Simulation has been initialized
+# Selected Top-Level: and_gate (behavioral)
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# All when statements cleared.
+# Simulation has been stopped
+asim and_gate behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2415 kB (elbread=1070 elab2=297 kernel=1048 sdf=0)
+# 11:05 PM, Monday, May 6, 2024
+# Simulation has been initialized
+# Selected Top-Level: and_gate (behavioral)
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# Simulation has been stopped

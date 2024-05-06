@@ -1,0 +1,87 @@
+$WAVE4
+$RESOLUTION 1000
+$ENDTIME 400000
+I 1 "a#32#std_logic_vector((n-1) downto 0)1 ricd31 0 e#9#std_logicc9 UX01ZWLH-"
+I 2 "e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 1 1 32 input
+$SC 2-33
+$BUS OUT +2 1 32 pc_out
+$SC +1-67
+$IN 34 2 reset
+P 0 1-67 CS "0"
+P 0 1 35 Radix "2"
+P 0 1 Stimulator "VAL:FRM:Override:00000000000000000000000000001000:<= 00000000000000000000000000001000:1:"
+P 0 34 Stimulator "VAL:FRM:Override:1:<= 1:1:"
+$WAVES 2-29 +3 +1
+=0 T 0
+$VALUES
+V 1
+0
+$END
+$WAVES 30
+*0
+=1 D 200k 1
+$VALUES
+V 1
+0
+V 1
+1
+$END
+$WAVES +1
+*0
+*1
+$VALUES
+V 1
+1
+V 1
+0
+$END
+$WAVES +3
+*0
+=2 D 100k 1
+*1
+$VALUES
+V 1
+1
+V 1
+0
+V 1
+1
+$END
+$WAVES +2-63 +3 +1
+*0
+=3 D 0 1
+$VALUES
+V 2
+U
+0
+$END
+$WAVES 64
+*0
+*3
+=4 D 200k 2
+=5 D 100k 2
+$VALUES
+V 2
+U
+0
+V 1
+1
+V 1
+0
+$END
+$WAVES +1
+*0
+*3
+*5
+*5
+$VALUES
+V 2
+U
+0
+V 1
+1
+V 1
+0
+$END
+$ENDWAVE

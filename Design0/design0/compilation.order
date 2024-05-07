@@ -1,10 +1,11 @@
-.\src\PC.vhd
-.\src\Instruction memory.vhd
-.\src\AND.vhd
-.\src\ALU.vhd
-.\src\Registers.vhd
-.\src\MUX.vhd
-.\src\Signed-extend.vhd
-.\src\Data memory.vhd
-.\src\Shift left 2.vhd
-.\src\Add-ALU.vhd
+.\src\Add_ALU\Add-ALU.vhd
+.\src\ALU\ALU.vhd
+.\src\ALU\ALU_tb.vhd
+.\src\AND\AND.vhd
+.\src\Data memory\Data memory.vhd
+.\src\Instruction memory\Instruction memory.vhd
+.\src\MUX\MUX.vhd
+.\src\PC\PC.vhd
+.\src\Registers\Registers.vhd
+.\src\Shift left 2\Shift left 2.vhd
+.\src\Signed-extend\Signed-extend.vhd

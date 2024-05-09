@@ -6,7 +6,7 @@ Entity Sign_Extend is
         se_in   : in STD_LOGIC_VECTOR(15 downto 0);
         se_out  : out STD_LOGIC_VECTOR(31 downto 0)
     );
-End Sign_Extend;
+end Sign_Extend;
 
 Architecture Behavioral of Sign_Extend is
 begin

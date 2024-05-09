@@ -14,7 +14,7 @@ Architecture Behavioral of Sign_Extend_tb is
         );
     end component;
    
-    signal se_in : STD_LOGIC_VECTOR(15 downto 0) := (others => '0');
+    signal se_in : STD_LOGIC_VECTOR(15 downto 0);
     
     signal se_out : STD_LOGIC_VECTOR(31 downto 0);
 

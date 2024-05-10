@@ -1,9 +1,19 @@
+---------------------------------------------------------------------------------------------------
+-- Title       : Register_File
+-- Design      : design0
+-- Author      : Reham Hamdi
+-- File        : Register_File.vhd	
+---------------------------------------------------------------------------------------------------
+-- Description : VHDL code for Register File of the MIPS processor
+---------------------------------------------------------------------------------------------------
+
 library IEEE;
 use IEEE.STD_LOGIC_1164.all; 
 use ieee.numeric_std.all;
 
 entity Register_File is
-	 port(
+	port(	  
+	     clk : in std_logic;
 		 RD1 : in STD_LOGIC_VECTOR(4 downto 0);
 		 RD2 : in STD_LOGIC_VECTOR(4 downto 0);
 		 WData_add : in STD_LOGIC_VECTOR(4 downto 0);
@@ -17,7 +27,7 @@ end Register_File;
 architecture Behavioural  of Register_File is 
 type register_file is array (0 to 31) of 	--creating 2D array containing 32 register where each register is 32-bit  
 	STD_LOGIC_VECTOR(31 downto 0);
-	signal array_reg : register_file :=( x"00000000", --$zero
+	signal reg_array : register_file :=( x"00000000", --$zero
 		                                 x"11111111", --$at
 		                                 x"22222222", --$v0
 		                                 x"33333333", --$v1
@@ -52,16 +62,20 @@ type register_file is array (0 to 31) of 	--creating 2D array containing 32 regi
 										 ); 
 	
 begin
-     -- reading register
-     RD1_Data<= array_reg(to_integer(unsigned( RD1))); -- read rs 	  
-     RD2_Data <= array_reg(to_integer(unsigned( RD2)));-- read rt 
+     
 	 
     --writing in file register
-     process(RegWrit)
-     begin	  
-	    if(RegWrit='1')then
-		  array_reg(to_integer(unsigned( WData_add))) <= WData;
+     process(clk)
+     begin	
+	 if(rising_edge(clk)) then
+		 if(RegWrit='1')then
+			 reg_array(to_integer(unsigned( WData_add))) <= WData;	 
+		 end if;
 	 end if;
      end process;
+	 
+	 -- reading register
+     RD1_Data<= reg_array(to_integer(unsigned( RD1))); 	  
+     RD2_Data <= reg_array(to_integer(unsigned( RD2)));
   
 end Behavioural ;

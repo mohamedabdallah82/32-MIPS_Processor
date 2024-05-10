@@ -1,7 +1,7 @@
 ---------------------------------------------------------------------------------------------------
 --Title       : InstructionMemory
 -- Design     : Design0
---Author      : Mohamed Abdallah
+--Author      : shahd Elsayed
 -- File       : InstructionMemory.vhd
 ----------------------------------------------------------------------------------------------------
 --Description : InstructionMemory VHDL code of MIPS Processor 

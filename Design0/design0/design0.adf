@@ -28,7 +28,7 @@ UCF=
 
 [HierarchyViewer]
 SortInfo=u
-HierarchyInformation=alu_tb|behavior|0 cu_tb|beh|0 
+HierarchyInformation= 
 ShowHide=ShowTopLevel
 Selected=
 

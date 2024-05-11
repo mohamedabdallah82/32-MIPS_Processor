@@ -1,4 +1,4 @@
-971
+1209
 ~E 1 "./src/PC/PC.vhd" 26 pc
 ~A 1 "./src/PC/PC.vhd" 25 behavioral
 ~E 1 "./src/Control unit/Control.vhd" 26 control
@@ -8,11 +8,11 @@
 ~E 1 "./src/Add_ALU/Add-ALU_tb.vhd" 6 add_alu_tb
 ~A 1 "./src/Add_ALU/Add-ALU_tb.vhd" 9 behavioral
 ~E 1 "./src/Add_ALU/Add-ALU.vhd" 5 add_alu
-~A 1 "./src/Add_ALU/Add-ALU.vhd" 13 behavioral
+~A 1 "./src/Add_ALU/Add-ALU.vhd" 35 behavioral
 ~E 1 "./src/ALU/ALU.vhd" 5 alu
 ~A 1 "./src/ALU/ALU.vhd" 16 behav
 ~E 1 "./src/AND/AND.vhd" 4 and_gate
-~A 1 "./src/AND/AND.vhd" 11 behavioral
+~A 1 "./src/AND/AND.vhd" 32 behavioral
 ~E 1 "./src/Control unit/ALU Control.vhd" 22 alucontrol
 ~A 1 "./src/Control unit/ALU Control.vhd" 29 beh
 ~E 1 "./src/AND/AND_tb.vhd" 4 and_gate_tb
@@ -26,7 +26,7 @@
 ~E 1 "./src/Data memory/Data memory.vhd" 23 data_memory
 ~A 1 "./src/Data memory/Data memory.vhd" 32 behavioral
 ~E 1 "./src/MUX/MUX.vhd" 4 mux
-~A 1 "./src/MUX/MUX.vhd" 14 behavioral
+~A 1 "./src/MUX/MUX.vhd" 35 behavioral
 ~E 1 "./src/Instruction memory/Instruction memory.vhd" 14 instructionmemory
 ~A 1 "./src/Instruction memory/Instruction memory.vhd" 23 behavioral
 ~E 1 "./src/MUX/MUX_tp.vhd" 4 mux_tb

@@ -1,570 +1,198 @@
-acom $DSN/src/add_alu/add-alu.vhd $DSN/src/add_alu/add-alu_tb.vhd $DSN/src/alu/alu.vhd $DSN/src/alu/alu_tb.vhd $DSN/src/and/and.vhd $DSN/src/and/and_tb.vhd "$DSN/src/data memory/data memory.vhd" "$DSN/src/data memory/data_memory_tb.vhd" "$DSN/src/instruction memory/instruction memory.vhd" "$DSN/src/instruction memory/tb_instructionmemory.vhd" $DSN/src/mux/mux.vhd $DSN/src/mux/mux_tp.vhd $DSN/src/pc/pc.vhd $DSN/src/pc/pc_tb.vhd $DSN/src/registers/registers.vhd $DSN/src/registers/registers_tb.vhd "$DSN/src/shift left 2/shift left 2.vhd" "$DSN/src/shift left 2/shift_left_2_tb.vhd" $DSN/src/signed-extend/signed-extend.vhd $DSN/src/signed-extend/sign_extend_tb.vhd "$DSN/src/control unit/alu control.vhd" "$DSN/src/control unit/control unit.vhd" "$DSN/src/control unit/control.vhd"
-# Compile...
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Add_ALU\Add-ALU.vhd
-# Compile Entity "ADD_ALU"
-# Entity `ADD_ALU' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "ADD_ALU"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Add_ALU\Add-ALU_tb.vhd
-# Compile Entity "ADD_ALU_tb"
-# Entity `ADD_ALU_tb' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "ADD_ALU_tb"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\ALU\ALU.vhd
-# Compile Entity "ALU"
-# Entity `ALU' has been skipped - no difference detected.
-# Compile Architecture "behav" of Entity "ALU"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\ALU\ALU_tb.vhd
-# Compile Entity "ALU_tb"
-# Entity `ALU_tb' has been skipped - no difference detected.
-# Compile Architecture "behavior" of Entity "ALU_tb"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\AND\AND.vhd
-# Compile Entity "AND_GATE"
-# Entity `AND_GATE' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "AND_GATE"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\AND\AND_tb.vhd
-# Compile Entity "AND_GATE_tb"
-# Entity `AND_GATE_tb' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "AND_GATE_tb"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Data memory\Data memory.vhd
-# Compile Entity "data_Memory"
-# Entity `data_Memory' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "data_Memory"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Data memory\data_memory_tb.vhd
-# Compile Entity "data_memory_tb"
-# Compile Architecture "TB_ARCHITECTURE" of Entity "data_memory_tb"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Instruction memory\Instruction memory.vhd
-# Compile Entity "InstructionMemory"
-# Entity `InstructionMemory' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "InstructionMemory"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Instruction memory\tb_instructionMemory.vhd
-# Compile Entity "tb_instructionMemory"
-# Compile Architecture "behavior" of Entity "tb_instructionMemory"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\MUX\MUX.vhd
-# Compile Entity "MUX"
-# Entity `MUX' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "MUX"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\MUX\MUX_tp.vhd
-# Compile Entity "MUX_tb"
-# Entity `MUX_tb' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "MUX_tb"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\PC\PC.vhd
-# Compile Entity "PC"
-# Entity `PC' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "PC"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\PC\PC_tb.vhd
-# Compile Entity "PC_tb"
-# Entity `PC_tb' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "PC_tb"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Registers\Registers.vhd
-# Compile Entity "Register_File"
-# Entity `Register_File' has been skipped - no difference detected.
-# Compile Architecture "Behavioural" of Entity "Register_File"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Registers\Registers_tb.vhd
-# Compile Entity "register_file_tb"
-# Compile Architecture "TB_ARCHITECTURE" of Entity "register_file_tb"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Shift left 2\Shift left 2.vhd
-# Compile Entity "Shift_Left_2"
-# Entity `Shift_Left_2' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "Shift_Left_2"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Shift left 2\Shift_Left_2_tb.vhd
-# Compile Entity "Shift_Left_2_tb"
-# Compile Architecture "Behavioral" of Entity "Shift_Left_2_tb"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Signed-extend\Signed-extend.vhd
-# Compile Entity "Sign_Extend"
-# Entity `Sign_Extend' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "Sign_Extend"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Signed-extend\Sign_Extend_tb.vhd
-# Compile Entity "Sign_Extend_tb"
-# Compile Architecture "Behavioral" of Entity "Sign_Extend_tb"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Control unit\ALU Control.vhd
-# Compile Entity "aluControl"
-# Compile Architecture "beh" of Entity "aluControl"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Control unit\Control Unit.vhd
-# Compile Entity "controlUnit"
-# Compile Architecture "beh" of Entity "controlUnit"
-# Warning: ELAB1_0026: Control Unit.vhd : (45, 0): There is no default binding for component "control".(No entity named "control" was found).
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Control unit\Control.vhd
-# Compile Entity "control"
-# Compile Architecture "beh" of Entity "control"
-# Compile success 0 Errors 1 Warnings  Analysis time :  2.0 [s]
-acom $DSN/src/add_alu/add-alu.vhd $DSN/src/add_alu/add-alu_tb.vhd $DSN/src/alu/alu.vhd $DSN/src/alu/alu_tb.vhd $DSN/src/and/and.vhd $DSN/src/and/and_tb.vhd "$DSN/src/data memory/data memory.vhd" "$DSN/src/data memory/data_memory_tb.vhd" "$DSN/src/instruction memory/instruction memory.vhd" "$DSN/src/instruction memory/tb_instructionmemory.vhd" $DSN/src/mux/mux.vhd $DSN/src/mux/mux_tp.vhd $DSN/src/pc/pc.vhd $DSN/src/pc/pc_tb.vhd $DSN/src/registers/registers.vhd $DSN/src/registers/registers_tb.vhd "$DSN/src/shift left 2/shift left 2.vhd" "$DSN/src/shift left 2/shift_left_2_tb.vhd" $DSN/src/signed-extend/signed-extend.vhd $DSN/src/signed-extend/sign_extend_tb.vhd "$DSN/src/control unit/alu control.vhd" "$DSN/src/control unit/control unit.vhd" "$DSN/src/control unit/control.vhd"
-# Compile...
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Add_ALU\Add-ALU.vhd
-# Compile Entity "ADD_ALU"
-# Entity `ADD_ALU' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "ADD_ALU"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Add_ALU\Add-ALU_tb.vhd
-# Compile Entity "ADD_ALU_tb"
-# Entity `ADD_ALU_tb' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "ADD_ALU_tb"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\ALU\ALU.vhd
-# Compile Entity "ALU"
-# Entity `ALU' has been skipped - no difference detected.
-# Compile Architecture "behav" of Entity "ALU"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\ALU\ALU_tb.vhd
-# Compile Entity "ALU_tb"
-# Entity `ALU_tb' has been skipped - no difference detected.
-# Compile Architecture "behavior" of Entity "ALU_tb"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\AND\AND.vhd
-# Compile Entity "AND_GATE"
-# Entity `AND_GATE' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "AND_GATE"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\AND\AND_tb.vhd
-# Compile Entity "AND_GATE_tb"
-# Entity `AND_GATE_tb' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "AND_GATE_tb"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Data memory\Data memory.vhd
-# Compile Entity "data_Memory"
-# Entity `data_Memory' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "data_Memory"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Data memory\data_memory_tb.vhd
-# Compile Entity "data_memory_tb"
-# Entity `data_memory_tb' has been skipped - no difference detected.
-# Compile Architecture "TB_ARCHITECTURE" of Entity "data_memory_tb"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Instruction memory\Instruction memory.vhd
-# Compile Entity "InstructionMemory"
-# Entity `InstructionMemory' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "InstructionMemory"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Instruction memory\tb_instructionMemory.vhd
-# Compile Entity "tb_instructionMemory"
-# Entity `tb_instructionMemory' has been skipped - no difference detected.
-# Compile Architecture "behavior" of Entity "tb_instructionMemory"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\MUX\MUX.vhd
-# Compile Entity "MUX"
-# Entity `MUX' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "MUX"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\MUX\MUX_tp.vhd
-# Compile Entity "MUX_tb"
-# Entity `MUX_tb' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "MUX_tb"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\PC\PC.vhd
-# Compile Entity "PC"
-# Entity `PC' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "PC"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\PC\PC_tb.vhd
-# Compile Entity "PC_tb"
-# Entity `PC_tb' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "PC_tb"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Registers\Registers.vhd
-# Compile Entity "Register_File"
-# Entity `Register_File' has been skipped - no difference detected.
-# Compile Architecture "Behavioural" of Entity "Register_File"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Registers\Registers_tb.vhd
-# Compile Entity "register_file_tb"
-# Entity `register_file_tb' has been skipped - no difference detected.
-# Compile Architecture "TB_ARCHITECTURE" of Entity "register_file_tb"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Shift left 2\Shift left 2.vhd
-# Compile Entity "Shift_Left_2"
-# Entity `Shift_Left_2' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "Shift_Left_2"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Shift left 2\Shift_Left_2_tb.vhd
-# Compile Entity "Shift_Left_2_tb"
-# Entity `Shift_Left_2_tb' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "Shift_Left_2_tb"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Signed-extend\Signed-extend.vhd
-# Compile Entity "Sign_Extend"
-# Entity `Sign_Extend' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "Sign_Extend"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Signed-extend\Sign_Extend_tb.vhd
-# Compile Entity "Sign_Extend_tb"
-# Entity `Sign_Extend_tb' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "Sign_Extend_tb"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Control unit\ALU Control.vhd
-# Compile Entity "aluControl"
-# Entity `aluControl' has been skipped - no difference detected.
-# Compile Architecture "beh" of Entity "aluControl"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Control unit\Control Unit.vhd
-# Compile Entity "controlUnit"
-# Entity `controlUnit' has been skipped - no difference detected.
-# Compile Architecture "beh" of Entity "controlUnit"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Control unit\Control.vhd
-# Compile Entity "control"
-# Entity `control' has been skipped - no difference detected.
-# Compile Architecture "beh" of Entity "control"
-# Compile success 0 Errors 0 Warnings  Analysis time :  4.0 [s]
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-asim alu_tb behavior
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# asim: Stack memory: 32MB
-# asim: Retval memory: 32MB
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# ELAB2: Create instances complete.
-# ELAB2: Elaboration final pass complete - time: 0.2 [s].
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 2428 kB (elbread=1070 elab2=309 kernel=1049 sdf=0)
-# 10:27 PM, Saturday, May 11, 2024
-# Simulation has been initialized
-# Selected Top-Level: alu_tb (behavior)
-run 100 ns
-# KERNEL: stopped at time: 100 ns
-# KERNEL: Simulation has finished. There are no more test vectors to simulate.
-run 100 ns
-# KERNEL: stopped at time: 200 ns
-# KERNEL: Simulation has finished. There are no more test vectors to simulate.
-endsim
-# All when statements cleared.
-# Simulation has been stopped
-asim alu_tb behavior
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# asim: Stack memory: 32MB
-# asim: Retval memory: 32MB
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# ELAB2: Create instances complete.
-# ELAB2: Elaboration final pass complete - time: 0.2 [s].
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 2428 kB (elbread=1070 elab2=309 kernel=1049 sdf=0)
-# 10:28 PM, Saturday, May 11, 2024
-# Simulation has been initialized
-# Selected Top-Level: alu_tb (behavior)
-run 100 ns
-# KERNEL: stopped at time: 100 ns
-# KERNEL: Simulation has finished. There are no more test vectors to simulate.
-endsim
-# All when statements cleared.
-# Simulation has been stopped
-acom $DSN/src/add_alu/add-alu.vhd $DSN/src/add_alu/add-alu_tb.vhd $DSN/src/alu/alu.vhd $DSN/src/alu/alu_tb.vhd $DSN/src/and/and.vhd $DSN/src/and/and_tb.vhd "$DSN/src/data memory/data memory.vhd" "$DSN/src/data memory/data_memory_tb.vhd" "$DSN/src/instruction memory/instruction memory.vhd" "$DSN/src/instruction memory/tb_instructionmemory.vhd" $DSN/src/mux/mux.vhd $DSN/src/mux/mux_tp.vhd $DSN/src/pc/pc.vhd $DSN/src/pc/pc_tb.vhd $DSN/src/registers/registers.vhd $DSN/src/registers/registers_tb.vhd "$DSN/src/shift left 2/shift left 2.vhd" "$DSN/src/shift left 2/shift_left_2_tb.vhd" $DSN/src/signed-extend/signed-extend.vhd $DSN/src/signed-extend/sign_extend_tb.vhd "$DSN/src/control unit/alu control.vhd" "$DSN/src/control unit/control unit.vhd" "$DSN/src/control unit/control.vhd"
-# Compile...
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Add_ALU\Add-ALU.vhd
-# Compile Entity "ADD_ALU"
-# Entity `ADD_ALU' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "ADD_ALU"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Add_ALU\Add-ALU_tb.vhd
-# Compile Entity "ADD_ALU_tb"
-# Entity `ADD_ALU_tb' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "ADD_ALU_tb"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\ALU\ALU.vhd
-# Compile Entity "ALU"
-# Entity `ALU' has been skipped - no difference detected.
-# Compile Architecture "behav" of Entity "ALU"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\ALU\ALU_tb.vhd
-# Compile Entity "ALU_tb"
-# Entity `ALU_tb' has been skipped - no difference detected.
-# Compile Architecture "behavior" of Entity "ALU_tb"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\AND\AND.vhd
-# Compile Entity "AND_GATE"
-# Entity `AND_GATE' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "AND_GATE"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\AND\AND_tb.vhd
-# Compile Entity "AND_GATE_tb"
-# Entity `AND_GATE_tb' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "AND_GATE_tb"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Data memory\Data memory.vhd
-# Compile Entity "data_Memory"
-# Entity `data_Memory' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "data_Memory"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Data memory\data_memory_tb.vhd
-# Compile Entity "data_memory_tb"
-# Entity `data_memory_tb' has been skipped - no difference detected.
-# Compile Architecture "TB_ARCHITECTURE" of Entity "data_memory_tb"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Instruction memory\Instruction memory.vhd
-# Compile Entity "InstructionMemory"
-# Entity `InstructionMemory' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "InstructionMemory"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Instruction memory\tb_instructionMemory.vhd
-# Compile Entity "tb_instructionMemory"
-# Entity `tb_instructionMemory' has been skipped - no difference detected.
-# Compile Architecture "behavior" of Entity "tb_instructionMemory"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\MUX\MUX.vhd
-# Compile Entity "MUX"
-# Entity `MUX' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "MUX"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\MUX\MUX_tp.vhd
-# Compile Entity "MUX_tb"
-# Entity `MUX_tb' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "MUX_tb"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\PC\PC.vhd
-# Compile Entity "PC"
-# Entity `PC' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "PC"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\PC\PC_tb.vhd
-# Compile Entity "PC_tb"
-# Entity `PC_tb' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "PC_tb"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Registers\Registers.vhd
-# Compile Entity "Register_File"
-# Entity `Register_File' has been skipped - no difference detected.
-# Compile Architecture "Behavioural" of Entity "Register_File"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Registers\Registers_tb.vhd
-# Compile Entity "register_file_tb"
-# Entity `register_file_tb' has been skipped - no difference detected.
-# Compile Architecture "TB_ARCHITECTURE" of Entity "register_file_tb"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Shift left 2\Shift left 2.vhd
-# Compile Entity "Shift_Left_2"
-# Entity `Shift_Left_2' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "Shift_Left_2"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Shift left 2\Shift_Left_2_tb.vhd
-# Compile Entity "Shift_Left_2_tb"
-# Entity `Shift_Left_2_tb' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "Shift_Left_2_tb"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Signed-extend\Signed-extend.vhd
-# Compile Entity "Sign_Extend"
-# Entity `Sign_Extend' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "Sign_Extend"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Signed-extend\Sign_Extend_tb.vhd
-# Compile Entity "Sign_Extend_tb"
-# Entity `Sign_Extend_tb' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "Sign_Extend_tb"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Control unit\ALU Control.vhd
-# Compile Entity "aluControl"
-# Entity `aluControl' has been skipped - no difference detected.
-# Compile Architecture "beh" of Entity "aluControl"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Control unit\Control Unit.vhd
-# Compile Entity "controlUnit"
-# Entity `controlUnit' has been skipped - no difference detected.
-# Compile Architecture "beh" of Entity "controlUnit"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Control unit\Control.vhd
-# Compile Entity "control"
-# Entity `control' has been skipped - no difference detected.
-# Compile Architecture "beh" of Entity "control"
-# Compile success 0 Errors 0 Warnings  Analysis time :  1.0 [s]
 acom $DSN/src/add_alu/add-alu.vhd $DSN/src/add_alu/add-alu_tb.vhd $DSN/src/alu/alu.vhd $DSN/src/alu/alu_tb.vhd $DSN/src/and/and.vhd $DSN/src/and/and_tb.vhd "$DSN/src/data memory/data memory.vhd" "$DSN/src/data memory/data_memory_tb.vhd" "$DSN/src/instruction memory/instruction memory.vhd" "$DSN/src/instruction memory/tb_instructionmemory.vhd" $DSN/src/mux/mux.vhd $DSN/src/mux/mux_tp.vhd $DSN/src/pc/pc.vhd $DSN/src/pc/pc_tb.vhd $DSN/src/registers/registers.vhd $DSN/src/registers/registers_tb.vhd "$DSN/src/shift left 2/shift left 2.vhd" "$DSN/src/shift left 2/shift_left_2_tb.vhd" $DSN/src/signed-extend/signed-extend.vhd $DSN/src/signed-extend/sign_extend_tb.vhd "$DSN/src/control unit/controlunit_tb.vhd" "$DSN/src/control unit/alu control.vhd" "$DSN/src/control unit/control unit.vhd" "$DSN/src/control unit/control.vhd"
 # Compile...
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Add_ALU\Add-ALU.vhd
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\last\Single-Cycle-Processor\Design0\design0\src\Add_ALU\Add-ALU.vhd
 # Compile Entity "ADD_ALU"
 # Entity `ADD_ALU' has been skipped - no difference detected.
 # Compile Architecture "Behavioral" of Entity "ADD_ALU"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Add_ALU\Add-ALU_tb.vhd
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\last\Single-Cycle-Processor\Design0\design0\src\Add_ALU\Add-ALU_tb.vhd
 # Compile Entity "ADD_ALU_tb"
 # Entity `ADD_ALU_tb' has been skipped - no difference detected.
 # Compile Architecture "Behavioral" of Entity "ADD_ALU_tb"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\ALU\ALU.vhd
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\last\Single-Cycle-Processor\Design0\design0\src\ALU\ALU.vhd
 # Compile Entity "ALU"
 # Entity `ALU' has been skipped - no difference detected.
 # Compile Architecture "behav" of Entity "ALU"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\ALU\ALU_tb.vhd
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\last\Single-Cycle-Processor\Design0\design0\src\ALU\ALU_tb.vhd
 # Compile Entity "ALU_tb"
 # Entity `ALU_tb' has been skipped - no difference detected.
 # Compile Architecture "behavior" of Entity "ALU_tb"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\AND\AND.vhd
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\last\Single-Cycle-Processor\Design0\design0\src\AND\AND.vhd
 # Compile Entity "AND_GATE"
 # Entity `AND_GATE' has been skipped - no difference detected.
 # Compile Architecture "Behavioral" of Entity "AND_GATE"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\AND\AND_tb.vhd
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\last\Single-Cycle-Processor\Design0\design0\src\AND\AND_tb.vhd
 # Compile Entity "AND_GATE_tb"
 # Entity `AND_GATE_tb' has been skipped - no difference detected.
 # Compile Architecture "Behavioral" of Entity "AND_GATE_tb"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Data memory\Data memory.vhd
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\last\Single-Cycle-Processor\Design0\design0\src\Data memory\Data memory.vhd
 # Compile Entity "data_Memory"
 # Entity `data_Memory' has been skipped - no difference detected.
 # Compile Architecture "Behavioral" of Entity "data_Memory"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Data memory\data_memory_tb.vhd
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\last\Single-Cycle-Processor\Design0\design0\src\Data memory\data_memory_tb.vhd
 # Compile Entity "data_memory_tb"
 # Entity `data_memory_tb' has been skipped - no difference detected.
 # Compile Architecture "TB_ARCHITECTURE" of Entity "data_memory_tb"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Instruction memory\Instruction memory.vhd
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\last\Single-Cycle-Processor\Design0\design0\src\Instruction memory\Instruction memory.vhd
 # Compile Entity "InstructionMemory"
 # Entity `InstructionMemory' has been skipped - no difference detected.
 # Compile Architecture "Behavioral" of Entity "InstructionMemory"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Instruction memory\tb_instructionMemory.vhd
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\last\Single-Cycle-Processor\Design0\design0\src\Instruction memory\tb_instructionMemory.vhd
 # Compile Entity "tb_instructionMemory"
 # Entity `tb_instructionMemory' has been skipped - no difference detected.
 # Compile Architecture "behavior" of Entity "tb_instructionMemory"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\MUX\MUX.vhd
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\last\Single-Cycle-Processor\Design0\design0\src\MUX\MUX.vhd
 # Compile Entity "MUX"
 # Entity `MUX' has been skipped - no difference detected.
 # Compile Architecture "Behavioral" of Entity "MUX"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\MUX\MUX_tp.vhd
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\last\Single-Cycle-Processor\Design0\design0\src\MUX\MUX_tp.vhd
 # Compile Entity "MUX_tb"
 # Entity `MUX_tb' has been skipped - no difference detected.
 # Compile Architecture "Behavioral" of Entity "MUX_tb"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\PC\PC.vhd
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\last\Single-Cycle-Processor\Design0\design0\src\PC\PC.vhd
 # Compile Entity "PC"
 # Entity `PC' has been skipped - no difference detected.
 # Compile Architecture "Behavioral" of Entity "PC"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\PC\PC_tb.vhd
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\last\Single-Cycle-Processor\Design0\design0\src\PC\PC_tb.vhd
 # Compile Entity "PC_tb"
 # Entity `PC_tb' has been skipped - no difference detected.
 # Compile Architecture "Behavioral" of Entity "PC_tb"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Registers\Registers.vhd
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\last\Single-Cycle-Processor\Design0\design0\src\Registers\Registers.vhd
 # Compile Entity "Register_File"
 # Entity `Register_File' has been skipped - no difference detected.
 # Compile Architecture "Behavioural" of Entity "Register_File"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Registers\Registers_tb.vhd
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\last\Single-Cycle-Processor\Design0\design0\src\Registers\Registers_tb.vhd
 # Compile Entity "register_file_tb"
 # Entity `register_file_tb' has been skipped - no difference detected.
 # Compile Architecture "TB_ARCHITECTURE" of Entity "register_file_tb"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Shift left 2\Shift left 2.vhd
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\last\Single-Cycle-Processor\Design0\design0\src\Shift left 2\Shift left 2.vhd
 # Compile Entity "Shift_Left_2"
 # Entity `Shift_Left_2' has been skipped - no difference detected.
 # Compile Architecture "Behavioral" of Entity "Shift_Left_2"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Shift left 2\Shift_Left_2_tb.vhd
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\last\Single-Cycle-Processor\Design0\design0\src\Shift left 2\Shift_Left_2_tb.vhd
 # Compile Entity "Shift_Left_2_tb"
 # Entity `Shift_Left_2_tb' has been skipped - no difference detected.
 # Compile Architecture "Behavioral" of Entity "Shift_Left_2_tb"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Signed-extend\Signed-extend.vhd
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\last\Single-Cycle-Processor\Design0\design0\src\Signed-extend\Signed-extend.vhd
 # Compile Entity "Sign_Extend"
 # Entity `Sign_Extend' has been skipped - no difference detected.
 # Compile Architecture "Behavioral" of Entity "Sign_Extend"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Signed-extend\Sign_Extend_tb.vhd
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\last\Single-Cycle-Processor\Design0\design0\src\Signed-extend\Sign_Extend_tb.vhd
 # Compile Entity "Sign_Extend_tb"
 # Entity `Sign_Extend_tb' has been skipped - no difference detected.
 # Compile Architecture "Behavioral" of Entity "Sign_Extend_tb"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Control unit\ControlUnit_tb.vhd
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Control unit\ALU Control.vhd
-# Error: COMP96_0003: Source file is empty.
-# Compile Entity "aluControl"
-# Entity `aluControl' has been skipped - no difference detected.
-# Compile Architecture "beh" of Entity "aluControl"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Control unit\Control Unit.vhd
-# Compile Entity "controlUnit"
-# Entity `controlUnit' has been skipped - no difference detected.
-# Compile Architecture "beh" of Entity "controlUnit"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Control unit\Control.vhd
-# Compile Entity "control"
-# Entity `control' has been skipped - no difference detected.
-# Compile Architecture "beh" of Entity "control"
-# Compile failure 1 Errors 0 Warnings  Analysis time :  2.0 [s]
-acom $DSN/src/add_alu/add-alu.vhd $DSN/src/add_alu/add-alu_tb.vhd $DSN/src/alu/alu.vhd $DSN/src/alu/alu_tb.vhd $DSN/src/and/and.vhd $DSN/src/and/and_tb.vhd "$DSN/src/data memory/data memory.vhd" "$DSN/src/data memory/data_memory_tb.vhd" "$DSN/src/instruction memory/instruction memory.vhd" "$DSN/src/instruction memory/tb_instructionmemory.vhd" $DSN/src/mux/mux.vhd $DSN/src/mux/mux_tp.vhd $DSN/src/pc/pc.vhd $DSN/src/pc/pc_tb.vhd $DSN/src/registers/registers.vhd $DSN/src/registers/registers_tb.vhd "$DSN/src/shift left 2/shift left 2.vhd" "$DSN/src/shift left 2/shift_left_2_tb.vhd" $DSN/src/signed-extend/signed-extend.vhd $DSN/src/signed-extend/sign_extend_tb.vhd "$DSN/src/control unit/controlunit_tb.vhd" "$DSN/src/control unit/alu control.vhd" "$DSN/src/control unit/control unit.vhd" "$DSN/src/control unit/control.vhd"
-# Compile...
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Add_ALU\Add-ALU.vhd
-# Compile Entity "ADD_ALU"
-# Entity `ADD_ALU' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "ADD_ALU"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Add_ALU\Add-ALU_tb.vhd
-# Compile Entity "ADD_ALU_tb"
-# Entity `ADD_ALU_tb' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "ADD_ALU_tb"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\ALU\ALU.vhd
-# Compile Entity "ALU"
-# Entity `ALU' has been skipped - no difference detected.
-# Compile Architecture "behav" of Entity "ALU"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\ALU\ALU_tb.vhd
-# Compile Entity "ALU_tb"
-# Entity `ALU_tb' has been skipped - no difference detected.
-# Compile Architecture "behavior" of Entity "ALU_tb"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\AND\AND.vhd
-# Compile Entity "AND_GATE"
-# Entity `AND_GATE' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "AND_GATE"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\AND\AND_tb.vhd
-# Compile Entity "AND_GATE_tb"
-# Entity `AND_GATE_tb' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "AND_GATE_tb"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Data memory\Data memory.vhd
-# Compile Entity "data_Memory"
-# Entity `data_Memory' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "data_Memory"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Data memory\data_memory_tb.vhd
-# Compile Entity "data_memory_tb"
-# Entity `data_memory_tb' has been skipped - no difference detected.
-# Compile Architecture "TB_ARCHITECTURE" of Entity "data_memory_tb"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Instruction memory\Instruction memory.vhd
-# Compile Entity "InstructionMemory"
-# Entity `InstructionMemory' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "InstructionMemory"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Instruction memory\tb_instructionMemory.vhd
-# Compile Entity "tb_instructionMemory"
-# Entity `tb_instructionMemory' has been skipped - no difference detected.
-# Compile Architecture "behavior" of Entity "tb_instructionMemory"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\MUX\MUX.vhd
-# Compile Entity "MUX"
-# Entity `MUX' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "MUX"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\MUX\MUX_tp.vhd
-# Compile Entity "MUX_tb"
-# Entity `MUX_tb' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "MUX_tb"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\PC\PC.vhd
-# Compile Entity "PC"
-# Entity `PC' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "PC"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\PC\PC_tb.vhd
-# Compile Entity "PC_tb"
-# Entity `PC_tb' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "PC_tb"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Registers\Registers.vhd
-# Compile Entity "Register_File"
-# Entity `Register_File' has been skipped - no difference detected.
-# Compile Architecture "Behavioural" of Entity "Register_File"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Registers\Registers_tb.vhd
-# Compile Entity "register_file_tb"
-# Entity `register_file_tb' has been skipped - no difference detected.
-# Compile Architecture "TB_ARCHITECTURE" of Entity "register_file_tb"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Shift left 2\Shift left 2.vhd
-# Compile Entity "Shift_Left_2"
-# Entity `Shift_Left_2' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "Shift_Left_2"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Shift left 2\Shift_Left_2_tb.vhd
-# Compile Entity "Shift_Left_2_tb"
-# Entity `Shift_Left_2_tb' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "Shift_Left_2_tb"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Signed-extend\Signed-extend.vhd
-# Compile Entity "Sign_Extend"
-# Entity `Sign_Extend' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "Sign_Extend"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Signed-extend\Sign_Extend_tb.vhd
-# Compile Entity "Sign_Extend_tb"
-# Entity `Sign_Extend_tb' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "Sign_Extend_tb"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Control unit\ControlUnit_tb.vhd
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\last\Single-Cycle-Processor\Design0\design0\src\Control unit\ControlUnit_tb.vhd
 # Compile Entity "CU_tb"
+# Entity `CU_tb' has been skipped - no difference detected.
 # Compile Architecture "beh" of Entity "CU_tb"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Control unit\ALU Control.vhd
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\last\Single-Cycle-Processor\Design0\design0\src\Control unit\ALU Control.vhd
 # Compile Entity "aluControl"
 # Entity `aluControl' has been skipped - no difference detected.
 # Compile Architecture "beh" of Entity "aluControl"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Control unit\Control Unit.vhd
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\last\Single-Cycle-Processor\Design0\design0\src\Control unit\Control Unit.vhd
 # Compile Entity "controlUnit"
 # Entity `controlUnit' has been skipped - no difference detected.
 # Compile Architecture "beh" of Entity "controlUnit"
-# File: e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Control unit\Control.vhd
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\last\Single-Cycle-Processor\Design0\design0\src\Control unit\Control.vhd
 # Compile Entity "control"
 # Entity `control' has been skipped - no difference detected.
 # Compile Architecture "beh" of Entity "control"
 # Compile success 0 Errors 0 Warnings  Analysis time :  2.0 [s]
-asim alu_tb behavior
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# asim: Stack memory: 32MB
-# asim: Retval memory: 32MB
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# ELAB2: Create instances complete.
-# ELAB2: Elaboration final pass complete - time: 0.2 [s].
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 2428 kB (elbread=1070 elab2=309 kernel=1049 sdf=0)
-# 10:43 PM, Saturday, May 11, 2024
-# Simulation has been initialized
-# Selected Top-Level: alu_tb (behavior)
-# Simulation has been stopped
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-asim cu_tb beh
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# asim: Stack memory: 32MB
-# asim: Retval memory: 32MB
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# ELAB2: Create instances complete.
-# ELAB2: Elaboration final pass complete - time: 0.2 [s].
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 2434 kB (elbread=1070 elab2=314 kernel=1050 sdf=0)
-# 10:43 PM, Saturday, May 11, 2024
-# Simulation has been initialized
-# Selected Top-Level: cu_tb (beh)
-run 100 ns
-# EXECUTION:: NOTE   : Starting simulation.
-# EXECUTION:: Time: 0 ps,  Iteration: 0,  TOP instance,  Process: STIMULI.
-# EXECUTION:: NOTE   : End simulation.
-# EXECUTION:: Time: 100 ns,  Iteration: 0,  TOP instance,  Process: STIMULI.
-# KERNEL: Simulation has finished. There are no more test vectors to simulate.
-endsim
-# All when statements cleared.
-# Simulation has been stopped
+acom $DSN/src/add_alu/add-alu.vhd $DSN/src/add_alu/add-alu_tb.vhd $DSN/src/alu/alu.vhd $DSN/src/alu/alu_tb.vhd $DSN/src/and/and.vhd $DSN/src/and/and_tb.vhd "$DSN/src/data memory/data memory.vhd" "$DSN/src/data memory/data_memory_tb.vhd" "$DSN/src/instruction memory/instruction memory.vhd" "$DSN/src/instruction memory/tb_instructionmemory.vhd" $DSN/src/mux/mux.vhd $DSN/src/mux/mux_tp.vhd $DSN/src/pc/pc.vhd $DSN/src/pc/pc_tb.vhd $DSN/src/registers/registers.vhd $DSN/src/registers/registers_tb.vhd "$DSN/src/shift left 2/shift left 2.vhd" "$DSN/src/shift left 2/shift_left_2_tb.vhd" $DSN/src/signed-extend/signed-extend.vhd $DSN/src/signed-extend/sign_extend_tb.vhd "$DSN/src/control unit/controlunit_tb.vhd" "$DSN/src/control unit/alu control.vhd" "$DSN/src/control unit/control unit.vhd" "$DSN/src/control unit/control.vhd"
+# Compile...
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\last\Single-Cycle-Processor\Design0\design0\src\Add_ALU\Add-ALU.vhd
+# Compile Entity "ADD_ALU"
+# Entity `ADD_ALU' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "ADD_ALU"
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\last\Single-Cycle-Processor\Design0\design0\src\Add_ALU\Add-ALU_tb.vhd
+# Compile Entity "ADD_ALU_tb"
+# Entity `ADD_ALU_tb' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "ADD_ALU_tb"
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\last\Single-Cycle-Processor\Design0\design0\src\ALU\ALU.vhd
+# Compile Entity "ALU"
+# Entity `ALU' has been skipped - no difference detected.
+# Compile Architecture "behav" of Entity "ALU"
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\last\Single-Cycle-Processor\Design0\design0\src\ALU\ALU_tb.vhd
+# Compile Entity "ALU_tb"
+# Entity `ALU_tb' has been skipped - no difference detected.
+# Compile Architecture "behavior" of Entity "ALU_tb"
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\last\Single-Cycle-Processor\Design0\design0\src\AND\AND.vhd
+# Compile Entity "AND_GATE"
+# Entity `AND_GATE' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "AND_GATE"
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\last\Single-Cycle-Processor\Design0\design0\src\AND\AND_tb.vhd
+# Compile Entity "AND_GATE_tb"
+# Entity `AND_GATE_tb' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "AND_GATE_tb"
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\last\Single-Cycle-Processor\Design0\design0\src\Data memory\Data memory.vhd
+# Compile Entity "data_Memory"
+# Entity `data_Memory' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "data_Memory"
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\last\Single-Cycle-Processor\Design0\design0\src\Data memory\data_memory_tb.vhd
+# Compile Entity "data_memory_tb"
+# Entity `data_memory_tb' has been skipped - no difference detected.
+# Compile Architecture "TB_ARCHITECTURE" of Entity "data_memory_tb"
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\last\Single-Cycle-Processor\Design0\design0\src\Instruction memory\Instruction memory.vhd
+# Compile Entity "InstructionMemory"
+# Entity `InstructionMemory' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "InstructionMemory"
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\last\Single-Cycle-Processor\Design0\design0\src\Instruction memory\tb_instructionMemory.vhd
+# Compile Entity "tb_instructionMemory"
+# Entity `tb_instructionMemory' has been skipped - no difference detected.
+# Compile Architecture "behavior" of Entity "tb_instructionMemory"
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\last\Single-Cycle-Processor\Design0\design0\src\MUX\MUX.vhd
+# Compile Entity "MUX"
+# Entity `MUX' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "MUX"
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\last\Single-Cycle-Processor\Design0\design0\src\MUX\MUX_tp.vhd
+# Compile Entity "MUX_tb"
+# Entity `MUX_tb' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "MUX_tb"
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\last\Single-Cycle-Processor\Design0\design0\src\PC\PC.vhd
+# Compile Entity "PC"
+# Entity `PC' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "PC"
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\last\Single-Cycle-Processor\Design0\design0\src\PC\PC_tb.vhd
+# Compile Entity "PC_tb"
+# Entity `PC_tb' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "PC_tb"
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\last\Single-Cycle-Processor\Design0\design0\src\Registers\Registers.vhd
+# Compile Entity "Register_File"
+# Entity `Register_File' has been skipped - no difference detected.
+# Compile Architecture "Behavioural" of Entity "Register_File"
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\last\Single-Cycle-Processor\Design0\design0\src\Registers\Registers_tb.vhd
+# Compile Entity "register_file_tb"
+# Entity `register_file_tb' has been skipped - no difference detected.
+# Compile Architecture "TB_ARCHITECTURE" of Entity "register_file_tb"
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\last\Single-Cycle-Processor\Design0\design0\src\Shift left 2\Shift left 2.vhd
+# Compile Entity "Shift_Left_2"
+# Entity `Shift_Left_2' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "Shift_Left_2"
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\last\Single-Cycle-Processor\Design0\design0\src\Shift left 2\Shift_Left_2_tb.vhd
+# Compile Entity "Shift_Left_2_tb"
+# Entity `Shift_Left_2_tb' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "Shift_Left_2_tb"
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\last\Single-Cycle-Processor\Design0\design0\src\Signed-extend\Signed-extend.vhd
+# Compile Entity "Sign_Extend"
+# Entity `Sign_Extend' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "Sign_Extend"
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\last\Single-Cycle-Processor\Design0\design0\src\Signed-extend\Sign_Extend_tb.vhd
+# Compile Entity "Sign_Extend_tb"
+# Entity `Sign_Extend_tb' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "Sign_Extend_tb"
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\last\Single-Cycle-Processor\Design0\design0\src\Control unit\ControlUnit_tb.vhd
+# Compile Entity "CU_tb"
+# Entity `CU_tb' has been skipped - no difference detected.
+# Compile Architecture "beh" of Entity "CU_tb"
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\last\Single-Cycle-Processor\Design0\design0\src\Control unit\ALU Control.vhd
+# Compile Entity "aluControl"
+# Entity `aluControl' has been skipped - no difference detected.
+# Compile Architecture "beh" of Entity "aluControl"
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\last\Single-Cycle-Processor\Design0\design0\src\Control unit\Control Unit.vhd
+# Compile Entity "controlUnit"
+# Entity `controlUnit' has been skipped - no difference detected.
+# Compile Architecture "beh" of Entity "controlUnit"
+# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\last\Single-Cycle-Processor\Design0\design0\src\Control unit\Control.vhd
+# Compile Entity "control"
+# Entity `control' has been skipped - no difference detected.
+# Compile Architecture "beh" of Entity "control"
+# Compile success 0 Errors 0 Warnings  Analysis time :  1.0 [s]

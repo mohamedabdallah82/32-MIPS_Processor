@@ -1,23 +1,31 @@
-125
-~E 1 "./src/AND/AND.vhd" 4 and_gate
-~A 1 "./src/AND/AND.vhd" 11 behavioral
-~E 1 "./src/ALU/ALU.vhd" 5 alu
-~A 1 "./src/ALU/ALU.vhd" 16 behav
-~E 1 "./src/Add_ALU/Add-ALU.vhd" 5 add_alu
-~A 1 "./src/Add_ALU/Add-ALU.vhd" 13 behavioral
+301
+~E 1 "./src/Instruction memory/Instruction memory.vhd" 14 instructionmemory
+~A 1 "./src/Instruction memory/Instruction memory.vhd" 23 behavioral
 ~E 1 "./src/ALU/ALU_tb.vhd" 5 alu_tb
 ~A 1 "./src/ALU/ALU_tb.vhd" 8 behavior
-~E 1 "./src/PC/PC.vhd" 6 pc
-~A 1 "./src/PC/PC.vhd" 13 behavioral
-~E 1 "./src/Instruction memory/Instruction memory.vhd" 5 instructionmemory
-~A 1 "./src/Instruction memory/Instruction memory.vhd" 14 behavioral
-~E 1 "./src/Data memory/Data memory.vhd" 5 data_memory
-~A 1 "./src/Data memory/Data memory.vhd" 14 behavioral
+~E 1 "./src/Add_ALU/Add-ALU_tb.vhd" 6 add_alu_tb
+~A 1 "./src/Add_ALU/Add-ALU_tb.vhd" 9 behavioral
+~E 1 "./src/Add_ALU/Add-ALU.vhd" 5 add_alu
+~A 1 "./src/Add_ALU/Add-ALU.vhd" 13 behavioral
+~E 1 "./src/ALU/ALU.vhd" 5 alu
+~A 1 "./src/ALU/ALU.vhd" 16 behav
+~E 1 "./src/AND/AND_tb.vhd" 4 and_gate_tb
+~A 1 "./src/AND/AND_tb.vhd" 7 behavioral
+~E 1 "./src/AND/AND.vhd" 4 and_gate
+~A 1 "./src/AND/AND.vhd" 11 behavioral
+~E 1 "./src/Data memory/Data memory.vhd" 23 data_memory
+~A 1 "./src/Data memory/Data memory.vhd" 35 behavioral
+~E 1 "./src/PC/PC_tb.vhd" 6 pc_tb
+~A 1 "./src/PC/PC_tb.vhd" 9 behavioral
+~E 1 "./src/MUX/MUX_tp.vhd" 4 mux_tb
+~A 1 "./src/MUX/MUX_tp.vhd" 7 behavioral
 ~E 1 "./src/MUX/MUX.vhd" 4 mux
 ~A 1 "./src/MUX/MUX.vhd" 14 behavioral
+~E 1 "./src/PC/PC.vhd" 26 pc
+~A 1 "./src/PC/PC.vhd" 34 behavioral
 ~E 1 "./src/Shift left 2/Shift left 2.vhd" 4 shift_left_2
 ~A 1 "./src/Shift left 2/Shift left 2.vhd" 11 behavioral
-~E 1 "./src/Registers/Registers.vhd" 5 register_file
-~A 1 "./src/Registers/Registers.vhd" 17 behavioural
+~E 1 "./src/Registers/Registers.vhd" 14 register_file
+~A 1 "./src/Registers/Registers.vhd" 27 behavioural
 ~E 1 "./src/Signed-extend/Signed-extend.vhd" 4 sign_extend
 ~A 1 "./src/Signed-extend/Signed-extend.vhd" 11 behavioral

@@ -1,0 +1,4 @@
+i<>.\src\AND\AND_tb.vhd
+i<>.\src\Add_ALU\Add-ALU_tb.vhd
+i<>.\src\MUX\MUX_tp.vhd
+i<>.\src\PC\PC_tb.vhd

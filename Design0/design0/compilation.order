@@ -5,11 +5,20 @@
 .\src\AND\AND.vhd
 .\src\AND\AND_tb.vhd
 .\src\Data memory\Data memory.vhd
+.\src\Data memory\data_memory_tb.vhd
 .\src\Instruction memory\Instruction memory.vhd
+.\src\Instruction memory\tb_instructionMemory.vhd
 .\src\MUX\MUX.vhd
 .\src\MUX\MUX_tp.vhd
 .\src\PC\PC.vhd
 .\src\PC\PC_tb.vhd
 .\src\Registers\Registers.vhd
+.\src\Registers\Registers_tb.vhd
 .\src\Shift left 2\Shift left 2.vhd
+.\src\Shift left 2\Shift_Left_2_tb.vhd
 .\src\Signed-extend\Signed-extend.vhd
+.\src\Signed-extend\Sign_Extend_tb.vhd
+.\src\Control unit\ControlUnit_tb.vhd
+.\src\Control unit\ALU Control.vhd
+.\src\Control unit\Control Unit.vhd
+.\src\Control unit\Control.vhd

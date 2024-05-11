@@ -2,3 +2,22 @@ i<>.\src\AND\AND_tb.vhd
 i<>.\src\Add_ALU\Add-ALU_tb.vhd
 i<>.\src\MUX\MUX_tp.vhd
 i<>.\src\PC\PC_tb.vhd
+i<>.\src\Control unit\ALU Control.vhd
+i<>.\src\Control unit\Control Unit.vhd
+i<>.\src\Control unit\Control.vhd
+i<>.\src\Signed-extend\Sign_Extend_tb.vhd
+i<>.\src\Signed-extend\Signed-extend.vhd
+i<>.\src\Shift left 2\Shift left 2.vhd
+i<>.\src\Shift left 2\Shift_Left_2_tb.vhd
+i<>.\src\Registers\Registers.vhd
+i<>.\src\Registers\Registers_tb.vhd
+i<>.\src\PC\PC.vhd
+i<>.\src\MUX\MUX.vhd
+i<>.\src\Instruction memory\Instruction memory.vhd
+i<>.\src\Instruction memory\tb_instructionMemory.vhd
+i<>.\src\Data memory\Data memory.vhd
+i<>.\src\Data memory\data_memory_tb.vhd
+i<>.\src\AND\AND.vhd
+i<>.\src\ALU\ALU.vhd
+i<>.\src\Add_ALU\Add-ALU.vhd
+i<>.\src\ControlUnit_tb.vhd

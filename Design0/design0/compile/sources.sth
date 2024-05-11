@@ -1,5 +1,7 @@
 [Files List]
 C:\Program Files (x86)\Aldec\Active-HDL 6.3\VLIB\STD/src/standard.vhd=S
 C:\Program Files (x86)\Aldec\Active-HDL 6.3\VLIB\IEEE/src/stdlogic.vhd=S
-C:\Program Files (x86)\Aldec\Active-HDL 6.3\VLIB\IEEE/src/arith.vhd=S
-e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0/src/Add_ALU/Add-ALU.vhd=S
+e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0/src/Control unit/ALU Control.vhd=S
+e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0/src/Control unit/Control.vhd=S
+e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0/src/Control unit/Control Unit.vhd=S
+e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0/src/Control unit/ControlUnit_tb.vhd=S

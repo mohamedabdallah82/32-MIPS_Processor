@@ -1,16 +1,18 @@
-elbread.dll ver. 1.0.5.365 Tue May 07 22:04:30 2024
+elbread.dll ver. 1.0.5.365 Sat May 11 22:43:26 2024
 
 
----------------------------------
-Entity   | Architecture | Library
----------------------------------
-add_alu  | behavioral   | design0
----------------------------------
+-------------------------------------
+Entity       | Architecture | Library
+-------------------------------------
+cu_tb        | beh          | design0
+controlunit  | beh          | design0
+control      | beh          | design0
+alucontrol   | beh          | design0
+-------------------------------------
 
---------------------------
-Package          | Library
---------------------------
-standard         | std
-std_logic_1164   | ieee
-std_logic_arith  | ieee
---------------------------
+-------------------------
+Package         | Library
+-------------------------
+standard        | std
+std_logic_1164  | ieee
+-------------------------

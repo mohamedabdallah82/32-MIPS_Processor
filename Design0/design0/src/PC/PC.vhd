@@ -1,23 +1,14 @@
 ---------------------------------------------------------------------------------------------------
-
 --
-
 -- Title       : 	  Program Counter
- 
 -- Design      : 	  MIPS Processor
-
- 
 -- Author      : 	  Mahmoud AbuElsalhen  
-
-
 -- File        :      PC.vhdl	
-
 --
 ------------------------------------------------------------------------------------------------	  
-
--- Description :      PC has memory address where program begins and Fetch instruction word from memory address in PC
 --
-
+-- Description :   PC has memory address where program begins and Fetch instruction word from memory address in PC.
+--
 --------------------------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;

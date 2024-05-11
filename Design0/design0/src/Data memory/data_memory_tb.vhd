@@ -4,7 +4,7 @@
 -- Design      : Design0
 -- Author      : Nancy Ayman
 -- File        :  datamemory.vhd
- 
+--
 ---------------------------------------------------------------------------------------------------
 --
 -- Description :  Data Memory VHDL code of MISP Processor

@@ -1,3 +1,18 @@
+---------------------------------------------------------------------------------------------------
+--
+-- Title       : Sign Extend
+-- Design      : MIPS Processor
+-- Author      : Abdulrahman Dahshan																   
+-- File        : Signed-extend.vhd
+--
+---------------------------------------------------------------------------------------------------
+--
+-- Description : Sign extension in a MIPS processor maintains the sign of a number when expanding its
+-- binary representation by copying the most significant bit to additional bits.
+--
+---------------------------------------------------------------------------------------------------
+
+
 Library IEEE;
 Use IEEE.STD_LOGIC_1164.ALL;
 

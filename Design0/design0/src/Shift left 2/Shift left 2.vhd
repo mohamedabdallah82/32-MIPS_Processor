@@ -1,3 +1,17 @@
+---------------------------------------------------------------------------------------------------
+--
+-- Title       : Shift Left 2
+-- Design      : MIPS Processor
+-- Author      : Abdulrahman Dahshan																   
+-- File        : Shift left 2.vhd
+--
+---------------------------------------------------------------------------------------------------
+--
+-- Description : Shift left 2 in a MIPS processor shift the bits of a register operand two positions to the left, 
+-- equivalent to multiplying its value by 4.
+--
+---------------------------------------------------------------------------------------------------
+
 Library IEEE;
 Use IEEE.STD_LOGIC_1164.ALL;
 

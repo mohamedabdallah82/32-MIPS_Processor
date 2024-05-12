@@ -28,7 +28,7 @@ UCF=
 
 [HierarchyViewer]
 SortInfo=u
-HierarchyInformation= 
+HierarchyInformation=
 ShowHide=ShowTopLevel
 Selected=
 
@@ -46,6 +46,7 @@ Signed-extend=1
 Control unit=1
 
 [Files]
+/componentsPackage.vhd=-1
 Add_ALU/Add-ALU.vhd=-1
 Add_ALU/Add_ALU waveform.awf=-1
 Add_ALU/Add-ALU_tb waveform.awf=-1
@@ -89,6 +90,7 @@ Control unit/Control.vhd=-1
 Control unit/ControlUnit_tb_waveform.awf=-1
 
 [Files.Data]
+.\src\componentsPackage.vhd=VHDL Source Code
 .\src\Add_ALU\Add-ALU.vhd=VHDL Source Code
 .\src\Add_ALU\Add_ALU waveform.awf=Waveform File
 .\src\Add_ALU\Add-ALU_tb waveform.awf=Waveform File

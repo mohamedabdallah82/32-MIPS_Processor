@@ -21,3 +21,4 @@ i<>.\src\AND\AND.vhd
 i<>.\src\ALU\ALU.vhd
 i<>.\src\Add_ALU\Add-ALU.vhd
 i<>.\src\ControlUnit_tb.vhd
+i<>.\src\componentsPackage.vhd

@@ -1,24 +1,16 @@
 ---------------------------------------------------------------------------------------------------
-
 --
-
--- Title       : 	  Multiplexer
- 
--- Design      : 	  MIPS Processor
-
- 
--- Author      : 	  Mahmoud AbuElsalhen
-
-
--- File        : 	  MUX.vhd
-
+-- Title   : Multiplexer
+-- Design  : MIPS Processor
+-- Author  : Mahmoud AbuElsalhen
+-- File    : MUX.vhd
 --
 ------------------------------------------------------------------------------------------------
-
--- Description :  	  It takes two 32-input and select one of them as 32-output
 --
-
+-- Description : It takes two 32-input and select one of them as 32-output
+--
 --------------------------------------------------------------------------------------------------
+
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 

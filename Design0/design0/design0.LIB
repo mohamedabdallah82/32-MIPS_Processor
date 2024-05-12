@@ -1,228 +1,234 @@
-timestamp=1715461533102
+timestamp=1715550989217
 
 [add_alu]
-A/behavioral=A/Behavioral 21|./src/Add_ALU/Add-ALU.vhd|35|1*575090
-B/behavioral=3*361391
-H/behavioral=0*477726
+A/behavioral=A/Behavioral 21|./src/Add_ALU/Add-ALU.vhd|26|1*731461
+B/behavioral=3*465692
+H/behavioral=0*630390
 R=./src/Add_ALU/Add-ALU.vhd|5
 V=0*1566
 
 [add_alu_tb]
-A/behavioral=A/Behavioral 21|./src/Add_ALU/Add-ALU_tb.vhd|9|1*576757
-B/behavioral=3*362561
-H/behavioral=0*478113
+A/behavioral=A/Behavioral 21|./src/Add_ALU/Add-ALU_tb.vhd|9|1*733128
+B/behavioral=3*466862
+H/behavioral=0*630777
 R=./src/Add_ALU/Add-ALU_tb.vhd|6
 V=0*102995
 
 [alu]
-A/behav=21|./src/ALU/ALU.vhd|16|1*579167
-B/behav=3*364731
-H/behav=0*480806
+A/behav=21|./src/ALU/ALU.vhd|16|1*735538
+B/behav=3*469032
+H/behav=0*633470
 R=./src/ALU/ALU.vhd|5
 V=0*5917
 
 [alu_tb]
-A/behavior=21|./src/ALU/ALU_tb.vhd|8|1*581753
-B/behavior=3*368272
-H/behavior=0*482175
+A/behavior=21|./src/ALU/ALU_tb.vhd|8|1*738124
+B/behavior=3*472573
+H/behavior=0*634839
 R=./src/ALU/ALU_tb.vhd|5
 V=0*15139
 
 [alucontrol]
-A/beh=21|./src/Control unit/ALU Control.vhd|29|1*638267
-B/beh=3*405501
-H/beh=0*532742
+A/beh=21|./src/Control unit/ALU Control.vhd|29|1*794640
+B/beh=3*509802
+H/beh=0*685407
 R=./src/Control unit/ALU Control.vhd|22
 V=0*179382
 
 [and_gate]
-A/behavioral=A/Behavioral 21|./src/AND/AND.vhd|32|1*586147
-B/behavioral=3*372372
-H/behavioral=0*488785
+A/behavioral=A/Behavioral 21|./src/AND/AND.vhd|24|1*742518
+B/behavioral=3*476673
+H/behavioral=0*641449
 R=./src/AND/AND.vhd|4
 V=0*16251
 
 [and_gate_tb]
-A/behavioral=A/Behavioral 21|./src/AND/AND_tb.vhd|7|1*587167
-B/behavioral=3*372789
-H/behavioral=0*489123
+A/behavioral=A/Behavioral 21|./src/AND/AND_tb.vhd|7|1*743538
+B/behavioral=3*477090
+H/behavioral=0*641787
 R=./src/AND/AND_tb.vhd|4
 V=0*112968
 
+[component_package]
+E=1*654233
+R=./src/componentsPackage.vhd|4
+V=0*549385
+
 [control]
-A/beh=21|./src/Control unit/Control.vhd|33|1*644919
-B/beh=3*408108
-H/beh=0*538895
+A/beh=21|./src/Control unit/Control.vhd|33|1*801292
+B/beh=3*512409
+H/beh=0*691560
 R=./src/Control unit/Control.vhd|26
 V=0*193192
 
 [controlunit]
-A/beh=21|./src/Control unit/Control Unit.vhd|27|1*640083
-H/beh=0*533479
+A/beh=21|./src/Control unit/Control Unit.vhd|27|1*796456
+H/beh=0*686144
 R=./src/Control unit/Control Unit.vhd|18
 V=0*188019
 
 [cu_tb]
-A/beh=21|./src/Control unit/ControlUnit_tb.vhd|18|1*632901
-B/beh=3*401646
-H/beh=0*522402
+A/beh=21|./src/Control unit/ControlUnit_tb.vhd|18|1*789274
+B/beh=3*505947
+H/beh=0*675067
 R=./src/Control unit/ControlUnit_tb.vhd|15
 V=0*407366
 
 [data_memory]
-A/behavioral=A/Behavioral 21|./src/Data memory/Data memory.vhd|32|1*588372
-B/behavioral=3*374431
-H/behavioral=0*490204
+A/behavioral=A/Behavioral 21|./src/Data memory/Data memory.vhd|32|1*744743
+B/behavioral=3*478732
+H/behavioral=0*642868
 R=./src/Data memory/Data memory.vhd|23
 V=0*82208
 
 [data_memory_tb]
-A/tb_architecture=A/TB_ARCHITECTURE 21|./src/Data memory/data_memory_tb.vhd|21|1*594297
-B/tb_architecture=3*375809
-H/tb_architecture=0*492730
+A/tb_architecture=A/TB_ARCHITECTURE 21|./src/Data memory/data_memory_tb.vhd|21|1*750668
+B/tb_architecture=3*480110
+H/tb_architecture=0*645394
 R=./src/Data memory/data_memory_tb.vhd|18
 V=0*150536
 
 [instructionmemory]
-A/behavioral=A/Behavioral 21|./src/Instruction memory/Instruction memory.vhd|23|1*597367
-B/behavioral=3*381288
-H/behavioral=0*498339
+A/behavioral=A/Behavioral 21|./src/Instruction memory/Instruction memory.vhd|23|1*753738
+B/behavioral=3*485589
+H/behavioral=0*651003
 R=./src/Instruction memory/Instruction memory.vhd|14
 V=0*87828
 
 [mux]
-A/behavioral=A/Behavioral 21|./src/MUX/MUX.vhd|35|1*604927
-B/behavioral=3*384502
-H/behavioral=0*502795
+A/behavioral=A/Behavioral 21|./src/MUX/MUX.vhd|27|1*761298
+B/behavioral=3*488803
+H/behavioral=0*655459
 R=./src/MUX/MUX.vhd|4
 V=0*47306
 
 [mux_tb]
-A/behavioral=A/Behavioral 21|./src/MUX/MUX_tp.vhd|7|1*606701
-B/behavioral=3*385688
-H/behavioral=0*503192
+A/behavioral=A/Behavioral 21|./src/MUX/MUX_tp.vhd|7|1*763072
+B/behavioral=3*489989
+H/behavioral=0*655856
 R=./src/MUX/MUX_tp.vhd|4
 V=0*121202
 
 [pc]
-A/behavioral=A/Behavioral 21|./src/PC/PC.vhd|25|1*608579
-B/behavioral=3*387390
-H/behavioral=0*505375
+A/behavioral=A/Behavioral 21|./src/PC/PC.vhd|25|1*764950
+B/behavioral=3*491691
+H/behavioral=0*658039
 R=./src/PC/PC.vhd|26
 V=0*67794
 
 [pc_tb]
-A/behavioral=A/Behavioral 21|./src/PC/PC_tb.vhd|9|1*610289
-B/behavioral=3*388632
-H/behavioral=0*505780
+A/behavioral=A/Behavioral 21|./src/PC/PC_tb.vhd|9|1*766660
+B/behavioral=3*492933
+H/behavioral=0*658444
 R=./src/PC/PC_tb.vhd|6
 V=0*124961
 
 [register_file]
-A/behavioural=A/Behavioural 21|./src/Registers/Registers.vhd|27|1*612405
-B/behavioural=3*391466
-H/behavioural=0*508512
+A/behavioural=A/Behavioural 21|./src/Registers/Registers.vhd|27|1*768776
+B/behavioural=3*495767
+H/behavioural=0*661176
 R=./src/Registers/Registers.vhd|14
 V=0*95183
 
 [register_file_tb]
-A/tb_architecture=A/TB_ARCHITECTURE 21|./src/Registers/Registers_tb.vhd|17|1*622701
-B/tb_architecture=3*393189
-H/tb_architecture=0*511892
+A/tb_architecture=A/TB_ARCHITECTURE 21|./src/Registers/Registers_tb.vhd|17|1*779072
+B/tb_architecture=3*497490
+H/tb_architecture=0*664556
 R=./src/Registers/Registers_tb.vhd|14
 V=0*168836
 
 [shift_left_2]
-A/behavioral=A/Behavioral 21|./src/Shift left 2/Shift left 2.vhd|11|1*625471
-B/behavioral=3*396712
-H/behavioral=0*515142
+A/behavioral=A/Behavioral 21|./src/Shift left 2/Shift left 2.vhd|25|1*781842
+B/behavioral=3*501013
+H/behavioral=0*667806
 R=./src/Shift left 2/Shift left 2.vhd|4
 V=0*62575
 
 [shift_left_2_tb]
-A/behavioral=A/Behavioral 21|./src/Shift left 2/Shift_Left_2_tb.vhd|7|1*626958
-B/behavioral=3*397309
-H/behavioral=0*515577
+A/behavioral=A/Behavioral 21|./src/Shift left 2/Shift_Left_2_tb.vhd|20|1*783329
+B/behavioral=3*501610
+H/behavioral=0*668241
 R=./src/Shift left 2/Shift_Left_2_tb.vhd|4
 V=0*172947
 
 [sign_extend]
-A/behavioral=A/Behavioral 21|./src/Signed-extend/Signed-extend.vhd|11|1*629264
-B/behavioral=3*398987
-H/behavioral=0*518595
+A/behavioral=A/Behavioral 21|./src/Signed-extend/Signed-extend.vhd|26|1*785636
+B/behavioral=3*503288
+H/behavioral=0*671260
 R=./src/Signed-extend/Signed-extend.vhd|4
 V=0*65090
 
 [sign_extend_tb]
-A/behavioral=A/Behavioral 21|./src/Signed-extend/Sign_Extend_tb.vhd|7|1*630673
-B/behavioral=3*399992
-H/behavioral=0*519075
+A/behavioral=A/Behavioral 21|./src/Signed-extend/Sign_Extend_tb.vhd|21|1*787045
+B/behavioral=3*504293
+H/behavioral=0*671740
 R=./src/Signed-extend/Sign_Extend_tb.vhd|4
 V=0*177408
 
 [tb_instructionmemory]
-A/behavior=21|./src/Instruction memory/tb_instructionMemory.vhd|16|1*602971
-B/behavior=3*382414
-H/behavior=0*500944
+A/behavior=21|./src/Instruction memory/tb_instructionMemory.vhd|16|1*759342
+B/behavior=3*486715
+H/behavior=0*653608
 R=./src/Instruction memory/tb_instructionMemory.vhd|13
 V=0*155766
 
 [~A]
 ./src/ALU/ALU.vhd~ALU=0*3197*3565
-./src/ALU/ALU.vhd~behavALU=0*481455*482109
+./src/ALU/ALU.vhd~behavALU=0*634119*634773
 ./src/ALU/ALU_tb.vhd~ALU_tb=0*8043*8214
-./src/ALU/ALU_tb.vhd~behaviorALU_tb=0*487206*488710
+./src/ALU/ALU_tb.vhd~behaviorALU_tb=0*639870*641374
 ./src/AND/AND.vhd~AND_GATE=0*15219*15434
-./src/AND/AND.vhd~BehavioralAND_GATE=0*488880*489047
+./src/AND/AND.vhd~BehavioralAND_GATE=0*641544*641711
 ./src/AND/AND_tb.vhd~AND_GATE_tb=0*111404*111561
-./src/AND/AND_tb.vhd~BehavioralAND_GATE_tb=0*489580*490122
+./src/AND/AND_tb.vhd~BehavioralAND_GATE_tb=0*642244*642786
 ./src/Add_ALU/Add-ALU.vhd~ADD_ALU=0*0*319
-./src/Add_ALU/Add-ALU.vhd~BehavioralADD_ALU=0*477821*478030
+./src/Add_ALU/Add-ALU.vhd~BehavioralADD_ALU=0*630485*630694
 ./src/Add_ALU/Add-ALU_tb.vhd~ADD_ALU_tb=0*99709*99932
-./src/Add_ALU/Add-ALU_tb.vhd~BehavioralADD_ALU_tb=0*479798*480717
+./src/Add_ALU/Add-ALU_tb.vhd~BehavioralADD_ALU_tb=0*632462*633381
 ./src/Control unit/ALU Control.vhd~aluControl=0*177514*177823
-./src/Control unit/ALU Control.vhd~behaluControl=0*532823*533391
-./src/Control unit/Control Unit.vhd~behcontrolUnit=0*538056*538805
+./src/Control unit/ALU Control.vhd~behaluControl=0*685488*686056
+./src/Control unit/Control Unit.vhd~behcontrolUnit=0*690721*691470
 ./src/Control unit/Control Unit.vhd~controlUnit=0*180945*181360
-./src/Control unit/Control.vhd~behcontrol=0*539535*540285
+./src/Control unit/Control.vhd~behcontrol=0*692200*692950
 ./src/Control unit/Control.vhd~control=0*190315*190668
 ./src/Control unit/ControlUnit_tb.vhd~CU_tb=0*396563*396719
-./src/Control unit/ControlUnit_tb.vhd~behCU_tb=0*530804*532656
-./src/Data memory/Data memory.vhd~Behavioraldata_Memory=0*491840*492635
+./src/Control unit/ControlUnit_tb.vhd~behCU_tb=0*683469*685321
+./src/Data memory/Data memory.vhd~Behavioraldata_Memory=0*644504*645299
 ./src/Data memory/Data memory.vhd~data_Memory=0*78221*78652
-./src/Data memory/data_memory_tb.vhd~TB_ARCHITECTUREdata_memory_tb=0*496477*498233
+./src/Data memory/data_memory_tb.vhd~TB_ARCHITECTUREdata_memory_tb=0*649141*650897
 ./src/Data memory/data_memory_tb.vhd~data_memory_tb=0*144337*144548
-./src/Instruction memory/Instruction memory.vhd~BehavioralInstructionMemory=0*499978*500829
+./src/Instruction memory/Instruction memory.vhd~BehavioralInstructionMemory=0*652642*653493
 ./src/Instruction memory/Instruction memory.vhd~InstructionMemory=0*84050*84411
-./src/Instruction memory/tb_instructionMemory.vhd~behaviortb_instructionMemory=0*501938*502677
+./src/Instruction memory/tb_instructionMemory.vhd~behaviortb_instructionMemory=0*654602*655341
 ./src/Instruction memory/tb_instructionMemory.vhd~tb_instructionMemory=0*153245*153487
-./src/MUX/MUX.vhd~BehavioralMUX=0*502890*503121
+./src/MUX/MUX.vhd~BehavioralMUX=0*655554*655785
 ./src/MUX/MUX.vhd~MUX=0*45587*45930
-./src/MUX/MUX_tp.vhd~BehavioralMUX_tb=0*504533*505298
+./src/MUX/MUX_tp.vhd~BehavioralMUX_tb=0*657197*657962
 ./src/MUX/MUX_tp.vhd~MUX_tb=0*118581*118723
-./src/PC/PC.vhd~BehavioralPC=0*505470*505712
+./src/PC/PC.vhd~BehavioralPC=0*658134*658376
 ./src/PC/PC.vhd~PC=0*66174*66514
-./src/PC/PC_tb.vhd~BehavioralPC_tb=0*507551*508438
+./src/PC/PC_tb.vhd~BehavioralPC_tb=0*660215*661102
 ./src/PC/PC_tb.vhd~PC_tb=0*121687*121892
-./src/Registers/Registers.vhd~BehaviouralRegister_File=0*510658*511798
+./src/Registers/Registers.vhd~BehaviouralRegister_File=0*663322*664462
 ./src/Registers/Registers.vhd~Register_File=0*89820*90354
-./src/Registers/Registers_tb.vhd~TB_ARCHITECTUREregister_file_tb=0*513788*515038
+./src/Registers/Registers_tb.vhd~TB_ARCHITECTUREregister_file_tb=0*666452*667702
 ./src/Registers/Registers_tb.vhd~register_file_tb=0*164986*165199
-./src/Shift left 2/Shift left 2.vhd~BehavioralShift_Left_2=0*515237*515479
+./src/Shift left 2/Shift left 2.vhd~BehavioralShift_Left_2=0*667901*668143
 ./src/Shift left 2/Shift left 2.vhd~Shift_Left_2=0*61148*61433
-./src/Shift left 2/Shift_Left_2_tb.vhd~BehavioralShift_Left_2_tb=0*517613*518491
+./src/Shift left 2/Shift_Left_2_tb.vhd~BehavioralShift_Left_2_tb=0*670278*671156
 ./src/Shift left 2/Shift_Left_2_tb.vhd~Shift_Left_2_tb=0*169373*169561
-./src/Signed-extend/Sign_Extend_tb.vhd~BehavioralSign_Extend_tb=0*521574*522299
+./src/Signed-extend/Sign_Extend_tb.vhd~BehavioralSign_Extend_tb=0*674239*674964
 ./src/Signed-extend/Sign_Extend_tb.vhd~Sign_Extend_tb=0*173534*173719
-./src/Signed-extend/Signed-extend.vhd~BehavioralSign_Extend=0*518690*518976
+./src/Signed-extend/Signed-extend.vhd~BehavioralSign_Extend=0*671355*671641
 ./src/Signed-extend/Signed-extend.vhd~Sign_Extend=0*63658*63931
-ModifyID=1209
+./src/componentsPackage.vhd~component_package=0*541826*544228
+ModifyID=1475
 Version=73
 
 [~MFT]
-0=1347|0design0.mgf|540285|432035
-1=345|1design0.mgf|644919|418441
-3=382|3design0.mgf|408108|361391
+0=1663|0design0.mgf|692950|558776
+1=426|1design0.mgf|801292|497538
+3=482|3design0.mgf|512409|465692
 
 [~U]
 add_alu=ADD_ALU 11|0*779|0*1009
@@ -232,6 +238,7 @@ alu_tb=ALU_tb 11|0*14891|0*14950
 alucontrol=aluControl 11|0*178645|0*178851
 and_gate=AND_GATE 11|0*15838|0*16007
 and_gate_tb=AND_GATE_tb 11|0*112714|0*112788
+component_package=3||0*544313
 control=11|0*192217|0*192578
 controlunit=controlUnit 11|0*186863|0*187270
 cu_tb=CU_tb 11|0*407142|0*407198

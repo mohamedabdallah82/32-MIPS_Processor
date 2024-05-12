@@ -1,3 +1,4 @@
+.\src\componentsPackage.vhd
 .\src\Add_ALU\Add-ALU.vhd
 .\src\Add_ALU\Add-ALU_tb.vhd
 .\src\ALU\ALU.vhd

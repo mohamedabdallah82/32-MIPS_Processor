@@ -7,9 +7,9 @@
 --
 ---------------------------------------------------------------------------------------------------
 --
--- File        : E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\compile\mux-32bit_block.vhd
--- Generated   : Tue May 14 15:30:05 2024
--- From        : E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\mux-32bit_block.bde
+-- File        : D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\compile\mux-32bit_block.vhd
+-- Generated   : Tue May 14 23:22:29 2024
+-- From        : D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\MUX\mux-32bit_block.bde
 -- By          : Bde2Vhdl ver. 2.6
 --
 ---------------------------------------------------------------------------------------------------

@@ -7,9 +7,9 @@
 --
 ---------------------------------------------------------------------------------------------------
 --
--- File        : E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\compile\pc_block.vhd
--- Generated   : Tue May 14 15:32:38 2024
--- From        : E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\pc_block.bde
+-- File        : D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\compile\pc_block.vhd
+-- Generated   : Tue May 14 23:22:29 2024
+-- From        : D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\PC\pc_block.bde
 -- By          : Bde2Vhdl ver. 2.6
 --
 ---------------------------------------------------------------------------------------------------

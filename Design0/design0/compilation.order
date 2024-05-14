@@ -15,6 +15,7 @@
 .\src\Instruction memory\Instruction memory.vhd
 .\src\Instruction memory\tb_instructionMemory.vhd
 .\src\MUX\mux-32bit_block.bde
+.\src\MUX\MUX-5bit.vhd
 .\src\MUX\MUX-32bit.vhd
 .\src\MUX\MUX-32bit_tp.vhd
 .\src\PC\pc_block.bde

@@ -21,9 +21,9 @@ begin
 
     -- Component instantiation
     UUT : entity work.PC
-        generic map (
-            n => WIDTH
-        )
+       -- generic map (
+           -- n => WIDTH
+       -- )
         port map (
             input => input,
             reset => reset,

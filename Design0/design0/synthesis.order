@@ -34,3 +34,4 @@ i<>.\src\shiftLeft2_block.bde
 i<>.\src\signed-extend_block.bde
 i<>.\src\pc_block.bde
 i<>.\src\CU_block.bde
+i<>.\src\MUX-5bit.vhd

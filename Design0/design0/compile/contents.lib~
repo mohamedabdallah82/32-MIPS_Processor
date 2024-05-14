@@ -1,4 +1,4 @@
-1729
+2518
 ~E 1 "./compile/CU_block.vhd" 25 cu_block
 ~A 1 "./compile/CU_block.vhd" 28 cu_block
 ~E 1 "./src/ALU/ALU_tb.vhd" 5 alu_tb
@@ -45,29 +45,31 @@
 ~A 1 "./src/Instruction memory/Instruction memory.vhd" 23 behavioral
 ~E 1 "./src/MUX/MUX-32bit.vhd" 17 mux
 ~A 1 "./src/MUX/MUX-32bit.vhd" 27 behavioral
-~E 1 "./src/Shift left 2/Shift left 2.vhd" 4 shift_left_2
-~A 1 "./src/Shift left 2/Shift left 2.vhd" 25 behavioral
-~E 1 "./src/PC/PC_tb.vhd" 6 pc_tb
-~A 1 "./src/PC/PC_tb.vhd" 9 behavioral
-~E 1 "./src/PC/PC.vhd" 17 pc
-~A 1 "./src/PC/PC.vhd" 25 behavioral
-~E 1 "./src/MUX/MUX_tp.vhd" 4 mux_tb
-~A 1 "./src/MUX/MUX_tp.vhd" 7 behavioral
-~E 1 "./compile/pc_block.vhd" 25 pc_block
-~A 1 "./compile/pc_block.vhd" 28 pc_block
-~E 1 "./src/Registers/Registers.vhd" 14 register_file
-~A 1 "./src/Registers/Registers.vhd" 27 behavioural
-~E 1 "./compile/regFiles_block.vhd" 25 regfiles_block
-~A 1 "./compile/regFiles_block.vhd" 28 regfiles_block
 ~E 1 "./src/Registers/Registers_tb.vhd" 14 register_file_tb
 ~A 1 "./src/Registers/Registers_tb.vhd" 17 tb_architecture
-~E 1 "./compile/shiftLeft2_block.vhd" 25 shiftleft2_block
-~A 1 "./compile/shiftLeft2_block.vhd" 28 shiftleft2_block
-~E 1 "./src/Shift left 2/Shift_Left_2_tb.vhd" 4 shift_left_2_tb
-~A 1 "./src/Shift left 2/Shift_Left_2_tb.vhd" 20 behavioral
-~E 1 "./src/Signed-extend/Sign_Extend_tb.vhd" 4 sign_extend_tb
-~A 1 "./src/Signed-extend/Sign_Extend_tb.vhd" 21 behavioral
+~E 1 "./compile/pc_block.vhd" 25 pc_block
+~A 1 "./compile/pc_block.vhd" 28 pc_block
+~E 1 "./src/MUX/MUX_tp.vhd" 4 mux_tb
+~A 1 "./src/MUX/MUX-32bit_tp.vhd" 7 behavioral
+~E 1 "./src/MUX/MUX-5bit.vhd" 17 mux_5bit
+~A 1 "./src/MUX/MUX-5bit.vhd" 27 behavioral
+~E 1 "./src/PC/PC.vhd" 17 pc
+~A 1 "./src/PC/PC.vhd" 25 behavioral
+~E 1 "./compile/regFiles_block.vhd" 25 regfiles_block
+~A 1 "./compile/regFiles_block.vhd" 28 regfiles_block
+~E 1 "./src/PC/PC_tb.vhd" 6 pc_tb
+~A 1 "./src/PC/PC_tb.vhd" 9 behavioral
+~E 1 "./src/Registers/Registers.vhd" 14 register_file
+~A 1 "./src/Registers/Registers.vhd" 27 behavioural
 ~E 1 "./src/Signed-extend/Signed-extend.vhd" 4 sign_extend
 ~A 1 "./src/Signed-extend/Signed-extend.vhd" 26 behavioral
+~E 1 "./src/Shift left 2/Shift_Left_2_tb.vhd" 4 shift_left_2_tb
+~A 1 "./src/Shift left 2/Shift_Left_2_tb.vhd" 20 behavioral
+~E 1 "./src/Shift left 2/Shift left 2.vhd" 4 shift_left_2
+~A 1 "./src/Shift left 2/Shift left 2.vhd" 25 behavioral
+~E 1 "./compile/shiftLeft2_block.vhd" 25 shiftleft2_block
+~A 1 "./compile/shiftLeft2_block.vhd" 28 shiftleft2_block
+~E 1 "./src/Signed-extend/Sign_Extend_tb.vhd" 4 sign_extend_tb
+~A 1 "./src/Signed-extend/Sign_Extend_tb.vhd" 21 behavioral
 ~E 1 "./src/Instruction memory/tb_instructionMemory.vhd" 13 tb_instructionmemory
 ~A 1 "./src/Instruction memory/tb_instructionMemory.vhd" 16 behavior

@@ -28,7 +28,7 @@ begin
     process(reset , input , clk)
     begin
         if reset = '1' then  -- Reset condition
-            temp <= (others => '0');  -- Reset PC to 0  
+            temp <= x"00400000";  -- Reset PC to 0  
 		elsif rising_edge(clk) then
 			temp <= input;  
         end if;	 

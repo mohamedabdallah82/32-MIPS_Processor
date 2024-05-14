@@ -18,9 +18,9 @@ begin
 
     -- Component instantiation
     UUT : entity work.ADD_ALU
-        generic map (
-            n => WIDTH
-        )
+      --generic map (
+          --n => WIDTH
+        --)
         port map (
             A => A,
             B => B,

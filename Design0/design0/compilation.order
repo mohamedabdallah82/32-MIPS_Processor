@@ -1,24 +1,35 @@
 .\src\componentsPackage.vhd
+.\src\Add_ALU\addAlu_block.bde
 .\src\Add_ALU\Add-ALU.vhd
 .\src\Add_ALU\Add-ALU_tb.vhd
+.\src\ALU\alu_block.bde
 .\src\ALU\ALU.vhd
 .\src\ALU\ALU_tb.vhd
+.\src\AND\and_block.bde
 .\src\AND\AND.vhd
 .\src\AND\AND_tb.vhd
+.\src\Data memory\dataMemory_block.bde
 .\src\Data memory\Data memory.vhd
 .\src\Data memory\data_memory_tb.vhd
+.\src\Instruction memory\instructionMemory_block.bde
 .\src\Instruction memory\Instruction memory.vhd
 .\src\Instruction memory\tb_instructionMemory.vhd
-.\src\MUX\MUX.vhd
-.\src\MUX\MUX_tp.vhd
+.\src\MUX\mux-32bit_block.bde
+.\src\MUX\MUX-32bit.vhd
+.\src\MUX\MUX-32bit_tp.vhd
+.\src\PC\pc_block.bde
 .\src\PC\PC.vhd
 .\src\PC\PC_tb.vhd
+.\src\Registers\regFiles_block.bde
 .\src\Registers\Registers.vhd
 .\src\Registers\Registers_tb.vhd
+.\src\Shift left 2\shiftLeft2_block.bde
 .\src\Shift left 2\Shift left 2.vhd
 .\src\Shift left 2\Shift_Left_2_tb.vhd
+.\src\Signed-extend\signed-extend_block.bde
 .\src\Signed-extend\Signed-extend.vhd
 .\src\Signed-extend\Sign_Extend_tb.vhd
+.\src\Control unit\CU_block.bde
 .\src\Control unit\ControlUnit_tb.vhd
 .\src\Control unit\ALU Control.vhd
 .\src\Control unit\Control Unit.vhd

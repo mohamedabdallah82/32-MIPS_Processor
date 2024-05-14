@@ -1,304 +1,173 @@
-acom $DSN/src/MUX/MUX.vhd
+acom $DSN/src/MUX/MUX-32bit.vhd
 # Compile...
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\MUX\MUX.vhd
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\MUX\MUX-32bit.vhd
 # Compile Entity "MUX"
-# Entity `MUX' has been skipped - no difference detected.
 # Compile Architecture "Behavioral" of Entity "MUX"
 # Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
 acom $DSN/src/Add_ALU/Add-ALU.vhd
 # Compile...
 # File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Add_ALU\Add-ALU.vhd
 # Compile Entity "ADD_ALU"
-# Entity `ADD_ALU' has been skipped - no difference detected.
 # Compile Architecture "Behavioral" of Entity "ADD_ALU"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
-acom $DSN/src/AND/AND.vhd
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom $DSN/src/PC/PC.vhd
 # Compile...
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\AND\AND.vhd
-# Compile Entity "AND_GATE"
-# Entity `AND_GATE' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "AND_GATE"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
-acom $DSN/src/AND/AND.vhd
-# Compile...
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\AND\AND.vhd
-# Compile Entity "AND_GATE"
-# Entity `AND_GATE' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "AND_GATE"
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\PC\PC.vhd
+# Compile Entity "PC"
+# Compile Architecture "Behavioral" of Entity "PC"
 # Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
-acom $DSN/src/componentsPackage.vhd
+acom $DSN/src/instructionMemory_block.bde $DSN/src/and_block.bde $DSN/src/dataMemory_block.bde $DSN/src/addAlu_block.bde $DSN/src/alu_block.bde
 # Compile...
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\componentsPackage.vhd
-# Compile Package "component_package"
-# Error: COMP96_0078: componentsPackage.vhd : (7, 37): Unknown identifier "n".
-# Error: COMP96_0133: componentsPackage.vhd : (7, 37): Cannot find object declaration.
-# Error: COMP96_0094: componentsPackage.vhd : (7, 37): Locally static expression is required in the range definition.
-# Error: COMP96_0078: componentsPackage.vhd : (7, 83): Unknown identifier "n".
-# Error: COMP96_0133: componentsPackage.vhd : (7, 83): Cannot find object declaration.
-# Error: COMP96_0094: componentsPackage.vhd : (7, 83): Locally static expression is required in the range definition.
-# Error: COMP96_0078: componentsPackage.vhd : (35, 39): Unknown identifier "n".
-# Error: COMP96_0133: componentsPackage.vhd : (35, 39): Cannot find object declaration.
-# Error: COMP96_0094: componentsPackage.vhd : (35, 39): Locally static expression is required in the range definition.
-# Error: COMP96_0078: componentsPackage.vhd : (35, 84): Unknown identifier "n".
-# Error: COMP96_0133: componentsPackage.vhd : (35, 84): Cannot find object declaration.
-# Error: COMP96_0094: componentsPackage.vhd : (35, 84): Locally static expression is required in the range definition.
-# Error: COMP96_0078: componentsPackage.vhd : (36, 39): Unknown identifier "n".
-# Error: COMP96_0133: componentsPackage.vhd : (36, 39): Cannot find object declaration.
-# Error: COMP96_0094: componentsPackage.vhd : (36, 39): Locally static expression is required in the range definition.
-# Error: COMP96_0078: componentsPackage.vhd : (41, 36): Unknown identifier "n".
-# Error: COMP96_0133: componentsPackage.vhd : (41, 36): Cannot find object declaration.
-# Error: COMP96_0094: componentsPackage.vhd : (41, 36): Locally static expression is required in the range definition.
-# Error: COMP96_0078: componentsPackage.vhd : (42, 33): Unknown identifier "n".
-# Error: COMP96_0133: componentsPackage.vhd : (42, 33): Cannot find object declaration.
-# Error: COMP96_0094: componentsPackage.vhd : (42, 33): Locally static expression is required in the range definition.
-# Compile failure 21 Errors 0 Warnings  Analysis time :  0.0 [s]
-acom $DSN/src/componentsPackage.vhd
+# DRC: Checking file 'E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\instructionMemory_block.bde'.
+# DRC: Warning: instructionMemory_block.bde - 0 error(s), 3 warning(s)
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\compile\instructionMemory_block.vhd from E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\instructionMemory_block.bde ...
+# Generation successful
+# DRC: Checking file 'E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\and_block.bde'.
+# DRC: Warning: and_block.bde - 0 error(s), 3 warning(s)
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\compile\and_block.vhd from E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\and_block.bde ...
+# Generation successful
+# DRC: Checking file 'E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\dataMemory_block.bde'.
+# DRC: Warning: dataMemory_block.bde - 0 error(s), 6 warning(s)
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\compile\dataMemory_block.vhd from E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\dataMemory_block.bde ...
+# Generation successful
+# DRC: Checking file 'E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\addAlu_block.bde'.
+# DRC: Warning: addAlu_block.bde - 0 error(s), 3 warning(s)
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\compile\addAlu_block.vhd from E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\addAlu_block.bde ...
+# Generation successful
+# DRC: Checking file 'E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\alu_block.bde'.
+# DRC: Warning: alu_block.bde - 0 error(s), 5 warning(s)
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\compile\alu_block.vhd from E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\alu_block.bde ...
+# Generation successful
+# File: .\instructionMemory_block.vhd
+# Compile Entity "instructionMemory_block"
+# Compile Architecture "instructionMemory_block" of Entity "instructionMemory_block"
+# File: .\and_block.vhd
+# Compile Entity "and_block"
+# Compile Architecture "and_block" of Entity "and_block"
+# File: .\dataMemory_block.vhd
+# Compile Entity "dataMemory_block"
+# Compile Architecture "dataMemory_block" of Entity "dataMemory_block"
+# File: .\addAlu_block.vhd
+# Compile Entity "addAlu_block"
+# Compile Architecture "addAlu_block" of Entity "addAlu_block"
+# File: .\alu_block.vhd
+# Compile Entity "alu_block"
+# Compile Architecture "alu_block" of Entity "alu_block"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.8 [s]
+acom $DSN/src/MUX/MUX-32bit.vhd
 # Compile...
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\componentsPackage.vhd
-# Compile Package "component_package"
-# Error: COMP96_0019: componentsPackage.vhd : (5, 2): Keyword "end" expected.
-# Error: COMP96_0015: componentsPackage.vhd : (5, 2): ';' expected.
-# Error: COMP96_0016: componentsPackage.vhd : (5, 9): Design unit declaration expected.
-# Compile failure 3 Errors 0 Warnings  Analysis time :  0.0 [s]
-acom $DSN/src/componentsPackage.vhd
-# Compile...
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\componentsPackage.vhd
-# Compile Package "component_package"
-# Error: COMP96_0078: componentsPackage.vhd : (36, 39): Unknown identifier "n".
-# Error: COMP96_0133: componentsPackage.vhd : (36, 39): Cannot find object declaration.
-# Error: COMP96_0094: componentsPackage.vhd : (36, 39): Locally static expression is required in the range definition.
-# Error: COMP96_0078: componentsPackage.vhd : (36, 84): Unknown identifier "n".
-# Error: COMP96_0133: componentsPackage.vhd : (36, 84): Cannot find object declaration.
-# Error: COMP96_0094: componentsPackage.vhd : (36, 84): Locally static expression is required in the range definition.
-# Error: COMP96_0078: componentsPackage.vhd : (37, 39): Unknown identifier "n".
-# Error: COMP96_0133: componentsPackage.vhd : (37, 39): Cannot find object declaration.
-# Error: COMP96_0094: componentsPackage.vhd : (37, 39): Locally static expression is required in the range definition.
-# Error: COMP96_0078: componentsPackage.vhd : (42, 36): Unknown identifier "n".
-# Error: COMP96_0133: componentsPackage.vhd : (42, 36): Cannot find object declaration.
-# Error: COMP96_0094: componentsPackage.vhd : (42, 36): Locally static expression is required in the range definition.
-# Error: COMP96_0078: componentsPackage.vhd : (43, 33): Unknown identifier "n".
-# Error: COMP96_0133: componentsPackage.vhd : (43, 33): Cannot find object declaration.
-# Error: COMP96_0094: componentsPackage.vhd : (43, 33): Locally static expression is required in the range definition.
-# Compile failure 15 Errors 0 Warnings  Analysis time :  0.0 [s]
-acom $DSN/src/componentsPackage.vhd
-# Compile...
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\componentsPackage.vhd
-# Compile Package "component_package"
-# Error: COMP96_0078: componentsPackage.vhd : (43, 36): Unknown identifier "n".
-# Error: COMP96_0133: componentsPackage.vhd : (43, 36): Cannot find object declaration.
-# Error: COMP96_0094: componentsPackage.vhd : (43, 36): Locally static expression is required in the range definition.
-# Error: COMP96_0078: componentsPackage.vhd : (44, 33): Unknown identifier "n".
-# Error: COMP96_0133: componentsPackage.vhd : (44, 33): Cannot find object declaration.
-# Error: COMP96_0094: componentsPackage.vhd : (44, 33): Locally static expression is required in the range definition.
-# Compile failure 6 Errors 0 Warnings  Analysis time :  0.0 [s]
-acom $DSN/src/componentsPackage.vhd
-# Compile...
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\componentsPackage.vhd
-# Compile Package "component_package"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
-acom $DSN/src/componentspackage.vhd $DSN/src/add_alu/add-alu.vhd $DSN/src/add_alu/add-alu_tb.vhd $DSN/src/alu/alu.vhd $DSN/src/alu/alu_tb.vhd $DSN/src/and/and.vhd $DSN/src/and/and_tb.vhd "$DSN/src/data memory/data memory.vhd" "$DSN/src/data memory/data_memory_tb.vhd" "$DSN/src/instruction memory/instruction memory.vhd" "$DSN/src/instruction memory/tb_instructionmemory.vhd" $DSN/src/mux/mux.vhd $DSN/src/mux/mux_tp.vhd $DSN/src/pc/pc.vhd $DSN/src/pc/pc_tb.vhd $DSN/src/registers/registers.vhd $DSN/src/registers/registers_tb.vhd "$DSN/src/shift left 2/shift left 2.vhd" "$DSN/src/shift left 2/shift_left_2_tb.vhd" $DSN/src/signed-extend/signed-extend.vhd $DSN/src/signed-extend/sign_extend_tb.vhd "$DSN/src/control unit/controlunit_tb.vhd" "$DSN/src/control unit/alu control.vhd" "$DSN/src/control unit/control unit.vhd" "$DSN/src/control unit/control.vhd"
-# Compile...
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\componentsPackage.vhd
-# Compile Package "component_package"
-# Error: COMP96_0019: componentsPackage.vhd : (43, 26): Keyword "end" expected.
-# Error: COMP96_0015: componentsPackage.vhd : (46, 6): ';' expected.
-# Error: COMP96_0016: componentsPackage.vhd : (46, 16): Design unit declaration expected.
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Add_ALU\Add-ALU.vhd
-# Compile Entity "ADD_ALU"
-# Entity `ADD_ALU' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "ADD_ALU"
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Add_ALU\Add-ALU_tb.vhd
-# Compile Entity "ADD_ALU_tb"
-# Entity `ADD_ALU_tb' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "ADD_ALU_tb"
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\ALU\ALU.vhd
-# Compile Entity "ALU"
-# Entity `ALU' has been skipped - no difference detected.
-# Compile Architecture "behav" of Entity "ALU"
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\ALU\ALU_tb.vhd
-# Compile Entity "ALU_tb"
-# Entity `ALU_tb' has been skipped - no difference detected.
-# Compile Architecture "behavior" of Entity "ALU_tb"
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\AND\AND.vhd
-# Compile Entity "AND_GATE"
-# Entity `AND_GATE' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "AND_GATE"
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\AND\AND_tb.vhd
-# Compile Entity "AND_GATE_tb"
-# Entity `AND_GATE_tb' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "AND_GATE_tb"
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Data memory\Data memory.vhd
-# Compile Entity "data_Memory"
-# Entity `data_Memory' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "data_Memory"
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Data memory\data_memory_tb.vhd
-# Compile Entity "data_memory_tb"
-# Entity `data_memory_tb' has been skipped - no difference detected.
-# Compile Architecture "TB_ARCHITECTURE" of Entity "data_memory_tb"
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Instruction memory\Instruction memory.vhd
-# Compile Entity "InstructionMemory"
-# Entity `InstructionMemory' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "InstructionMemory"
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Instruction memory\tb_instructionMemory.vhd
-# Compile Entity "tb_instructionMemory"
-# Entity `tb_instructionMemory' has been skipped - no difference detected.
-# Compile Architecture "behavior" of Entity "tb_instructionMemory"
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\MUX\MUX.vhd
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\MUX\MUX-32bit.vhd
 # Compile Entity "MUX"
-# Entity `MUX' has been skipped - no difference detected.
+# Error: COMP96_0019: MUX-32bit.vhd : (17, 11): Keyword "is" expected.
+# Error: COMP96_0019: MUX-32bit.vhd : (17, 11): Keyword "end" expected.
+# Error: COMP96_0015: MUX-32bit.vhd : (17, 11): ';' expected.
+# Error: COMP96_0016: MUX-32bit.vhd : (17, 12): Design unit declaration expected.
 # Compile Architecture "Behavioral" of Entity "MUX"
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\MUX\MUX_tp.vhd
-# Compile Entity "MUX_tb"
-# Entity `MUX_tb' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "MUX_tb"
+# Error: COMP96_0019: MUX-32bit.vhd : (27, 31): Keyword "is" expected.
+# Error: COMP96_0019: MUX-32bit.vhd : (27, 31): Keyword "begin" expected.
+# Error: COMP96_0016: MUX-32bit.vhd : (27, 32): Design unit declaration expected.
+# Compile failure 7 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom $DSN/src/MUX/MUX-32bit.vhd
+# Compile...
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\MUX\MUX-32bit.vhd
+# Compile Entity "MUX_32bit"
+# Compile Architecture "Behavioral" of Entity "MUX_32bit"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom $DSN/src/pc_block.bde $DSN/src/signed-extend_block.bde $DSN/src/regFiles_block.bde $DSN/src/shiftLeft2_block.bde $DSN/src/mux-32bit_block.bde
+# Compile...
+# DRC: Checking file 'E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\pc_block.bde'.
+# DRC: Warning: pc_block.bde - 0 error(s), 4 warning(s)
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\compile\pc_block.vhd from E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\pc_block.bde ...
+# Generation successful
+# DRC: Checking file 'E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\signed-extend_block.bde'.
+# DRC: Warning: signed-extend_block.bde - 0 error(s), 2 warning(s)
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\compile\signed-extend_block.vhd from E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\signed-extend_block.bde ...
+# Generation successful
+# DRC: Checking file 'E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\regFiles_block.bde'.
+# DRC: Warning: regFiles_block.bde - 0 error(s), 8 warning(s)
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\compile\regFiles_block.vhd from E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\regFiles_block.bde ...
+# Generation successful
+# DRC: Checking file 'E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\shiftLeft2_block.bde'.
+# DRC: Warning: shiftLeft2_block.bde - 0 error(s), 2 warning(s)
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\compile\shiftLeft2_block.vhd from E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\shiftLeft2_block.bde ...
+# Generation successful
+# DRC: Checking file 'E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\mux-32bit_block.bde'.
+# DRC: Warning: mux-32bit_block.bde - 0 error(s), 4 warning(s)
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\compile\mux-32bit_block.vhd from E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\mux-32bit_block.bde ...
+# Generation successful
+# File: .\pc_block.vhd
+# Compile Entity "pc"
+# Compile Architecture "pc" of Entity "pc"
+# Warning: ELAB1_0026: pc_block.bde(pc_block.vhd) : (51, 0): There is no default binding for component "pc".(Port "clk" is not on the entity).
+# File: .\signed-extend_block.vhd
+# Compile Entity "\signed-extend_block\"
+# Compile Architecture "\signed-extend_block\" of Entity "\signed-extend_block\"
+# File: .\regFiles_block.vhd
+# Compile Entity "regFiles_block"
+# Compile Architecture "regFiles_block" of Entity "regFiles_block"
+# File: .\shiftLeft2_block.vhd
+# Compile Entity "shiftLeft2_block"
+# Compile Architecture "shiftLeft2_block" of Entity "shiftLeft2_block"
+# File: .\mux-32bit_block.vhd
+# Compile Entity "\mux-32bit\"
+# Compile Architecture "\mux-32bit\" of Entity "\mux-32bit\"
+# Compile success 0 Errors 1 Warnings  Analysis time :  0.9 [s]
+acom $DSN/src/pc_block.bde
+# Compile...
+# File: .\pc_block.vhd
+# Compile Entity "pc"
+# Entity `pc' has been skipped - no difference detected.
+# Compile Architecture "pc" of Entity "pc"
+# Warning: ELAB1_0026: pc_block.bde(pc_block.vhd) : (51, 0): There is no default binding for component "pc".(Port "clk" is not on the entity).
+# Compile success 0 Errors 1 Warnings  Analysis time :  0.5 [s]
+acom $DSN/src/PC/PC.vhd
+# Compile...
 # File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\PC\PC.vhd
 # Compile Entity "PC"
-# Entity `PC' has been skipped - no difference detected.
 # Compile Architecture "Behavioral" of Entity "PC"
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\PC\PC_tb.vhd
-# Compile Entity "PC_tb"
-# Entity `PC_tb' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "PC_tb"
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Registers\Registers.vhd
-# Compile Entity "Register_File"
-# Entity `Register_File' has been skipped - no difference detected.
-# Compile Architecture "Behavioural" of Entity "Register_File"
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Registers\Registers_tb.vhd
-# Compile Entity "register_file_tb"
-# Entity `register_file_tb' has been skipped - no difference detected.
-# Compile Architecture "TB_ARCHITECTURE" of Entity "register_file_tb"
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Shift left 2\Shift left 2.vhd
-# Compile Entity "Shift_Left_2"
-# Entity `Shift_Left_2' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "Shift_Left_2"
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Shift left 2\Shift_Left_2_tb.vhd
-# Compile Entity "Shift_Left_2_tb"
-# Entity `Shift_Left_2_tb' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "Shift_Left_2_tb"
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Signed-extend\Signed-extend.vhd
-# Compile Entity "Sign_Extend"
-# Entity `Sign_Extend' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "Sign_Extend"
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Signed-extend\Sign_Extend_tb.vhd
-# Compile Entity "Sign_Extend_tb"
-# Entity `Sign_Extend_tb' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "Sign_Extend_tb"
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Control unit\ControlUnit_tb.vhd
-# Compile Entity "CU_tb"
-# Entity `CU_tb' has been skipped - no difference detected.
-# Compile Architecture "beh" of Entity "CU_tb"
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Control unit\ALU Control.vhd
-# Compile Entity "aluControl"
-# Entity `aluControl' has been skipped - no difference detected.
-# Compile Architecture "beh" of Entity "aluControl"
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Control unit\Control Unit.vhd
-# Compile Entity "controlUnit"
-# Entity `controlUnit' has been skipped - no difference detected.
-# Compile Architecture "beh" of Entity "controlUnit"
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Control unit\Control.vhd
-# Compile Entity "control"
-# Entity `control' has been skipped - no difference detected.
-# Compile Architecture "beh" of Entity "control"
-# Compile failure 3 Errors 0 Warnings  Analysis time :  1.0 [s]
-acom $DSN/src/componentspackage.vhd $DSN/src/add_alu/add-alu.vhd $DSN/src/add_alu/add-alu_tb.vhd $DSN/src/alu/alu.vhd $DSN/src/alu/alu_tb.vhd $DSN/src/and/and.vhd $DSN/src/and/and_tb.vhd "$DSN/src/data memory/data memory.vhd" "$DSN/src/data memory/data_memory_tb.vhd" "$DSN/src/instruction memory/instruction memory.vhd" "$DSN/src/instruction memory/tb_instructionmemory.vhd" $DSN/src/mux/mux.vhd $DSN/src/mux/mux_tp.vhd $DSN/src/pc/pc.vhd $DSN/src/pc/pc_tb.vhd $DSN/src/registers/registers.vhd $DSN/src/registers/registers_tb.vhd "$DSN/src/shift left 2/shift left 2.vhd" "$DSN/src/shift left 2/shift_left_2_tb.vhd" $DSN/src/signed-extend/signed-extend.vhd $DSN/src/signed-extend/sign_extend_tb.vhd "$DSN/src/control unit/controlunit_tb.vhd" "$DSN/src/control unit/alu control.vhd" "$DSN/src/control unit/control unit.vhd" "$DSN/src/control unit/control.vhd"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom $DSN/src/PC/pc_block.bde
 # Compile...
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\componentsPackage.vhd
-# Compile Package "component_package"
-# Package `component_package' has been skipped - no difference detected.
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Add_ALU\Add-ALU.vhd
-# Compile Entity "ADD_ALU"
-# Entity `ADD_ALU' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "ADD_ALU"
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Add_ALU\Add-ALU_tb.vhd
-# Compile Entity "ADD_ALU_tb"
-# Entity `ADD_ALU_tb' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "ADD_ALU_tb"
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\ALU\ALU.vhd
-# Compile Entity "ALU"
-# Entity `ALU' has been skipped - no difference detected.
-# Compile Architecture "behav" of Entity "ALU"
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\ALU\ALU_tb.vhd
-# Compile Entity "ALU_tb"
-# Entity `ALU_tb' has been skipped - no difference detected.
-# Compile Architecture "behavior" of Entity "ALU_tb"
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\AND\AND.vhd
-# Compile Entity "AND_GATE"
-# Entity `AND_GATE' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "AND_GATE"
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\AND\AND_tb.vhd
-# Compile Entity "AND_GATE_tb"
-# Entity `AND_GATE_tb' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "AND_GATE_tb"
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Data memory\Data memory.vhd
-# Compile Entity "data_Memory"
-# Entity `data_Memory' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "data_Memory"
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Data memory\data_memory_tb.vhd
-# Compile Entity "data_memory_tb"
-# Entity `data_memory_tb' has been skipped - no difference detected.
-# Compile Architecture "TB_ARCHITECTURE" of Entity "data_memory_tb"
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Instruction memory\Instruction memory.vhd
-# Compile Entity "InstructionMemory"
-# Entity `InstructionMemory' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "InstructionMemory"
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Instruction memory\tb_instructionMemory.vhd
-# Compile Entity "tb_instructionMemory"
-# Entity `tb_instructionMemory' has been skipped - no difference detected.
-# Compile Architecture "behavior" of Entity "tb_instructionMemory"
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\MUX\MUX.vhd
-# Compile Entity "MUX"
-# Entity `MUX' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "MUX"
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\MUX\MUX_tp.vhd
-# Compile Entity "MUX_tb"
-# Entity `MUX_tb' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "MUX_tb"
+# File: .\pc_block.vhd
+# Compile Entity "pc"
+# Compile Architecture "pc" of Entity "pc"
+# Warning: ELAB1_0026: pc_block.bde(pc_block.vhd) : (51, 0): There is no default binding for component "pc".(Port "clk" is not on the entity).
+# Compile success 0 Errors 1 Warnings  Analysis time :  0.2 [s]
+acom $DSN/src/PC/PC.vhd
+# Compile...
 # File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\PC\PC.vhd
 # Compile Entity "PC"
-# Entity `PC' has been skipped - no difference detected.
 # Compile Architecture "Behavioral" of Entity "PC"
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\PC\PC_tb.vhd
-# Compile Entity "PC_tb"
-# Entity `PC_tb' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "PC_tb"
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Registers\Registers.vhd
-# Compile Entity "Register_File"
-# Entity `Register_File' has been skipped - no difference detected.
-# Compile Architecture "Behavioural" of Entity "Register_File"
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Registers\Registers_tb.vhd
-# Compile Entity "register_file_tb"
-# Entity `register_file_tb' has been skipped - no difference detected.
-# Compile Architecture "TB_ARCHITECTURE" of Entity "register_file_tb"
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Shift left 2\Shift left 2.vhd
-# Compile Entity "Shift_Left_2"
-# Entity `Shift_Left_2' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "Shift_Left_2"
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Shift left 2\Shift_Left_2_tb.vhd
-# Compile Entity "Shift_Left_2_tb"
-# Entity `Shift_Left_2_tb' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "Shift_Left_2_tb"
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Signed-extend\Signed-extend.vhd
-# Compile Entity "Sign_Extend"
-# Entity `Sign_Extend' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "Sign_Extend"
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Signed-extend\Sign_Extend_tb.vhd
-# Compile Entity "Sign_Extend_tb"
-# Entity `Sign_Extend_tb' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "Sign_Extend_tb"
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Control unit\ControlUnit_tb.vhd
-# Compile Entity "CU_tb"
-# Entity `CU_tb' has been skipped - no difference detected.
-# Compile Architecture "beh" of Entity "CU_tb"
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Control unit\ALU Control.vhd
-# Compile Entity "aluControl"
-# Entity `aluControl' has been skipped - no difference detected.
-# Compile Architecture "beh" of Entity "aluControl"
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Control unit\Control Unit.vhd
-# Compile Entity "controlUnit"
-# Entity `controlUnit' has been skipped - no difference detected.
-# Compile Architecture "beh" of Entity "controlUnit"
-# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Control unit\Control.vhd
-# Compile Entity "control"
-# Entity `control' has been skipped - no difference detected.
-# Compile Architecture "beh" of Entity "control"
-# Compile success 0 Errors 0 Warnings  Analysis time :  1.0 [s]
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom $DSN/src/pc_block.bde
+# Compile...
+# DRC: Checking file 'E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\pc_block.bde'.
+# DRC: Warning: pc_block.bde - 0 error(s), 4 warning(s)
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\compile\pc_block.vhd from E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\pc_block.bde ...
+# Generation successful
+# File: .\pc_block.vhd
+# Compile Entity "pc_block"
+# Compile Architecture "pc_block" of Entity "pc_block"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+acom $DSN/src/CU_block.bde
+# Compile...
+# DRC: Checking file 'E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\CU_block.bde'.
+# DRC: Warning: CU_block.bde - 0 error(s), 11 warning(s)
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\compile\CU_block.vhd from E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\CU_block.bde ...
+# Generation successful
+# File: .\CU_block.vhd
+# Compile Entity "CU_block"
+# Compile Architecture "CU_block" of Entity "CU_block"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]

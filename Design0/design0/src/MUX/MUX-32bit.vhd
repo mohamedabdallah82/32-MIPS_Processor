@@ -14,17 +14,17 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
-entity MUX is  
-	generic	(n : integer :=32);
+entity MUX_32bit is  
+	-- generic	(n : integer :=32);
     Port (
-        input_0 : in std_logic_vector( n-1 downto 0 );
-        input_1 : in std_logic_vector( n-1 downto 0 );
+        input_0 : in std_logic_vector( 31 downto 0 );
+        input_1 : in std_logic_vector( 31 downto 0 );
         sel : in std_logic;    
-        output : out std_logic_vector( n-1 downto 0 )
+        output : out std_logic_vector( 31 downto 0 )
     );
-end MUX;
+end MUX_32bit;
 
-architecture Behavioral of MUX is
+architecture Behavioral of MUX_32bit is
 begin
     process(input_0, input_1, sel)
     begin

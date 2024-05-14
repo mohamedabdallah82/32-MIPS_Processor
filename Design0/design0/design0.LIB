@@ -1,11 +1,26 @@
-timestamp=1715550989217
+timestamp=1715690081429
+
+[\mux-32bit\]
+A/\mux-32bit\=24|.\src\mux-32bit_block.bde|10000|1*846021
+B/\mux-32bit\=3*522514
+H/\mux-32bit\=0*751113
+R=./compile/mux-32bit_block.vhd|25
+V=0*757148
+
+[\signed-extend_block\]
+A/\signed-extend_block\=24|.\src\signed-extend_block.bde|10000|1*835059
+B/\signed-extend_block\=3*521530
+H/\signed-extend_block\=0*735556
+R=./compile/signed-extend_block.vhd|25
+V=0*738769
 
 [add_alu]
-A/behavioral=A/Behavioral 21|./src/Add_ALU/Add-ALU.vhd|26|1*731461
-B/behavioral=3*465692
-H/behavioral=0*630390
-R=./src/Add_ALU/Add-ALU.vhd|5
-V=0*1566
+A/behavioral=A/Behavioral 21|./src/Add_ALU/Add-ALU.vhd|26|1*806742
+B/behavioral=3*517161
+H/behavioral=0*696578
+R=./src/Add_ALU/Add-ALU.vhd|18
+S/add_alu=40|0|2*0
+V=0*697611
 
 [add_alu_tb]
 A/behavioral=A/Behavioral 21|./src/Add_ALU/Add-ALU_tb.vhd|9|1*733128
@@ -14,12 +29,27 @@ H/behavioral=0*630777
 R=./src/Add_ALU/Add-ALU_tb.vhd|6
 V=0*102995
 
+[addalu_block]
+A/addalu_block=A/addAlu_block 24|.\src\addAlu_block.bde|10000|1*820640
+B/addalu_block=3*519869
+H/addalu_block=0*715640
+R=./compile/addAlu_block.vhd|25
+V=0*721110
+
 [alu]
 A/behav=21|./src/ALU/ALU.vhd|16|1*735538
 B/behav=3*469032
 H/behav=0*633470
 R=./src/ALU/ALU.vhd|5
+S/alu=S/ALU 40|0|2*1404
 V=0*5917
+
+[alu_block]
+A/alu_block=24|.\src\alu_block.bde|10000|1*825112
+B/alu_block=3*520192
+H/alu_block=0*721429
+R=./compile/alu_block.vhd|25
+V=0*727730
 
 [alu_tb]
 A/behavior=21|./src/ALU/ALU_tb.vhd|8|1*738124
@@ -33,13 +63,22 @@ A/beh=21|./src/Control unit/ALU Control.vhd|29|1*794640
 B/beh=3*509802
 H/beh=0*685407
 R=./src/Control unit/ALU Control.vhd|22
+S/alucontrol=S/aluControl 40|0|2*21019
 V=0*179382
+
+[and_block]
+A/and_block=24|.\src\and_block.bde|10000|1*813701
+B/and_block=3*519222
+H/and_block=0*706997
+R=./compile/and_block.vhd|25
+V=0*708555
 
 [and_gate]
 A/behavioral=A/Behavioral 21|./src/AND/AND.vhd|24|1*742518
 B/behavioral=3*476673
 H/behavioral=0*641449
 R=./src/AND/AND.vhd|4
+S/and_gate=S/AND_GATE 40|0|2*3473
 V=0*16251
 
 [and_gate_tb]
@@ -59,13 +98,22 @@ A/beh=21|./src/Control unit/Control.vhd|33|1*801292
 B/beh=3*512409
 H/beh=0*691560
 R=./src/Control unit/Control.vhd|26
+S/control=40|0|2*17325
 V=0*193192
 
 [controlunit]
 A/beh=21|./src/Control unit/Control Unit.vhd|27|1*796456
 H/beh=0*686144
 R=./src/Control unit/Control Unit.vhd|18
+S/controlunit=S/controlUnit 40|0|2*22432
 V=0*188019
+
+[cu_block]
+A/cu_block=A/CU_block 24|.\src\CU_block.bde|10000|1*861728
+B/cu_block=3*524273
+H/cu_block=0*776224
+R=./compile/CU_block.vhd|25
+V=0*782768
 
 [cu_tb]
 A/beh=21|./src/Control unit/ControlUnit_tb.vhd|18|1*789274
@@ -79,6 +127,7 @@ A/behavioral=A/Behavioral 21|./src/Data memory/Data memory.vhd|32|1*744743
 B/behavioral=3*478732
 H/behavioral=0*642868
 R=./src/Data memory/Data memory.vhd|23
+S/data_memory=40|0|2*4821
 V=0*82208
 
 [data_memory_tb]
@@ -88,19 +137,42 @@ H/tb_architecture=0*645394
 R=./src/Data memory/data_memory_tb.vhd|18
 V=0*150536
 
+[datamemory_block]
+A/datamemory_block=A/dataMemory_block 24|.\src\dataMemory_block.bde|10000|1*815213
+B/datamemory_block=3*519542
+H/datamemory_block=0*708911
+R=./compile/dataMemory_block.vhd|25
+V=0*715295
+
 [instructionmemory]
 A/behavioral=A/Behavioral 21|./src/Instruction memory/Instruction memory.vhd|23|1*753738
 B/behavioral=3*485589
 H/behavioral=0*651003
 R=./src/Instruction memory/Instruction memory.vhd|14
+S/instructionmemory=40|0|2*7216
 V=0*87828
 
+[instructionmemory_block]
+A/instructionmemory_block=A/instructionMemory_block 24|.\src\instructionMemory_block.bde|10000|1*810240
+B/instructionmemory_block=3*518888
+H/instructionmemory_block=0*702390
+R=./compile/instructionMemory_block.vhd|25
+V=0*706656
+
 [mux]
-A/behavioral=A/Behavioral 21|./src/MUX/MUX.vhd|27|1*761298
-B/behavioral=3*488803
-H/behavioral=0*655459
-R=./src/MUX/MUX.vhd|4
-V=0*47306
+A/behavioral=A/Behavioral 21|./src/MUX/MUX-32bit.vhd|27|1*805130
+B/behavioral=3*516456
+H/behavioral=0*693405
+R=./src/MUX/MUX-32bit.vhd|17
+V=0*694582
+
+[mux_32bit]
+A/behavioral=A/Behavioral 21|./src/MUX/MUX-32bit.vhd|27|1*830163
+B/behavioral=3*520512
+H/behavioral=0*728214
+R=./src/MUX/MUX-32bit.vhd|17
+S/mux_32bit=S/MUX_32bit 40|0|2*8622
+V=0*729439
 
 [mux_tb]
 A/behavioral=A/Behavioral 21|./src/MUX/MUX_tp.vhd|7|1*763072
@@ -110,11 +182,19 @@ R=./src/MUX/MUX_tp.vhd|4
 V=0*121202
 
 [pc]
-A/behavioral=A/Behavioral 21|./src/PC/PC.vhd|25|1*764950
-B/behavioral=3*491691
-H/behavioral=0*658039
-R=./src/PC/PC.vhd|26
-V=0*67794
+A/behavioral=A/Behavioral 21|./src/PC/PC.vhd|25|1*856272
+B/behavioral=3*522836
+H/behavioral=0*768751
+R=./src/PC/PC.vhd|17
+S/pc=40|0|2*10359
+V=0*770482
+
+[pc_block]
+A/pc_block=24|.\src\pc_block.bde|10000|1*858268
+B/pc_block=3*523954
+H/pc_block=0*771936
+R=./compile/pc_block.vhd|25
+V=0*775919
 
 [pc_tb]
 A/behavioral=A/Behavioral 21|./src/PC/PC_tb.vhd|9|1*766660
@@ -123,11 +203,19 @@ H/behavioral=0*658444
 R=./src/PC/PC_tb.vhd|6
 V=0*124961
 
+[regfiles_block]
+A/regfiles_block=A/regFiles_block 24|.\src\regFiles_block.bde|10000|1*837520
+B/regfiles_block=3*521862
+H/regfiles_block=0*739135
+R=./compile/regFiles_block.vhd|25
+V=0*746387
+
 [register_file]
 A/behavioural=A/Behavioural 21|./src/Registers/Registers.vhd|27|1*768776
 B/behavioural=3*495767
 H/behavioural=0*661176
 R=./src/Registers/Registers.vhd|14
+S/register_file=40|0|2*12060
 V=0*95183
 
 [register_file_tb]
@@ -142,6 +230,7 @@ A/behavioral=A/Behavioral 21|./src/Shift left 2/Shift left 2.vhd|25|1*781842
 B/behavioral=3*501013
 H/behavioral=0*667806
 R=./src/Shift left 2/Shift left 2.vhd|4
+S/shift_left_2=S/Shift_Left_2 40|0|2*15159
 V=0*62575
 
 [shift_left_2_tb]
@@ -151,11 +240,19 @@ H/behavioral=0*668241
 R=./src/Shift left 2/Shift_Left_2_tb.vhd|4
 V=0*172947
 
+[shiftleft2_block]
+A/shiftleft2_block=A/shiftLeft2_block 24|.\src\shiftLeft2_block.bde|10000|1*842703
+B/shiftleft2_block=3*522187
+H/shiftleft2_block=0*746753
+R=./compile/shiftLeft2_block.vhd|25
+V=0*750766
+
 [sign_extend]
 A/behavioral=A/Behavioral 21|./src/Signed-extend/Signed-extend.vhd|26|1*785636
 B/behavioral=3*503288
 H/behavioral=0*671260
 R=./src/Signed-extend/Signed-extend.vhd|4
+S/sign_extend=S/Sign_Extend 40|0|2*16248
 V=0*65090
 
 [sign_extend_tb]
@@ -173,6 +270,30 @@ R=./src/Instruction memory/tb_instructionMemory.vhd|13
 V=0*155766
 
 [~A]
+./compile/CU_block.vhd~CU_block=0*776003*776153
+./compile/CU_block.vhd~CU_blockCU_block=0*781022*782450
+./compile/addAlu_block.vhd~addAlu_block=0*715395*715561
+./compile/addAlu_block.vhd~addAlu_blockaddAlu_block=0*717787*720760
+./compile/alu_block.vhd~alu_block=0*721202*721356
+./compile/alu_block.vhd~alu_blockalu_block=0*724237*727404
+./compile/and_block.vhd~and_block=0*706770*706924
+./compile/and_block.vhd~and_blockand_block=0*707741*708229
+./compile/dataMemory_block.vhd~dataMemory_block=0*708641*708824
+./compile/dataMemory_block.vhd~dataMemory_blockdataMemory_block=0*711404*714913
+./compile/instructionMemory_block.vhd~instructionMemory_block=0*702078*702289
+./compile/instructionMemory_block.vhd~instructionMemory_blockinstructionMemory_block=0*704122*706218
+./compile/mux-32bit_block.vhd~\mux-32bit\=0*750866*751032
+./compile/mux-32bit_block.vhd~\mux-32bit\\mux-32bit\=0*753374*756802
+./compile/pc_block.vhd~pc=0*764216*764348
+./compile/pc_block.vhd~pc_block=0*771715*771865
+./compile/pc_block.vhd~pc_blockpc_block=0*773701*775601
+./compile/pc_block.vhd~pcpc=0*766166*768036
+./compile/regFiles_block.vhd~regFiles_block=0*738877*739052
+./compile/regFiles_block.vhd~regFiles_blockregFiles_block=0*743229*746021
+./compile/shiftLeft2_block.vhd~shiftLeft2_block=0*746483*746666
+./compile/shiftLeft2_block.vhd~shiftLeft2_blockshiftLeft2_block=0*748363*750384
+./compile/signed-extend_block.vhd~\signed-extend_block\=0*735260*735461
+./compile/signed-extend_block.vhd~\signed-extend_block\\signed-extend_block\=0*737161*738349
 ./src/ALU/ALU.vhd~ALU=0*3197*3565
 ./src/ALU/ALU.vhd~behavALU=0*634119*634773
 ./src/ALU/ALU_tb.vhd~ALU_tb=0*8043*8214
@@ -181,8 +302,8 @@ V=0*155766
 ./src/AND/AND.vhd~BehavioralAND_GATE=0*641544*641711
 ./src/AND/AND_tb.vhd~AND_GATE_tb=0*111404*111561
 ./src/AND/AND_tb.vhd~BehavioralAND_GATE_tb=0*642244*642786
-./src/Add_ALU/Add-ALU.vhd~ADD_ALU=0*0*319
-./src/Add_ALU/Add-ALU.vhd~BehavioralADD_ALU=0*630485*630694
+./src/Add_ALU/Add-ALU.vhd~ADD_ALU=0*696223*696505
+./src/Add_ALU/Add-ALU.vhd~BehavioralADD_ALU=0*696673*696882
 ./src/Add_ALU/Add-ALU_tb.vhd~ADD_ALU_tb=0*99709*99932
 ./src/Add_ALU/Add-ALU_tb.vhd~BehavioralADD_ALU_tb=0*632462*633381
 ./src/Control unit/ALU Control.vhd~aluControl=0*177514*177823
@@ -201,12 +322,16 @@ V=0*155766
 ./src/Instruction memory/Instruction memory.vhd~InstructionMemory=0*84050*84411
 ./src/Instruction memory/tb_instructionMemory.vhd~behaviortb_instructionMemory=0*654602*655341
 ./src/Instruction memory/tb_instructionMemory.vhd~tb_instructionMemory=0*153245*153487
+./src/MUX/MUX-32bit.vhd~BehavioralMUX=0*693500*693737
+./src/MUX/MUX-32bit.vhd~BehavioralMUX_32bit=0*728309*728558
+./src/MUX/MUX-32bit.vhd~MUX=0*693031*693338
+./src/MUX/MUX-32bit.vhd~MUX_32bit=0*727816*728141
 ./src/MUX/MUX.vhd~BehavioralMUX=0*655554*655785
 ./src/MUX/MUX.vhd~MUX=0*45587*45930
 ./src/MUX/MUX_tp.vhd~BehavioralMUX_tb=0*657197*657962
 ./src/MUX/MUX_tp.vhd~MUX_tb=0*118581*118723
-./src/PC/PC.vhd~BehavioralPC=0*658134*658376
-./src/PC/PC.vhd~PC=0*66174*66514
+./src/PC/PC.vhd~BehavioralPC=0*769429*769748
+./src/PC/PC.vhd~PC=0*768390*768693
 ./src/PC/PC_tb.vhd~BehavioralPC_tb=0*660215*661102
 ./src/PC/PC_tb.vhd~PC_tb=0*121687*121892
 ./src/Registers/Registers.vhd~BehaviouralRegister_File=0*663322*664462
@@ -222,38 +347,51 @@ V=0*155766
 ./src/Signed-extend/Signed-extend.vhd~BehavioralSign_Extend=0*671355*671641
 ./src/Signed-extend/Signed-extend.vhd~Sign_Extend=0*63658*63931
 ./src/componentsPackage.vhd~component_package=0*541826*544228
-ModifyID=1475
+ModifyID=1729
 Version=73
 
 [~MFT]
-0=1663|0design0.mgf|692950|558776
-1=426|1design0.mgf|801292|497538
-3=482|3design0.mgf|512409|465692
+0=1869|0design0.mgf|782768|585087
+1=449|1design0.mgf|861728|501507
+2=12|2design0.mgf|22432|0
+3=510|3design0.mgf|524273|470721
 
 [~U]
-add_alu=ADD_ALU 11|0*779|0*1009
+\mux-32bit\=11|0*756894|0*756968
+\signed-extend_block\=11|0*738465|0*738569
+add_alu=11|0*696965|0*697158|0x3
 add_alu_tb=ADD_ALU_tb 11|0*102704|0*102775
-alu=ALU 11|0*4995|0*5236
+addalu_block=addAlu_block 11|0*720851|0*720928
+alu=ALU 11|0*4995|0*5236|0x3
+alu_block=11|0*727486|0*727554
 alu_tb=ALU_tb 11|0*14891|0*14950
-alucontrol=aluControl 11|0*178645|0*178851
-and_gate=AND_GATE 11|0*15838|0*16007
+alucontrol=aluControl 11|0*178645|0*178851|0x3
+and_block=11|0*708311|0*708379
+and_gate=AND_GATE 11|0*15838|0*16007|0x3
 and_gate_tb=AND_GATE_tb 11|0*112714|0*112788
 component_package=3||0*544313
-control=11|0*192217|0*192578
-controlunit=controlUnit 11|0*186863|0*187270
+control=11|0*192217|0*192578|0x3
+controlunit=controlUnit 11|0*186863|0*187270|0x3
+cu_block=CU_block 11|0*782529|0*782594
 cu_tb=CU_tb 11|0*407142|0*407198
-data_memory=11|0*81263|0*81556
+data_memory=11|0*81263|0*81556|0x3
 data_memory_tb=11|0*150248|0*150331
-instructionmemory=11|0*87121|0*87346
-mux=MUX 11|0*46388|0*46638
+datamemory_block=dataMemory_block 11|0*715016|0*715105
+instructionmemory=11|0*87121|0*87346|0x3
+instructionmemory_block=instructionMemory_block 11|0*706342|0*706452
+mux=11|0*693814|0*694027
+mux_32bit=MUX_32bit 11|0*728641|0*728872|0x3
 mux_tb=MUX_tb 11|0*120973|0*121032
-pc=11|0*66977|0*67206
+pc=11|0*769816|0*770009|0x3
+pc_block=11|0*775680|0*775745
 pc_tb=PC_tb 11|0*124688|0*124744
-register_file=11|0*93817|0*94188
+regfiles_block=regFiles_block 11|0*746118|0*746201
+register_file=11|0*93817|0*94188|0x3
 register_file_tb=11|0*168538|0*168627
-shift_left_2=Shift_Left_2 11|0*61956|0*62148
+shift_left_2=Shift_Left_2 11|0*61956|0*62148|0x3
 shift_left_2_tb=Shift_Left_2_tb 11|0*172673|0*172759
-sign_extend=Sign_Extend 11|0*64500|0*64678
+shiftleft2_block=shiftLeft2_block 11|0*750487|0*750576
+sign_extend=Sign_Extend 11|0*64500|0*64678|0x3
 sign_extend_tb=Sign_Extend_tb 11|0*177139|0*177222
 tb_instructionmemory=tb_instructionMemory 11|0*155448|0*155549
 

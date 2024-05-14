@@ -22,3 +22,15 @@ i<>.\src\ALU\ALU.vhd
 i<>.\src\Add_ALU\Add-ALU.vhd
 i<>.\src\ControlUnit_tb.vhd
 i<>.\src\componentsPackage.vhd
+i<>.\src\addAlu_block.bde
+i<>.\src\alu_block.bde
+i<>.\src\and_block.bde
+i<>.\src\dataMemory_block.bde
+i<>.\src\instructionMemory_block.bde
+i<>.\src\mux-32bit.bde
+i<>.\src\pc.bde
+i<>.\src\regFiles_block.bde
+i<>.\src\shiftLeft2_block.bde
+i<>.\src\signed-extend_block.bde
+i<>.\src\pc_block.bde
+i<>.\src\CU_block.bde

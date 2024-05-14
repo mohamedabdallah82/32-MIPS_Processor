@@ -1,7 +1,0 @@
-acom $DSN/src/MUX/MUX-5bit.vhd
-# Compile...
-# File: D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\MUX\MUX-5bit.vhd
-# Compile Entity "MUX_5bit"
-# Entity `MUX_5bit' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "MUX_5bit"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]

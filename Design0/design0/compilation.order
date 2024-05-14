@@ -1,4 +1,5 @@
 .\src\componentsPackage.vhd
+.\src\MIPS.bde
 .\src\Add_ALU\addAlu_block.bde
 .\src\Add_ALU\Add-ALU.vhd
 .\src\Add_ALU\Add-ALU_tb.vhd

@@ -1,15 +1,17 @@
 ---------------------------------------------------------------------------------------------------
---
+---------------------------------------------------------------------------------------------------
 -- Title       : datamemory
 -- Design      : Design0
 -- Author      : Nancy Ayman
 -- File        : datamemory.vhd
--- 	
+ 
+ 	
 ---------------------------------------------------------------------------------------------------
 --
 -- Description :  DataMemory VHDL code of MISP Processor
 --
 ---------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
 
  
 
@@ -30,7 +32,7 @@ ENTITY data_Memory IS
 END data_Memory;
 
 ARCHITECTURE Behavioral OF data_Memory IS
-    TYPE data_mem IS ARRAY(0 TO 15) OF std_logic_vector(31 DOWNTO 0);
+    TYPE data_mem IS ARRAY(0 TO 31) OF std_logic_vector(31 DOWNTO 0);
     SIGNAL dm : data_mem := (
         x"00000000",  
         x"00000000",
@@ -47,10 +49,27 @@ ARCHITECTURE Behavioral OF data_Memory IS
         x"00000000",
         x"00000000",
         x"00000000",
-        x"00000000"
+        x"00000000",
+		x"00000000",
+		x"00000000",
+		x"00000000",
+		x"00000000",
+		x"00000000",
+		x"00000000",
+		x"00000000",
+		x"00000000",
+		x"00000000",
+		x"00000000",
+		x"00000000",
+		x"00000000",
+		x"00000000",
+		x"00000000",
+		x"00000000",
+		x"00000000"
+		
     );
 BEGIN
-    PROCESS (clk)
+    PROCESS (clk,memory_Read,memory_Write)
     BEGIN
         IF rising_edge(clk) THEN  -- Process only on rising edge of the clock
             IF (memory_Write = '1') THEN
@@ -62,4 +81,3 @@ BEGIN
         END IF;
     END PROCESS; 
 END Behavioral;
-

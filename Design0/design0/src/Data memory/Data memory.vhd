@@ -69,7 +69,7 @@ ARCHITECTURE Behavioral OF data_Memory IS
 		
     );
 BEGIN
-    PROCESS (clk,memory_Read,memory_Write)
+    PROCESS (clk )
     BEGIN
         IF rising_edge(clk) THEN  -- Process only on rising edge of the clock
             IF (memory_Write = '1') THEN

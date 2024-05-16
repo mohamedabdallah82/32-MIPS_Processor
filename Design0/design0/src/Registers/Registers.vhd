@@ -60,7 +60,7 @@ type register_file is array (0 to 31) of 	--creating 2D array containing 32 regi
 		                                 x"0000003A",      --$gp		28=>11100
 		                                 x"00000046",      --$sp		29=>11101
 		                                 x"0000004A",      --$fp		30=>11110
-										 x"0000002C"       --$ra		31=>11111
+						 x"0000002C"       --$ra		31=>11111
 										 ); 
 	
 begin

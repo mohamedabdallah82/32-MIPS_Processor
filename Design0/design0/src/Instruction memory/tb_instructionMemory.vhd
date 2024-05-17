@@ -23,8 +23,8 @@ BEGIN
     -- Clock process
        clk_process : PROCESS
        BEGIN
-       WAIT FOR 20 ns; -- Assuming a 10 ns period
-       clk <= NOT clk; -- Toggle the clock every 10 ns
+       WAIT FOR 20 ns; 
+       clk <= NOT clk; -- Toggle the clock every 20 ns
     END PROCESS;
 
     Test : ENTITY work.instructionMemory(Behavioral)

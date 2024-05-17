@@ -56,7 +56,7 @@ begin
 	   wait for CLK_period*5;
 	   --writing in a register with address "00011"
 	   WData_add<= "00011";
-	   WData <=x"aaaabbbb";
+	   WData <=x"00000018";
 	   RegWrit<='1';
 	   wait for 10ns;  
 	   RegWrit<='0';

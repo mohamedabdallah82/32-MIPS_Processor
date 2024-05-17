@@ -5,17 +5,17 @@ HEADER
  FREEID 66
  VARIABLES
  {
-  #ARCHITECTURE="and_block"
+  #ARCHITECTURE="dataMemory_block"
   #BLOCKTABLE_FILE="#table.bde"
   #BLOCKTABLE_INCLUDED="1"
-  #ENTITY="and_block"
+  #ENTITY="dataMemory_block"
   #LANGUAGE="VHDL"
   AUTHOR="Mohamed Abdallah"
   COMPANY="HP inc."
   CREATIONDATE="5/14/2024"
   TITLE="No Title"
  }
- SYMBOL "#default" "AND_GATE" "AND_GATE"
+ SYMBOL "#default" "data_memory" "data_memory"
  {
   HEADER
   {
@@ -26,15 +26,15 @@ HEADER
 "library IEEE;\n"+
 "use ieee.std_logic_1164.all;"
     #LANGUAGE="VHDL"
-    #MODIFIED="1715689426"
+    #MODIFIED="1715689444"
    }
   }
   PAGE "" 
   {
    PAGEHEADER
    {
-    RECT (0,0,200,120)
-    FREEID 8
+    RECT (0,0,280,240)
+    FREEID 14
    }
    
    BODY
@@ -45,12 +45,12 @@ HEADER
      {
       #OUTLINE_FILLING="1"
      }
-     AREA (20,0,180,120)
+     AREA (20,0,260,240)
     }
     TEXT  3, 0, 0
     {
      TEXT "$#NAME"
-     RECT (25,30,89,54)
+     RECT (25,30,115,54)
      ALIGN 4
      MARGINS (1,1)
      PARENT 2
@@ -58,7 +58,7 @@ HEADER
     TEXT  5, 0, 0
     {
      TEXT "$#NAME"
-     RECT (121,30,175,54)
+     RECT (127,30,255,54)
      ALIGN 6
      MARGINS (1,1)
      PARENT 4
@@ -66,10 +66,34 @@ HEADER
     TEXT  7, 0, 0
     {
      TEXT "$#NAME"
-     RECT (25,70,89,94)
+     RECT (25,70,50,94)
      ALIGN 4
      MARGINS (1,1)
      PARENT 6
+    }
+    TEXT  9, 0, 0
+    {
+     TEXT "$#NAME"
+     RECT (25,110,153,134)
+     ALIGN 4
+     MARGINS (1,1)
+     PARENT 8
+    }
+    TEXT  11, 0, 0
+    {
+     TEXT "$#NAME"
+     RECT (25,150,152,174)
+     ALIGN 4
+     MARGINS (1,1)
+     PARENT 10
+    }
+    TEXT  13, 0, 0
+    {
+     TEXT "$#NAME"
+     RECT (25,190,146,214)
+     ALIGN 4
+     MARGINS (1,1)
+     PARENT 12
     }
     PIN  2, 0, 0
     {
@@ -77,8 +101,9 @@ HEADER
      VARIABLES
      {
       #DIRECTION="IN"
+      #DOWNTO="1"
       #LENGTH="20"
-      #NAME="input_0"
+      #NAME="addr(31:0)"
       #NUMBER="0"
      }
      LINE  2, 0, 0
@@ -88,12 +113,13 @@ HEADER
     }
     PIN  4, 0, 0
     {
-     COORD (200,40)
+     COORD (280,40)
      VARIABLES
      {
       #DIRECTION="OUT"
+      #DOWNTO="1"
       #LENGTH="20"
-      #NAME="output"
+      #NAME="Data_out(31:0)"
       #NUMBER="0"
      }
      LINE  2, 0, 0
@@ -108,7 +134,53 @@ HEADER
      {
       #DIRECTION="IN"
       #LENGTH="20"
-      #NAME="input_1"
+      #NAME="clk"
+      #NUMBER="0"
+     }
+     LINE  2, 0, 0
+     {
+      POINTS ( (0,0), (20,0) )
+     }
+    }
+    PIN  8, 0, 0
+    {
+     COORD (0,120)
+     VARIABLES
+     {
+      #DIRECTION="IN"
+      #LENGTH="20"
+      #NAME="memory_Read"
+      #NUMBER="0"
+     }
+     LINE  2, 0, 0
+     {
+      POINTS ( (0,0), (20,0) )
+     }
+    }
+    PIN  10, 0, 0
+    {
+     COORD (0,160)
+     VARIABLES
+     {
+      #DIRECTION="IN"
+      #LENGTH="20"
+      #NAME="memory_Write"
+      #NUMBER="0"
+     }
+     LINE  2, 0, 0
+     {
+      POINTS ( (0,0), (20,0) )
+     }
+    }
+    PIN  12, 0, 0
+    {
+     COORD (0,200)
+     VARIABLES
+     {
+      #DIRECTION="IN"
+      #DOWNTO="1"
+      #LENGTH="20"
+      #NAME="wr_Data(31:0)"
       #NUMBER="0"
      }
      LINE  2, 0, 0
@@ -136,17 +208,17 @@ PAGE ""
   {
    VARIABLES
    {
-    #COMPONENT="AND_GATE"
+    #COMPONENT="data_memory"
     #LIBRARY="#default"
     #REFERENCE="U1"
-    #SYMBOL="AND_GATE"
+    #SYMBOL="data_memory"
    }
-   COORD (900,540)
+   COORD (1020,520)
   }
   TEXT  30, 0, 0
   {
    TEXT "$#REFERENCE"
-   RECT (900,504,939,539)
+   RECT (1020,484,1059,519)
    ALIGN 8
    MARGINS (1,1)
    PARENT 29
@@ -154,7 +226,7 @@ PAGE ""
   TEXT  34, 0, 0
   {
    TEXT "$#COMPONENT"
-   RECT (900,660,1059,695)
+   RECT (1020,760,1199,795)
    MARGINS (1,1)
    PARENT 29
   }

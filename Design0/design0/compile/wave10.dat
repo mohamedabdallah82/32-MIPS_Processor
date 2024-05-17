@@ -1,0 +1,54 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "e#9#std_logicc9 UX01ZWLH-"
+$S 1 1 NET109
+$S 5 1 NET153
+$S 9 1 NET165
+$S +4 1 5 0 "8"
+$S +4 1 NET180
+$S +4 1 NET216
+$S +4 1 NET221
+$S +4 1 5 0 "3"
+$S +4 1 NET259
+I 2 "a#28#std_logic_vector(4 downto 0)1 ricd4 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S 57 2 5 BUS107
+$SC 37-53/4
+I 3 "a#29#std_logic_vector(31 downto 0)1 ricd31 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S 186 3 32 BUS129
+$SC 58-182/4
+$BUS S 315 3 32 BUS133
+$SC 187-311/4
+I 4 "a#28#std_logic_vector(1 downto 0)1 ricd1 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S +13 4 2 BUS149
+$SC +-8 +4
+$BUS S 453 3 32 BUS198
+$SC 325-449/4
+$BUS S 582 3 32 BUS200
+$SC 454-578/4
+$BUS S 711 3 32 BUS214
+$SC 583-707/4
+$BUS S 840 3 32 BUS227
+$SC 712-836/4
+$BUS S 969 3 32 BUS232
+$SC 841-965/4
+$BUS S +133 3 32 5 0 "8"
+$SC 970-+124/4
+I 5 "a#28#std_logic_vector(2 downto 0)1 ricd2 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S +17 5 3 BUS243
+$SC +-12-+8/4
+$BUS S +133 3 32 BUS254
+$SC 1112-+124/4
+$BUS S +133 3 32 BUS280
+$SC 1241-+124/4
+$BUS S +133 3 32 BUS675
+$SC 1370-+124/4
+$BUS S +133 3 32 BUS704
+$SC 1499-+124/4
+$BUS S +133 3 32 instruction
+$SC 1628-+124/4
+$IN +5 1 clk
+$IN +4 1 rst
+$BUS IN +132 3 32 Number4
+$SC 1765-+124/4
+$OUT +5 1 j
+$ENDWAVE

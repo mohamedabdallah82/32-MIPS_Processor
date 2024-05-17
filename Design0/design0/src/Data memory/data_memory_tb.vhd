@@ -24,8 +24,8 @@ architecture TB_ARCHITECTURE of data_memory_tb is
             clk         : in  std_logic;                -- Clock input
             addr        : in  std_logic_vector(31 downto 0);
             wr_Data     : in  std_logic_vector(31 downto 0);
-            memory_Read : in  std_logic;
-            memory_Write: in  std_logic; 
+            memRead : in  std_logic;
+            memWrite: in  std_logic; 
             Data_out    : out std_logic_vector(31 downto 0)
         );
     end component;
@@ -34,8 +34,8 @@ architecture TB_ARCHITECTURE of data_memory_tb is
     signal clk           : std_logic := '0';
     signal addr          : std_logic_vector(31 downto 0) := (others => '0');
     signal wr_Data       : std_logic_vector(31 downto 0) := (others => '0');
-    signal memory_Read   : std_logic := '0';
-    signal memory_Write  : std_logic := '0';
+    signal memRead   : std_logic := '0';
+    signal memWrite  : std_logic := '0';
 
     --  outputs
     signal Data_out  : std_logic_vector(31 downto 0);
@@ -53,8 +53,8 @@ architecture TB_ARCHITECTURE of data_memory_tb is
         clk          => clk, 
         addr         => addr,
         wr_Data      => wr_Data,
-        memory_Read  => memory_Read,
-        memory_Write => memory_Write,
+        memRead  => memRead,
+        memWrite => memWrite,
         Data_out     => Data_out
     ); 
 	-- clock process definitions 
@@ -71,40 +71,40 @@ architecture TB_ARCHITECTURE of data_memory_tb is
         -- write two memory locations
         addr   <= x"10010000";
         wr_Data <= x"11112222";
-        memory_Write  <= '0';
+        memWrite  <= '0';
         wait for 25 ns;
-        memory_Write <= '1';
+        memWrite <= '1';
         wait for 25 ns;
-        memory_Write <= '0';
+        memWrite <= '0';
         wait for 25 ns;
 		wait for clk_period;
 
         addr   <= x"10010004";
         wr_Data <= x"33334444";
-        memory_Write  <= '0';
+        memWrite  <= '0';
         wait for 25 ns;
-        memory_Write <= '1';
+        memWrite <= '1';
         wait for 25 ns;
-        memory_Write <= '0';
+        memWrite <= '0';
         wait for 25 ns;  
 		wait for clk_period;
     
         -- read two memory locations
         addr <= x"10010000";
-        memory_Read <= '0';
+        memRead <= '0';
         wait for 25 ns;
-        memory_Read <= '1';
+        memRead <= '1';
         wait for 25 ns;
-        memory_Read <= '0';
+        memRead <= '0';
         wait for 25 ns;
 		wait for clk_period;
 
         addr <= x"10010004";
-        memory_Read <= '0';
+        memRead <= '0';
         wait for 25 ns;
-        memory_Read <= '1';
+        memRead <= '1';
         wait for 25 ns;
-        memory_Read <= '0';
+        memRead <= '0';
         wait for 25 ns;
 		wait for clk_period;
 

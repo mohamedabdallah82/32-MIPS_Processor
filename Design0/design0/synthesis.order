@@ -1,4 +1,3 @@
-i<>.\src\AND\AND_tb.vhd
 i<>.\src\Add_ALU\Add-ALU_tb.vhd
 i<>.\src\MUX\MUX_tp.vhd
 i<>.\src\PC\PC_tb.vhd
@@ -17,7 +16,6 @@ i<>.\src\Instruction memory\Instruction memory.vhd
 i<>.\src\Instruction memory\tb_instructionMemory.vhd
 i<>.\src\Data memory\Data memory.vhd
 i<>.\src\Data memory\data_memory_tb.vhd
-i<>.\src\AND\AND.vhd
 i<>.\src\ALU\ALU.vhd
 i<>.\src\Add_ALU\Add-ALU.vhd
 i<>.\src\ControlUnit_tb.vhd
@@ -36,3 +34,4 @@ i<>.\src\pc_block.bde
 i<>.\src\CU_block.bde
 i<>.\src\MUX-5bit.vhd
 i<>.\src\MIPS.bde
+i<>.\src\Processor.vhd

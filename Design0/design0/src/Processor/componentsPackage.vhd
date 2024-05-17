@@ -4,8 +4,7 @@ use ieee.std_logic_1164.all;
 PACKAGE component_package is
 	-- ADD_ALU
 	component ADD_ALU
-		generic(n:integer:=32);
-		Port (A, B : in std_logic_vector(n-1 downto 0); result : out std_logic_vector(n-1 downto 0));
+		Port (A, B : in std_logic_vector(31 downto 0); result : out std_logic_vector(31 downto 0));
 	end component ADD_ALU;
 	
 	-- ALU
@@ -22,7 +21,7 @@ PACKAGE component_package is
 	-- data_Memory
 	component data_Memory 
 		PORT (clk : IN STD_LOGIC; addr : IN STD_LOGIC_VECTOR(31 DOWNTO 0); wr_Data : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
-        memory_Read : IN STD_LOGIC; memory_Write : IN STD_LOGIC; Data_out : OUT STD_LOGIC_VECTOR(31 DOWNTO 0));
+        memRead : IN STD_LOGIC; memWrite : IN STD_LOGIC; Data_out : OUT STD_LOGIC_VECTOR(31 DOWNTO 0));
 	end component data_Memory;
 	
 	-- InstructionMemory
@@ -31,18 +30,22 @@ PACKAGE component_package is
 		instruction : OUT STD_LOGIC_VECTOR (31 DOWNTO 0));
 	end component InstructionMemory;
 	
-	-- MUX
-	component MUX 
-		generic(n:integer:=32);
-		Port (input_0 : in std_logic_vector(n-1 downto 0); input_1 : in std_logic_vector(n-1 downto 0); sel : in std_logic;
-        output : out std_logic_vector(n-1 downto 0));
-	end component MUX;
+	-- MUX-32bit
+	component MUX_32bit
+		Port (input_0 : in std_logic_vector(31 downto 0); input_1 : in std_logic_vector(31 downto 0); sel : in std_logic;
+        output : out std_logic_vector(31 downto 0));
+	end component MUX_32bit;
+	
+	-- MUX-5bit
+	component MUX_5bit
+		Port (input_0 : in std_logic_vector(4 downto 0); input_1 : in std_logic_vector(4 downto 0); sel : in std_logic;
+        output : out std_logic_vector(4 downto 0));
+	end component MUX_5bit;
 	
 	-- PC
-	component PC 
-		generic(n:integer:=32);
-		Port(input : in STD_LOGIC_VECTOR(n-1 downto 0); reset : in STD_LOGIC; clk : in STD_LOGIC;
-		pc_out : out STD_LOGIC_VECTOR(n-1 downto 0));
+	component PC
+		Port(input : in STD_LOGIC_VECTOR(31 downto 0); reset : in STD_LOGIC; clk : in STD_LOGIC;
+		pc_out : out STD_LOGIC_VECTOR(31 downto 0));
 	end component PC;
 	
 	-- Register_File
@@ -68,6 +71,18 @@ PACKAGE component_package is
 		RegDst, Jump, Branch, MemRead, MemtoReg, MemWrite, ALUSrc, RegWrite: out std_logic;
 		opSel : out std_logic_vector(2 downto 0));
 	end component controlUnit;
+	
+	-- alucontrol
+	component aluControl
+	port(ALUOp : in std_logic_vector(1 downto 0); funct : in std_logic_vector(5 downto 0); 
+	opSel : out std_logic_vector(2 downto 0));
+	end component aluControl;
+	
+	-- control
+	component control
+	port(opcode : in std_logic_vector(5 downto 0); ALUOp : out std_logic_vector(1 downto 0);
+	RegDst, Jump, Branch, MemRead, MemtoReg, MemWrite, ALUSrc, RegWrite: out std_logic);
+	end component control;
 	
 	
 end component_package;

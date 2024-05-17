@@ -14,8 +14,7 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
-entity MUX_5bit is  
-	-- generic	(n : integer :=32);
+entity MUX_5bit is
     Port (
         input_0 : in std_logic_vector( 4 downto 0 );
         input_1 : in std_logic_vector( 4 downto 0 );

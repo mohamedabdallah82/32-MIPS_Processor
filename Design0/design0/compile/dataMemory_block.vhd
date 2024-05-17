@@ -7,9 +7,9 @@
 --
 ---------------------------------------------------------------------------------------------------
 --
--- File        : D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\compile\dataMemory_block.vhd
--- Generated   : Tue May 14 23:22:28 2024
--- From        : D:\mahmoud\Study\2nd Year\2nd Term\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Data memory\dataMemory_block.bde
+-- File        : E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\compile\dataMemory_block.vhd
+-- Generated   : Fri May 17 02:47:14 2024
+-- From        : E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Data memory\dataMemory_block.bde
 -- By          : Bde2Vhdl ver. 2.6
 --
 ---------------------------------------------------------------------------------------------------
@@ -33,8 +33,8 @@ component data_memory
   port (
        addr : in STD_LOGIC_VECTOR(31 downto 0);
        clk : in STD_LOGIC;
-       memory_Read : in STD_LOGIC;
-       memory_Write : in STD_LOGIC;
+       memRead : in STD_LOGIC;
+       memWrite : in STD_LOGIC;
        wr_Data : in STD_LOGIC_VECTOR(31 downto 0);
        Data_out : out STD_LOGIC_VECTOR(31 downto 0)
   );
@@ -117,8 +117,8 @@ U1 : data_memory
        wr_Data(30) => Dangling_Input_Signal,
        wr_Data(31) => Dangling_Input_Signal,
        clk => Dangling_Input_Signal,
-       memory_Read => Dangling_Input_Signal,
-       memory_Write => Dangling_Input_Signal
+       memRead => Dangling_Input_Signal,
+       memWrite => Dangling_Input_Signal
   );
 
 

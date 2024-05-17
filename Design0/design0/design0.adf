@@ -28,114 +28,11 @@ UCF=
 
 [HierarchyViewer]
 SortInfo=u
-HierarchyInformation=
+HierarchyInformation=mips|mips|0 processor|beh|0 
 ShowHide=ShowTopLevel
 Selected=
 
-[Groups]
-Add_ALU=1
-ALU=1
-AND=1
-Data memory=1
-Instruction memory=1
-MUX=1
-PC=1
-Registers=1
-Shift left 2=1
-Signed-extend=1
-Control unit=1
-
-
-[file_out:ALU/alu_block.bde]
-ALU/\compile\alu_block.vhd=-1
-
-[file_out:AND/and_block.bde]
-AND/\compile\and_block.vhd=-1
-
-[file_out:Data memory/dataMemory_block.bde]
-Data memory/\compile\dataMemory_block.vhd=-1
-
-[file_out:Instruction memory/instructionMemory_block.bde]
-Instruction memory/\compile\instructionMemory_block.vhd=-1
-
-[file_out:MUX/mux-32bit_block.bde]
-MUX/\compile\mux-32bit_block.vhd=-1
-
-[file_out:PC/pc_block.bde]
-PC/\compile\pc_block.vhd=-1
-
-[file_out:Registers/regFiles_block.bde]
-Registers/\compile\regFiles_block.vhd=-1
-
-[file_out:Shift left 2/shiftLeft2_block.bde]
-Shift left 2/\compile\shiftLeft2_block.vhd=-1
-
-[file_out:Signed-extend/signed-extend_block.bde]
-Signed-extend/\compile\signed-extend_block.vhd=-1
-
-[file_out:Control unit/CU_block.bde]
-Control unit/\compile\CU_block.vhd=-1
-
-[Files]
-/componentsPackage.vhd=-1
-/MIPS.bde=-1
-Add_ALU/addAlu_block.bde=-1
-Add_ALU/Add-ALU.vhd=-1
-Add_ALU/Add_ALU waveform.awf=-1
-Add_ALU/Add-ALU_tb waveform.awf=-1
-Add_ALU/Add-ALU_tb.vhd=-1
-ALU/alu_block.bde=-1
-ALU/ALU.vhd=-1
-ALU/ALU_tb.vhd=-1
-ALU/ALU_tb_waveform.awf=-1
-AND/and_block.bde=-1
-AND/AND.vhd=-1
-AND/AND_GATE waveform.awf=-1
-AND/AND_GATE_tb waveform.awf=-1
-AND/AND_tb.vhd=-1
-Data memory/dataMemory_block.bde=-1
-Data memory/Data memory.vhd=-1
-Data memory/data_memory_tb.vhd=-1
-Data memory/DATA_MEMORY_WAVEFORM.awf=-1
-Instruction memory/instructionMemory_block.bde=-1
-Instruction memory/Instruction memory.vhd=-1
-Instruction memory/InstructionMemory_TB_waveform.awf=-1
-Instruction memory/tb_instructionMemory.vhd=-1
-MUX/mux-32bit_block.bde=-1
-MUX/MUX-5bit.vhd=-1
-MUX/MUX-32bit.vhd=-1
-MUX/MUX_waveform.awf=-1
-MUX/MUX-32bit_tb waveform.awf=-1
-MUX/MUX-32bit_tp.vhd=-1
-PC/pc_block.bde=-1
-PC/PC waveform.awf=-1
-PC/PC.vhd=-1
-PC/PC_tb waveform.awf=-1
-PC/PC_tb.vhd=-1
-Registers/regFiles_block.bde=-1
-Registers/Registers.vhd=-1
-Registers/Registers_tb.vhd=-1
-Registers/Registers_tb_waveform.awf=-1
-Shift left 2/shiftLeft2_block.bde=-1
-Shift left 2/Shift left 2.vhd=-1
-Shift left 2/Shift_Left_2_Waveform.awf=-1
-Shift left 2/Shift_Left_2_tb.vhd=-1
-Shift left 2/Shift_Left_2_tb_Waveform.awf=-1
-Signed-extend/signed-extend_block.bde=-1
-Signed-extend/Signed-extend.vhd=-1
-Signed-extend/Sign_Extend_Waveform.awf=-1
-Signed-extend/Sign_Extend_tb.vhd=-1
-Signed-extend/Sign_Extend_tb_Waveform.awf=-1
-Control unit/CU_block.bde=-1
-Control unit/ControlUnit_tb.vhd=-1
-Control unit/ALU Control.vhd=-1
-Control unit/Control Unit.vhd=-1
-Control unit/Control.vhd=-1
-Control unit/ControlUnit_tb_waveform.awf=-1
-
 [Files.Data]
-.\src\componentsPackage.vhd=VHDL Source Code
-.\src\MIPS.bde=Block Diagram
 .\src\Add_ALU\addAlu_block.bde=Block Diagram
 .\src\Add_ALU\Add-ALU.vhd=VHDL Source Code
 .\src\Add_ALU\Add_ALU waveform.awf=Waveform File
@@ -145,11 +42,6 @@ Control unit/ControlUnit_tb_waveform.awf=-1
 .\src\ALU\ALU.vhd=VHDL Source Code
 .\src\ALU\ALU_tb.vhd=VHDL Test Bench
 .\src\ALU\ALU_tb_waveform.awf=Waveform File
-.\src\AND\and_block.bde=Block Diagram
-.\src\AND\AND.vhd=VHDL Source Code
-.\src\AND\AND_GATE waveform.awf=Waveform File
-.\src\AND\AND_GATE_tb waveform.awf=Waveform File
-.\src\AND\AND_tb.vhd=VHDL Test Bench
 .\src\Data memory\dataMemory_block.bde=Block Diagram
 .\src\Data memory\Data memory.vhd=VHDL Source Code
 .\src\Data memory\data_memory_tb.vhd=VHDL Test Bench
@@ -189,10 +81,119 @@ Control unit/ControlUnit_tb_waveform.awf=-1
 .\src\Control unit\Control Unit.vhd=VHDL Source Code
 .\src\Control unit\Control.vhd=VHDL Source Code
 .\src\Control unit\ControlUnit_tb_waveform.awf=Waveform File
-.\compile\MIPS.vhd=VHDL Source Code
+.\src\Processor\MIPS.bde=Block Diagram
+.\src\Processor\componentsPackage.vhd=VHDL Source Code
+.\src\Processor\Processor.vhd=VHDL Source Code
+.\src\Processor\Processor_waveform.awf=Waveform File
 .\compile\addAlu_block.vhd=VHDL Source Code
+.\compile\alu_block.vhd=VHDL Source Code
+.\compile\dataMemory_block.vhd=VHDL Source Code
+.\compile\instructionMemory_block.vhd=VHDL Source Code
+.\compile\mux-32bit_block.vhd=VHDL Source Code
+.\compile\pc_block.vhd=VHDL Source Code
+.\compile\regFiles_block.vhd=VHDL Source Code
+.\compile\shiftLeft2_block.vhd=VHDL Source Code
+.\compile\signed-extend_block.vhd=VHDL Source Code
+.\compile\CU_block.vhd=VHDL Source Code
+.\compile\MIPS.vhd=VHDL Source Code
+
+
+
+
+
+
+
+
+
+
+
+
+[Groups]
+Add_ALU=1
+ALU=1
+Data memory=1
+Instruction memory=1
+MUX=1
+PC=1
+Registers=1
+Shift left 2=1
+Signed-extend=1
+Control unit=1
+Processor=1
+
+[Files]
+Add_ALU/addAlu_block.bde=-1
+Add_ALU/Add-ALU.vhd=-1
+Add_ALU/Add_ALU waveform.awf=-1
+Add_ALU/Add-ALU_tb waveform.awf=-1
+Add_ALU/Add-ALU_tb.vhd=-1
+ALU/alu_block.bde=-1
+ALU/ALU.vhd=-1
+ALU/ALU_tb.vhd=-1
+ALU/ALU_tb_waveform.awf=-1
+Data memory/dataMemory_block.bde=-1
+Data memory/Data memory.vhd=-1
+Data memory/data_memory_tb.vhd=-1
+Data memory/DATA_MEMORY_WAVEFORM.awf=-1
+Instruction memory/instructionMemory_block.bde=-1
+Instruction memory/Instruction memory.vhd=-1
+Instruction memory/InstructionMemory_TB_waveform.awf=-1
+Instruction memory/tb_instructionMemory.vhd=-1
+MUX/mux-32bit_block.bde=-1
+MUX/MUX-5bit.vhd=-1
+MUX/MUX-32bit.vhd=-1
+MUX/MUX_waveform.awf=-1
+MUX/MUX-32bit_tb waveform.awf=-1
+MUX/MUX-32bit_tp.vhd=-1
+PC/pc_block.bde=-1
+PC/PC waveform.awf=-1
+PC/PC.vhd=-1
+PC/PC_tb waveform.awf=-1
+PC/PC_tb.vhd=-1
+Registers/regFiles_block.bde=-1
+Registers/Registers.vhd=-1
+Registers/Registers_tb.vhd=-1
+Registers/Registers_tb_waveform.awf=-1
+Shift left 2/shiftLeft2_block.bde=-1
+Shift left 2/Shift left 2.vhd=-1
+Shift left 2/Shift_Left_2_Waveform.awf=-1
+Shift left 2/Shift_Left_2_tb.vhd=-1
+Shift left 2/Shift_Left_2_tb_Waveform.awf=-1
+Signed-extend/signed-extend_block.bde=-1
+Signed-extend/Signed-extend.vhd=-1
+Signed-extend/Sign_Extend_Waveform.awf=-1
+Signed-extend/Sign_Extend_tb.vhd=-1
+Signed-extend/Sign_Extend_tb_Waveform.awf=-1
+Control unit/CU_block.bde=-1
+Control unit/ControlUnit_tb.vhd=-1
+Control unit/ALU Control.vhd=-1
+Control unit/Control Unit.vhd=-1
+Control unit/Control.vhd=-1
+Control unit/ControlUnit_tb_waveform.awf=-1
+Processor/Processor_waveform.awf=-1
+Processor/Processor.vhd=-1
+Processor/componentsPackage.vhd=-1
+Processor/MIPS.bde=-1
 
 [file_out:Add_ALU/addAlu_block.bde]
 Add_ALU/\compile\addAlu_block.vhd=-1
-[file_out:/MIPS.bde]
-/\compile\MIPS.vhd=-1
+[file_out:ALU/alu_block.bde]
+ALU/\compile\alu_block.vhd=-1
+[file_out:Data memory/dataMemory_block.bde]
+Data memory/\compile\dataMemory_block.vhd=-1
+[file_out:Instruction memory/instructionMemory_block.bde]
+Instruction memory/\compile\instructionMemory_block.vhd=-1
+[file_out:MUX/mux-32bit_block.bde]
+MUX/\compile\mux-32bit_block.vhd=-1
+[file_out:PC/pc_block.bde]
+PC/\compile\pc_block.vhd=-1
+[file_out:Registers/regFiles_block.bde]
+Registers/\compile\regFiles_block.vhd=-1
+[file_out:Shift left 2/shiftLeft2_block.bde]
+Shift left 2/\compile\shiftLeft2_block.vhd=-1
+[file_out:Signed-extend/signed-extend_block.bde]
+Signed-extend/\compile\signed-extend_block.vhd=-1
+[file_out:Control unit/CU_block.bde]
+Control unit/\compile\CU_block.vhd=-1
+[file_out:Processor/MIPS.bde]
+Processor/\compile\MIPS.vhd=-1

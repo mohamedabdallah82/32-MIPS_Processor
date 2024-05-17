@@ -8,7 +8,7 @@
 ---------------------------------------------------------------------------------------------------
 --
 -- File        : E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\compile\MIPS.vhd
--- Generated   : Wed May 15 02:40:10 2024
+-- Generated   : Fri May 17 02:47:13 2024
 -- From        : E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\MIPS.bde
 -- By          : Bde2Vhdl ver. 2.6
 --
@@ -24,9 +24,9 @@ use IEEE.std_logic_1164.all;
 
 entity MIPS is
   port(
-       Input0 : in STD_LOGIC;
        clk : in STD_LOGIC;
        rst : in STD_LOGIC;
+       Number4 : in STD_LOGIC_VECTOR(31 downto 0);
        j : out STD_LOGIC
   );
 end MIPS;
@@ -138,9 +138,6 @@ component Sign_Extend
   );
 end component;
 
-----     Constants     -----
-constant DANGLING_INPUT_CONSTANT : STD_LOGIC := 'Z';
-
 ---- Signal declarations used on the diagram ----
 
 signal NET109 : STD_LOGIC;
@@ -156,7 +153,6 @@ signal BUS107 : STD_LOGIC_VECTOR (4 downto 0);
 signal BUS129 : STD_LOGIC_VECTOR (31 downto 0);
 signal BUS133 : STD_LOGIC_VECTOR (31 downto 0);
 signal BUS149 : STD_LOGIC_VECTOR (1 downto 0);
-signal BUS178 : STD_LOGIC_VECTOR (31 downto 0);
 signal BUS198 : STD_LOGIC_VECTOR (31 downto 0);
 signal BUS200 : STD_LOGIC_VECTOR (31 downto 0);
 signal BUS214 : STD_LOGIC_VECTOR (31 downto 0);
@@ -164,13 +160,11 @@ signal BUS227 : STD_LOGIC_VECTOR (31 downto 0);
 signal BUS232 : STD_LOGIC_VECTOR (31 downto 0);
 signal BUS238 : STD_LOGIC_VECTOR (31 downto 0);
 signal BUS243 : STD_LOGIC_VECTOR (2 downto 0);
-signal BUS247 : STD_LOGIC_VECTOR (31 downto 0);
 signal BUS254 : STD_LOGIC_VECTOR (31 downto 0);
 signal BUS280 : STD_LOGIC_VECTOR (31 downto 0);
+signal BUS675 : STD_LOGIC_VECTOR (31 downto 0);
+signal BUS704 : STD_LOGIC_VECTOR (31 downto 0);
 signal Instruction : STD_LOGIC_VECTOR (31 downto 0);
-
----- Declaration for Dangling input ----
-signal Dangling_Input_Signal : STD_LOGIC;
 
 begin
 
@@ -179,38 +173,7 @@ begin
 U1 : add_alu
   port map(
        A => BUS254,
-       B(0) => Dangling_Input_Signal,
-       B(1) => Dangling_Input_Signal,
-       B(2) => Dangling_Input_Signal,
-       B(3) => Dangling_Input_Signal,
-       B(4) => Dangling_Input_Signal,
-       B(5) => Dangling_Input_Signal,
-       B(6) => Dangling_Input_Signal,
-       B(7) => Dangling_Input_Signal,
-       B(8) => Dangling_Input_Signal,
-       B(9) => Dangling_Input_Signal,
-       B(10) => Dangling_Input_Signal,
-       B(11) => Dangling_Input_Signal,
-       B(12) => Dangling_Input_Signal,
-       B(13) => Dangling_Input_Signal,
-       B(14) => Dangling_Input_Signal,
-       B(15) => Dangling_Input_Signal,
-       B(16) => Dangling_Input_Signal,
-       B(17) => Dangling_Input_Signal,
-       B(18) => Dangling_Input_Signal,
-       B(19) => Dangling_Input_Signal,
-       B(20) => Dangling_Input_Signal,
-       B(21) => Dangling_Input_Signal,
-       B(22) => Dangling_Input_Signal,
-       B(23) => Dangling_Input_Signal,
-       B(24) => Dangling_Input_Signal,
-       B(25) => Dangling_Input_Signal,
-       B(26) => Dangling_Input_Signal,
-       B(27) => Dangling_Input_Signal,
-       B(28) => Dangling_Input_Signal,
-       B(29) => Dangling_Input_Signal,
-       B(30) => Dangling_Input_Signal,
-       B(31) => Input0,
+       B => Number4,
        result => BUS200
   );
 
@@ -253,8 +216,8 @@ U11 : MUX_5bit
 
 U12 : MUX_32bit
   port map(
-       input_0 => BUS178,
-       input_1 => BUS247,
+       input_0 => BUS675,
+       input_1 => BUS704,
        output => BUS280,
        sel => NET180
   );
@@ -299,14 +262,14 @@ U3 : ALU
        a => BUS129,
        alu_control => BUS243,
        b => BUS133,
-       result => BUS247,
+       result => BUS675,
        zf => NET223
   );
 
 U4 : data_memory
   port map(
-       Data_out => BUS178,
-       addr => BUS247,
+       Data_out => BUS704,
+       addr => BUS675,
        clk => clk,
        memRead => NET165,
        memWrite => NET168,
@@ -375,9 +338,5 @@ U9 : register_file
        clk => clk
   );
 
-
----- Dangling input signal assignment ----
-
-Dangling_Input_Signal <= DANGLING_INPUT_CONSTANT;
 
 end MIPS;

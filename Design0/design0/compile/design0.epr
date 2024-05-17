@@ -1,2 +1,37 @@
-"e:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\compile\addAlu_block.vhd" design0 1 0 0
+"E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\compile\addAlu_block.vhd" design0 1 0 0
+"E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Add_ALU\Add-ALU.vhd" design0 1 0 0
+"E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Add_ALU\Add-ALU_tb.vhd" design0 1 0 0
+"E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\compile\alu_block.vhd" design0 1 0 0
+"E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\ALU\ALU.vhd" design0 1 0 0
+"E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\ALU\ALU_tb.vhd" design0 1 0 1814981750
+"E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\compile\dataMemory_block.vhd" design0 1 0 0
+"E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Data memory\Data memory.vhd" design0 1 0 0
+"E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Data memory\data_memory_tb.vhd" design0 1 0 0
+"E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\compile\instructionMemory_block.vhd" design0 1 0 1146377052
+"E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Instruction memory\Instruction memory.vhd" design0 1 0 0
+"E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Instruction memory\tb_instructionMemory.vhd" design0 1 0 0
+"E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\compile\mux-32bit_block.vhd" design0 1 0 0
+"E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\MUX\MUX-5bit.vhd" design0 1 0 0
+"E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\MUX\MUX-32bit.vhd" design0 1 0 14745740
+"E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\MUX\MUX-32bit_tp.vhd" design0 1 0 0
+"E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\compile\pc_block.vhd" design0 1 0 0
+"E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\PC\PC.vhd" design0 1 0 0
+"E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\PC\PC_tb.vhd" design0 1 0 0
+"E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\compile\regFiles_block.vhd" design0 1 0 0
+"E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Registers\Registers.vhd" design0 1 0 0
+"E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Registers\Registers_tb.vhd" design0 1 0 0
+"E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\compile\shiftLeft2_block.vhd" design0 1 0 0
+"E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Shift left 2\Shift left 2.vhd" design0 1 0 0
+"E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Shift left 2\Shift_Left_2_tb.vhd" design0 1 0 0
+"E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\compile\signed-extend_block.vhd" design0 1 0 0
+"E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Signed-extend\Signed-extend.vhd" design0 1 0 0
+"E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Signed-extend\Sign_Extend_tb.vhd" design0 1 0 0
+"E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\compile\CU_block.vhd" design0 1 0 0
+"E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Control unit\ControlUnit_tb.vhd" design0 1 0 0
+"E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Control unit\ALU Control.vhd" design0 1 0 0
+"E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Control unit\Control Unit.vhd" design0 1 0 0
+"E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Control unit\Control.vhd" design0 1 0 0
+"E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Processor\Processor.vhd" design0 1 0 0
+"E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Processor\componentsPackage.vhd" design0 1 0 0
+"E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\compile\MIPS.vhd" design0 1 0 0
 . . 0 0 0

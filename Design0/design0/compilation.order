@@ -1,14 +1,9 @@
-.\src\componentsPackage.vhd
-.\src\MIPS.bde
 .\src\Add_ALU\addAlu_block.bde
 .\src\Add_ALU\Add-ALU.vhd
 .\src\Add_ALU\Add-ALU_tb.vhd
 .\src\ALU\alu_block.bde
 .\src\ALU\ALU.vhd
 .\src\ALU\ALU_tb.vhd
-.\src\AND\and_block.bde
-.\src\AND\AND.vhd
-.\src\AND\AND_tb.vhd
 .\src\Data memory\dataMemory_block.bde
 .\src\Data memory\Data memory.vhd
 .\src\Data memory\data_memory_tb.vhd
@@ -36,3 +31,6 @@
 .\src\Control unit\ALU Control.vhd
 .\src\Control unit\Control Unit.vhd
 .\src\Control unit\Control.vhd
+.\src\Processor\Processor.vhd
+.\src\Processor\componentsPackage.vhd
+.\src\Processor\MIPS.bde

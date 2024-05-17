@@ -23,12 +23,12 @@ entity PC is
 end PC;
 
 architecture Behavioral of PC is
-signal temp : STD_LOGIC_VECTOR( 31 downto 0 ):=x"00011000";
+signal temp : STD_LOGIC_VECTOR( 31 downto 0 ):=x"003FFFFC";
 begin
-    process(reset , input , clk)
+    process(clk, reset)
     begin
-        if reset = '1' then  -- Reset condition
-            temp <= x"00400000";  -- Reset PC to 0  
+        if (reset = '1' or temp = x"0040003C")then  -- Reset condition
+            temp <= x"003FFFFC";  -- Reset
 		elsif rising_edge(clk) then
 			temp <= input;  
         end if;	 

@@ -1,0 +1,1571 @@
+acom $DSN/src/MIPS.bde
+# Compile...
+# DRC: Checking file 'E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\MIPS.bde'.
+# DRC: MIPS.bde - 0 error(s), 0 warning(s)
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\compile\MIPS.vhd from E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\MIPS.bde ...
+# Generation successful
+# File: .\MIPS.vhd
+# Compile Entity "MIPS"
+# Compile Architecture "MIPS" of Entity "MIPS"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.1 [s].
+asim mips mips
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2771 kB (elbread=1071 elab2=609 kernel=1091 sdf=0)
+# 2:01 AM, Friday, May 17, 2024
+# Simulation has been initialized
+# Selected Top-Level: mips (mips)
+# Cannot set breakpoint
+run 100 ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U1,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U14,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /U14,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /U14,  Process: line__27.
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+run 100 ns
+# KERNEL: stopped at time: 800 ns
+run 100 ns
+# KERNEL: stopped at time: 900 ns
+endsim
+# All when statements cleared.
+# Simulation has been stopped
+acom "$DSN/src/Instruction memory/Instruction memory.vhd"
+# Compile...
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Instruction memory\Instruction memory.vhd
+# Compile Entity "InstructionMemory"
+# Entity `InstructionMemory' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "InstructionMemory"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim mips mips
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2771 kB (elbread=1071 elab2=609 kernel=1091 sdf=0)
+# 2:25 AM, Friday, May 17, 2024
+# Simulation has been initialized
+# Selected Top-Level: mips (mips)
+run 100 ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U1,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U14,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /U14,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /U14,  Process: line__27.
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+run 100 ns
+# KERNEL: stopped at time: 800 ns
+run 100 ns
+# KERNEL: stopped at time: 900 ns
+run 100 ns
+# KERNEL: stopped at time: 1 us
+endsim
+# All when statements cleared.
+# Simulation has been stopped
+acom $DSN/src/Processor.vhd
+# Compile...
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Processor.vhd
+# Compile Entity "processor"
+# Entity `processor' has been skipped - no difference detected.
+# Compile Architecture "beh" of Entity "processor"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim mips mips
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# Error: ULM_0034: Library "design0" contains binary code generated for Sparc platform.
+# ELAB2: Fatal Error: ELAB2_0030 Error while reading binary code for unit "mips".
+# KERNEL: Error: E8005 : Kernel process initialization failed.
+# Fatal error occurred during simulation initialization.
+asim mips mips
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2771 kB (elbread=1071 elab2=609 kernel=1091 sdf=0)
+# 2:30 AM, Friday, May 17, 2024
+# Simulation has been initialized
+# Selected Top-Level: mips (mips)
+# Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim processor beh
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2740 kB (elbread=1071 elab2=585 kernel=1084 sdf=0)
+# 2:31 AM, Friday, May 17, 2024
+# Simulation has been initialized
+# Selected Top-Level: processor (beh)
+run 100 ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U1,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U14,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /U14,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /U14,  Process: line__27.
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+run 100 ns
+# KERNEL: stopped at time: 800 ns
+endsim
+# All when statements cleared.
+# Simulation has been stopped
+acom $DSN/src/PC/PC.vhd
+# Compile...
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\PC\PC.vhd
+# Compile Entity "PC"
+# Entity `PC' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "PC"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom "$DSN/src/Instruction memory/Instruction memory.vhd"
+# Compile...
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Instruction memory\Instruction memory.vhd
+# Compile Entity "InstructionMemory"
+# Entity `InstructionMemory' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "InstructionMemory"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/componentspackage.vhd $DSN/src/mips.bde $DSN/src/processor.vhd $DSN/src/add_alu/addalu_block.bde $DSN/src/add_alu/add-alu.vhd $DSN/src/add_alu/add-alu_tb.vhd $DSN/src/alu/alu_block.bde $DSN/src/alu/alu.vhd $DSN/src/alu/alu_tb.vhd "$DSN/src/data memory/datamemory_block.bde" "$DSN/src/data memory/data memory.vhd" "$DSN/src/data memory/data_memory_tb.vhd" "$DSN/src/instruction memory/instructionmemory_block.bde" "$DSN/src/instruction memory/instruction memory.vhd" "$DSN/src/instruction memory/tb_instructionmemory.vhd" $DSN/src/mux/mux-32bit_block.bde $DSN/src/mux/mux-5bit.vhd $DSN/src/mux/mux-32bit.vhd $DSN/src/mux/mux-32bit_tp.vhd $DSN/src/pc/pc_block.bde $DSN/src/pc/pc.vhd $DSN/src/pc/pc_tb.vhd $DSN/src/registers/regfiles_block.bde $DSN/src/registers/registers.vhd $DSN/src/registers/registers_tb.vhd "$DSN/src/shift left 2/shiftleft2_block.bde" "$DSN/src/shift left 2/shift left 2.vhd" "$DSN/src/shift left 2/shift_left_2_tb.vhd" $DSN/src/signed-extend/signed-extend_block.bde $DSN/src/signed-extend/signed-extend.vhd $DSN/src/signed-extend/sign_extend_tb.vhd "$DSN/src/control unit/cu_block.bde" "$DSN/src/control unit/controlunit_tb.vhd" "$DSN/src/control unit/alu control.vhd" "$DSN/src/control unit/control unit.vhd" "$DSN/src/control unit/control.vhd"
+# Compile...
+# DRC: Checking file 'E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\MIPS.bde'.
+# DRC: MIPS.bde - 0 error(s), 0 warning(s)
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\compile\MIPS.vhd from E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\MIPS.bde ...
+# Generation successful
+# DRC: Checking file 'E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Add_ALU\addAlu_block.bde'.
+# DRC: Warning: addAlu_block.bde - 0 error(s), 3 warning(s)
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\compile\addAlu_block.vhd from E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Add_ALU\addAlu_block.bde ...
+# Generation successful
+# DRC: Checking file 'E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\ALU\alu_block.bde'.
+# DRC: Warning: alu_block.bde - 0 error(s), 5 warning(s)
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\compile\alu_block.vhd from E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\ALU\alu_block.bde ...
+# Generation successful
+# DRC: Checking file 'E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Data memory\dataMemory_block.bde'.
+# DRC: Warning: dataMemory_block.bde - 0 error(s), 6 warning(s)
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\compile\dataMemory_block.vhd from E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Data memory\dataMemory_block.bde ...
+# Generation successful
+# DRC: Checking file 'E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Instruction memory\instructionMemory_block.bde'.
+# DRC: Warning: instructionMemory_block.bde - 0 error(s), 3 warning(s)
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\compile\instructionMemory_block.vhd from E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Instruction memory\instructionMemory_block.bde ...
+# Generation successful
+# DRC: Checking file 'E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\MUX\mux-32bit_block.bde'.
+# DRC: Warning: mux-32bit_block.bde - 0 error(s), 4 warning(s)
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\compile\mux-32bit_block.vhd from E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\MUX\mux-32bit_block.bde ...
+# Generation successful
+# DRC: Checking file 'E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\PC\pc_block.bde'.
+# DRC: Warning: pc_block.bde - 0 error(s), 4 warning(s)
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\compile\pc_block.vhd from E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\PC\pc_block.bde ...
+# Generation successful
+# DRC: Checking file 'E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Registers\regFiles_block.bde'.
+# DRC: Warning: regFiles_block.bde - 0 error(s), 8 warning(s)
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\compile\regFiles_block.vhd from E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Registers\regFiles_block.bde ...
+# Generation successful
+# DRC: Checking file 'E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Shift left 2\shiftLeft2_block.bde'.
+# DRC: Warning: shiftLeft2_block.bde - 0 error(s), 2 warning(s)
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\compile\shiftLeft2_block.vhd from E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Shift left 2\shiftLeft2_block.bde ...
+# Generation successful
+# DRC: Checking file 'E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Signed-extend\signed-extend_block.bde'.
+# DRC: Warning: signed-extend_block.bde - 0 error(s), 2 warning(s)
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\compile\signed-extend_block.vhd from E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Signed-extend\signed-extend_block.bde ...
+# Generation successful
+# DRC: Checking file 'E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Control unit\CU_block.bde'.
+# DRC: Warning: CU_block.bde - 0 error(s), 11 warning(s)
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\compile\CU_block.vhd from E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Control unit\CU_block.bde ...
+# Generation successful
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\componentsPackage.vhd
+# Compile Package "component_package"
+# Package `component_package' has been skipped - no difference detected.
+# File: .\MIPS.vhd
+# Compile Entity "MIPS"
+# Entity `MIPS' has been skipped - no difference detected.
+# Compile Architecture "MIPS" of Entity "MIPS"
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Processor.vhd
+# Compile Entity "processor"
+# Entity `processor' has been skipped - no difference detected.
+# Compile Architecture "beh" of Entity "processor"
+# File: .\addAlu_block.vhd
+# Compile Entity "addAlu_block"
+# Entity `addAlu_block' has been skipped - no difference detected.
+# Compile Architecture "addAlu_block" of Entity "addAlu_block"
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Add_ALU\Add-ALU.vhd
+# Compile Entity "ADD_ALU"
+# Entity `ADD_ALU' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "ADD_ALU"
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Add_ALU\Add-ALU_tb.vhd
+# Compile Entity "ADD_ALU_tb"
+# Entity `ADD_ALU_tb' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "ADD_ALU_tb"
+# File: .\alu_block.vhd
+# Compile Entity "alu_block"
+# Entity `alu_block' has been skipped - no difference detected.
+# Compile Architecture "alu_block" of Entity "alu_block"
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\ALU\ALU.vhd
+# Compile Entity "ALU"
+# Entity `ALU' has been skipped - no difference detected.
+# Compile Architecture "behav" of Entity "ALU"
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\ALU\ALU_tb.vhd
+# Compile Entity "ALU_tb"
+# Entity `ALU_tb' has been skipped - no difference detected.
+# Compile Architecture "behavior" of Entity "ALU_tb"
+# File: .\dataMemory_block.vhd
+# Compile Entity "dataMemory_block"
+# Entity `dataMemory_block' has been skipped - no difference detected.
+# Compile Architecture "dataMemory_block" of Entity "dataMemory_block"
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Data memory\Data memory.vhd
+# Compile Entity "data_Memory"
+# Entity `data_Memory' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "data_Memory"
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Data memory\data_memory_tb.vhd
+# Compile Entity "data_memory_tb"
+# Entity `data_memory_tb' has been skipped - no difference detected.
+# Compile Architecture "TB_ARCHITECTURE" of Entity "data_memory_tb"
+# File: .\instructionMemory_block.vhd
+# Compile Entity "instructionMemory_block"
+# Entity `instructionMemory_block' has been skipped - no difference detected.
+# Compile Architecture "instructionMemory_block" of Entity "instructionMemory_block"
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Instruction memory\Instruction memory.vhd
+# Compile Entity "InstructionMemory"
+# Entity `InstructionMemory' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "InstructionMemory"
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Instruction memory\tb_instructionMemory.vhd
+# Compile Entity "tb_instructionMemory"
+# Entity `tb_instructionMemory' has been skipped - no difference detected.
+# Compile Architecture "behavior" of Entity "tb_instructionMemory"
+# File: .\mux-32bit_block.vhd
+# Compile Entity "\mux-32bit\"
+# Entity `\mux-32bit\' has been skipped - no difference detected.
+# Compile Architecture "\mux-32bit\" of Entity "\mux-32bit\"
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\MUX\MUX-5bit.vhd
+# Compile Entity "MUX_5bit"
+# Entity `MUX_5bit' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "MUX_5bit"
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\MUX\MUX-32bit.vhd
+# Compile Entity "MUX_32bit"
+# Entity `MUX_32bit' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "MUX_32bit"
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\MUX\MUX-32bit_tp.vhd
+# Compile Entity "MUX_tb"
+# Entity `MUX_tb' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "MUX_tb"
+# File: .\pc_block.vhd
+# Compile Entity "pc_block"
+# Entity `pc_block' has been skipped - no difference detected.
+# Compile Architecture "pc_block" of Entity "pc_block"
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\PC\PC.vhd
+# Compile Entity "PC"
+# Entity `PC' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "PC"
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\PC\PC_tb.vhd
+# Compile Entity "PC_tb"
+# Entity `PC_tb' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "PC_tb"
+# File: .\regFiles_block.vhd
+# Compile Entity "regFiles_block"
+# Entity `regFiles_block' has been skipped - no difference detected.
+# Compile Architecture "regFiles_block" of Entity "regFiles_block"
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Registers\Registers.vhd
+# Compile Entity "Register_File"
+# Entity `Register_File' has been skipped - no difference detected.
+# Compile Architecture "Behavioural" of Entity "Register_File"
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Registers\Registers_tb.vhd
+# Compile Entity "register_file_tb"
+# Entity `register_file_tb' has been skipped - no difference detected.
+# Compile Architecture "TB_ARCHITECTURE" of Entity "register_file_tb"
+# File: .\shiftLeft2_block.vhd
+# Compile Entity "shiftLeft2_block"
+# Entity `shiftLeft2_block' has been skipped - no difference detected.
+# Compile Architecture "shiftLeft2_block" of Entity "shiftLeft2_block"
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Shift left 2\Shift left 2.vhd
+# Compile Entity "Shift_Left_2"
+# Entity `Shift_Left_2' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "Shift_Left_2"
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Shift left 2\Shift_Left_2_tb.vhd
+# Compile Entity "Shift_Left_2_tb"
+# Entity `Shift_Left_2_tb' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "Shift_Left_2_tb"
+# File: .\signed-extend_block.vhd
+# Compile Entity "\signed-extend_block\"
+# Entity `\signed-extend_block\' has been skipped - no difference detected.
+# Compile Architecture "\signed-extend_block\" of Entity "\signed-extend_block\"
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Signed-extend\Signed-extend.vhd
+# Compile Entity "Sign_Extend"
+# Entity `Sign_Extend' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "Sign_Extend"
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Signed-extend\Sign_Extend_tb.vhd
+# Compile Entity "Sign_Extend_tb"
+# Entity `Sign_Extend_tb' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "Sign_Extend_tb"
+# File: .\CU_block.vhd
+# Compile Entity "CU_block"
+# Entity `CU_block' has been skipped - no difference detected.
+# Compile Architecture "CU_block" of Entity "CU_block"
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Control unit\ControlUnit_tb.vhd
+# Compile Entity "CU_tb"
+# Entity `CU_tb' has been skipped - no difference detected.
+# Compile Architecture "beh" of Entity "CU_tb"
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Control unit\ALU Control.vhd
+# Compile Entity "aluControl"
+# Entity `aluControl' has been skipped - no difference detected.
+# Compile Architecture "beh" of Entity "aluControl"
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Control unit\Control Unit.vhd
+# Compile Entity "controlUnit"
+# Entity `controlUnit' has been skipped - no difference detected.
+# Compile Architecture "beh" of Entity "controlUnit"
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Control unit\Control.vhd
+# Compile Entity "control"
+# Entity `control' has been skipped - no difference detected.
+# Compile Architecture "beh" of Entity "control"
+# Compile success 0 Errors 0 Warnings  Analysis time :  2.0 [s]
+asim processor beh
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2740 kB (elbread=1071 elab2=585 kernel=1084 sdf=0)
+# 2:47 AM, Friday, May 17, 2024
+# Simulation has been initialized
+# Selected Top-Level: processor (beh)
+# Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim mips mips
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2771 kB (elbread=1071 elab2=609 kernel=1091 sdf=0)
+# 2:48 AM, Friday, May 17, 2024
+# Simulation has been initialized
+# Selected Top-Level: mips (mips)
+run 100 ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U1,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U14,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /U14,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /U14,  Process: line__27.
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+restart
+# All when statements cleared.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2771 kB (elbread=1071 elab2=609 kernel=1091 sdf=0)
+# 2:48 AM, Friday, May 17, 2024
+# Simulation has been initialized
+# Selected Top-Level: mips (mips)
+run 100 ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U1,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U14,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /U14,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /U14,  Process: line__27.
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+endsim
+# All when statements cleared.
+# Simulation has been stopped
+asim mips mips
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2771 kB (elbread=1071 elab2=609 kernel=1091 sdf=0)
+# 2:49 AM, Friday, May 17, 2024
+# Simulation has been initialized
+# Selected Top-Level: mips (mips)
+run 100 ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U1,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U14,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /U14,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /U14,  Process: line__27.
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+endsim
+# All when statements cleared.
+# Simulation has been stopped
+asim mips mips
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2771 kB (elbread=1071 elab2=609 kernel=1091 sdf=0)
+# 2:49 AM, Friday, May 17, 2024
+# Simulation has been initialized
+# Selected Top-Level: mips (mips)
+run 100 ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U1,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U14,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /U14,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /U14,  Process: line__27.
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+endsim
+# All when statements cleared.
+# Simulation has been stopped
+acom $DSN/src/PC/PC.vhd
+# Compile...
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\PC\PC.vhd
+# Compile Entity "PC"
+# Entity `PC' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "PC"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+asim mips mips
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2771 kB (elbread=1071 elab2=609 kernel=1091 sdf=0)
+# 2:50 AM, Friday, May 17, 2024
+# Simulation has been initialized
+# Selected Top-Level: mips (mips)
+run 100 ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U1,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U14,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /U14,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /U14,  Process: line__27.
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+endsim
+# All when statements cleared.
+# Simulation has been stopped
+asim mips mips
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2771 kB (elbread=1071 elab2=609 kernel=1091 sdf=0)
+# 2:51 AM, Friday, May 17, 2024
+# Simulation has been initialized
+# Selected Top-Level: mips (mips)
+run 100 ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U1,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U14,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /U14,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /U14,  Process: line__27.
+# KERNEL: stopped at time: 100 ns
+endsim
+# All when statements cleared.
+# Simulation has been stopped
+asim mips mips
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2771 kB (elbread=1071 elab2=609 kernel=1091 sdf=0)
+# 2:51 AM, Friday, May 17, 2024
+# Simulation has been initialized
+# Selected Top-Level: mips (mips)
+run 100 ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U1,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U14,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /U14,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /U14,  Process: line__27.
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+run 100 ns
+# KERNEL: stopped at time: 800 ns
+run 100 ns
+# KERNEL: stopped at time: 900 ns
+run 100 ns
+# KERNEL: stopped at time: 1 us
+run 100 ns
+# KERNEL: stopped at time: 1100 ns
+run 100 ns
+# KERNEL: stopped at time: 1200 ns
+run 100 ns
+# KERNEL: stopped at time: 1300 ns
+run 100 ns
+# KERNEL: stopped at time: 1400 ns
+run 100 ns
+# KERNEL: stopped at time: 1500 ns
+run 100 ns
+# KERNEL: stopped at time: 1600 ns
+endsim
+# All when statements cleared.
+# Simulation has been stopped
+acom $DSN/src/PC/PC.vhd
+# Compile...
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\PC\PC.vhd
+# Compile Entity "PC"
+# Entity `PC' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "PC"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+asim mips mips
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2771 kB (elbread=1071 elab2=609 kernel=1091 sdf=0)
+# 3:11 AM, Friday, May 17, 2024
+# Simulation has been initialized
+# Selected Top-Level: mips (mips)
+run 100 ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U1,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U14,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /U1,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /U14,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /U14,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 3,  Instance: /U14,  Process: line__27.
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 100 ns,  Iteration: 4,  Instance: /U14,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 150 ns,  Iteration: 2,  Instance: /U1,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 200 ns,  Iteration: 3,  Instance: /U14,  Process: line__27.
+# KERNEL: stopped at time: 200 ns
+endsim
+# All when statements cleared.
+# Simulation has been stopped
+acom $DSN/src/PC/PC.vhd
+# Compile...
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\PC\PC.vhd
+# Compile Entity "PC"
+# Entity `PC' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "PC"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+acom $DSN/src/PC/PC.vhd
+# Compile...
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\PC\PC.vhd
+# Compile Entity "PC"
+# Entity `PC' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "PC"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+asim mips mips
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2771 kB (elbread=1071 elab2=609 kernel=1091 sdf=0)
+# 3:14 AM, Friday, May 17, 2024
+# Simulation has been initialized
+# Selected Top-Level: mips (mips)
+run 100 ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U1,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U14,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /U14,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /U14,  Process: line__27.
+# KERNEL: stopped at time: 100 ns
+endsim
+# All when statements cleared.
+# Simulation has been stopped
+asim mips mips
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2771 kB (elbread=1071 elab2=609 kernel=1091 sdf=0)
+# 3:14 AM, Friday, May 17, 2024
+# Simulation has been initialized
+# Selected Top-Level: mips (mips)
+run 100 ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U1,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U14,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /U14,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /U14,  Process: line__27.
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# All when statements cleared.
+# Simulation has been stopped
+asim mips mips
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2771 kB (elbread=1071 elab2=609 kernel=1091 sdf=0)
+# 3:14 AM, Friday, May 17, 2024
+# Simulation has been initialized
+# Selected Top-Level: mips (mips)
+run 100 ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U1,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U14,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /U14,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /U14,  Process: line__27.
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+endsim
+# All when statements cleared.
+# Simulation has been stopped
+acom $DSN/src/PC/PC.vhd
+# Compile...
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\PC\PC.vhd
+# Compile Entity "PC"
+# Entity `PC' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "PC"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+asim mips mips
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2771 kB (elbread=1071 elab2=609 kernel=1091 sdf=0)
+# 3:16 AM, Friday, May 17, 2024
+# Simulation has been initialized
+# Selected Top-Level: mips (mips)
+run 100 ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U1,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U14,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /U14,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /U14,  Process: line__27.
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+restart
+# All when statements cleared.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2771 kB (elbread=1071 elab2=609 kernel=1091 sdf=0)
+# 3:17 AM, Friday, May 17, 2024
+# Simulation has been initialized
+# Selected Top-Level: mips (mips)
+run 100 ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U1,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U14,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /U14,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /U14,  Process: line__27.
+# KERNEL: stopped at time: 100 ns
+endsim
+# All when statements cleared.
+# Simulation has been stopped
+acom $DSN/src/PC/PC.vhd
+# Compile...
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\PC\PC.vhd
+# Compile Entity "PC"
+# Entity `PC' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "PC"
+# Error: COMP96_0019: PC.vhd : (35, 9): Keyword "if" expected.
+# Error: COMP96_0015: PC.vhd : (35, 9): ';' expected.
+# Error: COMP96_0019: PC.vhd : (37, 5): Keyword "process" expected.
+# Error: COMP96_0019: PC.vhd : (38, 0): Keyword "end" expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  0.3 [s]
+acom $DSN/src/PC/PC.vhd
+# Compile...
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\PC\PC.vhd
+# Compile Entity "PC"
+# Entity `PC' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "PC"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim mips mips
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2771 kB (elbread=1071 elab2=609 kernel=1091 sdf=0)
+# 3:21 AM, Friday, May 17, 2024
+# Simulation has been initialized
+# Selected Top-Level: mips (mips)
+run 100 ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U1,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U14,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /U14,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /U14,  Process: line__27.
+# KERNEL: stopped at time: 100 ns
+endsim
+# All when statements cleared.
+# Simulation has been stopped
+asim mips mips
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2771 kB (elbread=1071 elab2=609 kernel=1091 sdf=0)
+# 3:21 AM, Friday, May 17, 2024
+# Simulation has been initialized
+# Selected Top-Level: mips (mips)
+run 100 ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U1,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U14,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /U14,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /U14,  Process: line__27.
+# KERNEL: stopped at time: 100 ns
+acom $DSN/src/PC/PC.vhd
+# Compile...
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\PC\PC.vhd
+# Compile Entity "PC"
+# Entity `PC' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "PC"
+# Error: COMP96_0367: PC.vhd : (26, 48): Improper array length. Actual length is 24. Expected length is 32.
+# Error: COMP96_0367: PC.vhd : (31, 21): Improper array length. Actual length is 24. Expected length is 32.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.1 [s]
+endsim
+# All when statements cleared.
+# Simulation has been stopped
+acom $DSN/src/PC/PC.vhd
+# Compile...
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\PC\PC.vhd
+# Compile Entity "PC"
+# Entity `PC' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "PC"
+# Error: COMP96_0367: PC.vhd : (26, 48): Improper array length. Actual length is 24. Expected length is 32.
+# Error: COMP96_0367: PC.vhd : (31, 21): Improper array length. Actual length is 24. Expected length is 32.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom $DSN/src/PC/PC.vhd
+# Compile...
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\PC\PC.vhd
+# Compile Entity "PC"
+# Entity `PC' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "PC"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim mips mips
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2771 kB (elbread=1071 elab2=609 kernel=1091 sdf=0)
+# 3:24 AM, Friday, May 17, 2024
+# Simulation has been initialized
+# Selected Top-Level: mips (mips)
+run 100 ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U1,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U14,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /U14,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /U14,  Process: line__27.
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+run 100 ns
+# KERNEL: stopped at time: 800 ns
+run 100 ns
+# KERNEL: stopped at time: 900 ns
+run 100 ns
+# KERNEL: stopped at time: 1 us
+run 100 ns
+# KERNEL: stopped at time: 1100 ns
+run 100 ns
+# KERNEL: stopped at time: 1200 ns
+run 100 ns
+# KERNEL: stopped at time: 1300 ns
+run 100 ns
+# KERNEL: stopped at time: 1400 ns
+endsim
+# All when statements cleared.
+# Simulation has been stopped
+acom $DSN/src/PC/PC.vhd
+# Compile...
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\PC\PC.vhd
+# Compile Entity "PC"
+# Entity `PC' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "PC"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+asim mips mips
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2771 kB (elbread=1071 elab2=609 kernel=1091 sdf=0)
+# 3:31 AM, Friday, May 17, 2024
+# Simulation has been initialized
+# Selected Top-Level: mips (mips)
+run 100 ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U1,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U14,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /U14,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /U14,  Process: line__27.
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+run 100 ns
+# KERNEL: stopped at time: 800 ns
+run 100 ns
+# KERNEL: stopped at time: 900 ns
+run 100 ns
+# KERNEL: stopped at time: 1 us
+run 100 ns
+# KERNEL: stopped at time: 1100 ns
+run 100 ns
+# KERNEL: stopped at time: 1200 ns
+run 100 ns
+# KERNEL: stopped at time: 1300 ns
+run 100 ns
+# KERNEL: stopped at time: 1400 ns
+endsim
+# All when statements cleared.
+# Simulation has been stopped
+asim mips mips
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2771 kB (elbread=1071 elab2=609 kernel=1091 sdf=0)
+# 3:33 AM, Friday, May 17, 2024
+# Simulation has been initialized
+# Selected Top-Level: mips (mips)
+run 100 ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U1,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U14,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /U14,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /U14,  Process: line__27.
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+run 100 ns
+# KERNEL: stopped at time: 800 ns
+run 100 ns
+# KERNEL: stopped at time: 900 ns
+run 100 ns
+# KERNEL: stopped at time: 1 us
+run 100 ns
+# KERNEL: stopped at time: 1100 ns
+run 100 ns
+# KERNEL: stopped at time: 1200 ns
+run 100 ns
+# KERNEL: stopped at time: 1300 ns
+endsim
+# All when statements cleared.
+# Simulation has been stopped
+acom $DSN/src/Processor.vhd
+# Compile...
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Processor.vhd
+# Compile Entity "processor"
+# Entity `processor' has been skipped - no difference detected.
+# Compile Architecture "beh" of Entity "processor"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+acom $DSN/src/processor_tb.vhd
+# Compile...
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\processor_tb.vhd
+# Compile Entity "pro_tb"
+# Compile Architecture "beh" of Entity "pro_tb"
+# Error: COMP96_0078: processor_tb.vhd : (27, 19): Unknown identifier "reset".
+# Error: COMP96_0133: processor_tb.vhd : (27, 19): Cannot find object declaration.
+# Error: COMP96_0112: processor_tb.vhd : (27, 19): "reset" does not match the formal name.
+# Error: COMP96_0207: processor_tb.vhd : (26, 0): No actual specified for local port "clk".
+# Error: COMP96_0207: processor_tb.vhd : (26, 0): No actual specified for local port "rst".
+# Compile failure 5 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom $DSN/src/processor_tb.vhd
+# Compile...
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\processor_tb.vhd
+# Compile Entity "pro_tb"
+# Entity `pro_tb' has been skipped - no difference detected.
+# Compile Architecture "beh" of Entity "pro_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim mips mips
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2771 kB (elbread=1071 elab2=609 kernel=1091 sdf=0)
+# 3:50 AM, Friday, May 17, 2024
+# Simulation has been initialized
+# Selected Top-Level: mips (mips)
+# Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.1 [s].
+asim pro_tb beh
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2744 kB (elbread=1071 elab2=588 kernel=1085 sdf=0)
+# 3:50 AM, Friday, May 17, 2024
+# Simulation has been initialized
+# Selected Top-Level: pro_tb (beh)
+run 100 ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /UUT/U1,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /UUT/U14,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /UUT/U14,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /UUT/U14,  Process: line__27.
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# All when statements cleared.
+# Simulation has been stopped
+asim pro_tb beh
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2744 kB (elbread=1071 elab2=588 kernel=1085 sdf=0)
+# 3:52 AM, Friday, May 17, 2024
+# Simulation has been initialized
+# Selected Top-Level: pro_tb (beh)
+# Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim mips mips
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2771 kB (elbread=1071 elab2=609 kernel=1091 sdf=0)
+# 3:53 AM, Friday, May 17, 2024
+# Simulation has been initialized
+# Selected Top-Level: mips (mips)
+run 100 ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U1,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U14,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /U14,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /U14,  Process: line__27.
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+run 100 ns
+# KERNEL: stopped at time: 800 ns
+run 100 ns
+# KERNEL: stopped at time: 900 ns
+run 100 ns
+# KERNEL: stopped at time: 1 us
+run 100 ns
+# KERNEL: stopped at time: 1100 ns
+endsim
+# All when statements cleared.
+# Simulation has been stopped
+asim mips mips
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2771 kB (elbread=1071 elab2=609 kernel=1091 sdf=0)
+# 3:58 AM, Friday, May 17, 2024
+# Simulation has been initialized
+# Selected Top-Level: mips (mips)
+# Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim processor beh
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2740 kB (elbread=1071 elab2=585 kernel=1084 sdf=0)
+# 3:58 AM, Friday, May 17, 2024
+# Simulation has been initialized
+# Selected Top-Level: processor (beh)
+run 100 ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U1,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U14,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /U14,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /U14,  Process: line__27.
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+run 100 ns
+# KERNEL: stopped at time: 800 ns
+run 100 ns
+# KERNEL: stopped at time: 900 ns
+run 100 ns
+# KERNEL: stopped at time: 1 us
+run 100 ns
+# KERNEL: stopped at time: 1100 ns
+run 100 ns
+# KERNEL: stopped at time: 1200 ns
+endsim
+# All when statements cleared.
+# Simulation has been stopped
+acom $DSN/src/add_alu/addalu_block.bde $DSN/src/add_alu/add-alu.vhd $DSN/src/add_alu/add-alu_tb.vhd $DSN/src/alu/alu_block.bde $DSN/src/alu/alu.vhd $DSN/src/alu/alu_tb.vhd "$DSN/src/data memory/datamemory_block.bde" "$DSN/src/data memory/data memory.vhd" "$DSN/src/data memory/data_memory_tb.vhd" "$DSN/src/instruction memory/instructionmemory_block.bde" "$DSN/src/instruction memory/instruction memory.vhd" "$DSN/src/instruction memory/tb_instructionmemory.vhd" $DSN/src/mux/mux-32bit_block.bde $DSN/src/mux/mux-5bit.vhd $DSN/src/mux/mux-32bit.vhd $DSN/src/mux/mux-32bit_tp.vhd $DSN/src/pc/pc_block.bde $DSN/src/pc/pc.vhd $DSN/src/pc/pc_tb.vhd $DSN/src/registers/regfiles_block.bde $DSN/src/registers/registers.vhd $DSN/src/registers/registers_tb.vhd "$DSN/src/shift left 2/shiftleft2_block.bde" "$DSN/src/shift left 2/shift left 2.vhd" "$DSN/src/shift left 2/shift_left_2_tb.vhd" $DSN/src/signed-extend/signed-extend_block.bde $DSN/src/signed-extend/signed-extend.vhd $DSN/src/signed-extend/sign_extend_tb.vhd "$DSN/src/control unit/cu_block.bde" "$DSN/src/control unit/controlunit_tb.vhd" "$DSN/src/control unit/alu control.vhd" "$DSN/src/control unit/control unit.vhd" "$DSN/src/control unit/control.vhd" $DSN/src/processor/processor.vhd $DSN/src/processor/componentspackage.vhd $DSN/src/processor/mips.bde
+# Compile...
+# File: .\addAlu_block.vhd
+# Compile Entity "addAlu_block"
+# Entity `addAlu_block' has been skipped - no difference detected.
+# Compile Architecture "addAlu_block" of Entity "addAlu_block"
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Add_ALU\Add-ALU.vhd
+# Compile Entity "ADD_ALU"
+# Entity `ADD_ALU' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "ADD_ALU"
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Add_ALU\Add-ALU_tb.vhd
+# Compile Entity "ADD_ALU_tb"
+# Entity `ADD_ALU_tb' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "ADD_ALU_tb"
+# File: .\alu_block.vhd
+# Compile Entity "alu_block"
+# Entity `alu_block' has been skipped - no difference detected.
+# Compile Architecture "alu_block" of Entity "alu_block"
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\ALU\ALU.vhd
+# Compile Entity "ALU"
+# Entity `ALU' has been skipped - no difference detected.
+# Compile Architecture "behav" of Entity "ALU"
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\ALU\ALU_tb.vhd
+# Compile Entity "ALU_tb"
+# Entity `ALU_tb' has been skipped - no difference detected.
+# Compile Architecture "behavior" of Entity "ALU_tb"
+# File: .\dataMemory_block.vhd
+# Compile Entity "dataMemory_block"
+# Entity `dataMemory_block' has been skipped - no difference detected.
+# Compile Architecture "dataMemory_block" of Entity "dataMemory_block"
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Data memory\Data memory.vhd
+# Compile Entity "data_Memory"
+# Entity `data_Memory' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "data_Memory"
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Data memory\data_memory_tb.vhd
+# Compile Entity "data_memory_tb"
+# Entity `data_memory_tb' has been skipped - no difference detected.
+# Compile Architecture "TB_ARCHITECTURE" of Entity "data_memory_tb"
+# File: .\instructionMemory_block.vhd
+# Compile Entity "instructionMemory_block"
+# Entity `instructionMemory_block' has been skipped - no difference detected.
+# Compile Architecture "instructionMemory_block" of Entity "instructionMemory_block"
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Instruction memory\Instruction memory.vhd
+# Compile Entity "InstructionMemory"
+# Entity `InstructionMemory' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "InstructionMemory"
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Instruction memory\tb_instructionMemory.vhd
+# Compile Entity "tb_instructionMemory"
+# Entity `tb_instructionMemory' has been skipped - no difference detected.
+# Compile Architecture "behavior" of Entity "tb_instructionMemory"
+# File: .\mux-32bit_block.vhd
+# Compile Entity "\mux-32bit\"
+# Entity `\mux-32bit\' has been skipped - no difference detected.
+# Compile Architecture "\mux-32bit\" of Entity "\mux-32bit\"
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\MUX\MUX-5bit.vhd
+# Compile Entity "MUX_5bit"
+# Entity `MUX_5bit' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "MUX_5bit"
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\MUX\MUX-32bit.vhd
+# Compile Entity "MUX_32bit"
+# Entity `MUX_32bit' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "MUX_32bit"
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\MUX\MUX-32bit_tp.vhd
+# Compile Entity "MUX_tb"
+# Entity `MUX_tb' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "MUX_tb"
+# File: .\pc_block.vhd
+# Compile Entity "pc_block"
+# Entity `pc_block' has been skipped - no difference detected.
+# Compile Architecture "pc_block" of Entity "pc_block"
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\PC\PC.vhd
+# Compile Entity "PC"
+# Entity `PC' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "PC"
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\PC\PC_tb.vhd
+# Compile Entity "PC_tb"
+# Entity `PC_tb' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "PC_tb"
+# File: .\regFiles_block.vhd
+# Compile Entity "regFiles_block"
+# Entity `regFiles_block' has been skipped - no difference detected.
+# Compile Architecture "regFiles_block" of Entity "regFiles_block"
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Registers\Registers.vhd
+# Compile Entity "Register_File"
+# Entity `Register_File' has been skipped - no difference detected.
+# Compile Architecture "Behavioural" of Entity "Register_File"
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Registers\Registers_tb.vhd
+# Compile Entity "register_file_tb"
+# Entity `register_file_tb' has been skipped - no difference detected.
+# Compile Architecture "TB_ARCHITECTURE" of Entity "register_file_tb"
+# File: .\shiftLeft2_block.vhd
+# Compile Entity "shiftLeft2_block"
+# Entity `shiftLeft2_block' has been skipped - no difference detected.
+# Compile Architecture "shiftLeft2_block" of Entity "shiftLeft2_block"
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Shift left 2\Shift left 2.vhd
+# Compile Entity "Shift_Left_2"
+# Entity `Shift_Left_2' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "Shift_Left_2"
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Shift left 2\Shift_Left_2_tb.vhd
+# Compile Entity "Shift_Left_2_tb"
+# Entity `Shift_Left_2_tb' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "Shift_Left_2_tb"
+# File: .\signed-extend_block.vhd
+# Compile Entity "\signed-extend_block\"
+# Entity `\signed-extend_block\' has been skipped - no difference detected.
+# Compile Architecture "\signed-extend_block\" of Entity "\signed-extend_block\"
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Signed-extend\Signed-extend.vhd
+# Compile Entity "Sign_Extend"
+# Entity `Sign_Extend' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "Sign_Extend"
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Signed-extend\Sign_Extend_tb.vhd
+# Compile Entity "Sign_Extend_tb"
+# Entity `Sign_Extend_tb' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "Sign_Extend_tb"
+# File: .\CU_block.vhd
+# Compile Entity "CU_block"
+# Entity `CU_block' has been skipped - no difference detected.
+# Compile Architecture "CU_block" of Entity "CU_block"
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Control unit\ControlUnit_tb.vhd
+# Compile Entity "CU_tb"
+# Entity `CU_tb' has been skipped - no difference detected.
+# Compile Architecture "beh" of Entity "CU_tb"
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Control unit\ALU Control.vhd
+# Compile Entity "aluControl"
+# Entity `aluControl' has been skipped - no difference detected.
+# Compile Architecture "beh" of Entity "aluControl"
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Control unit\Control Unit.vhd
+# Compile Entity "controlUnit"
+# Entity `controlUnit' has been skipped - no difference detected.
+# Compile Architecture "beh" of Entity "controlUnit"
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Control unit\Control.vhd
+# Compile Entity "control"
+# Entity `control' has been skipped - no difference detected.
+# Compile Architecture "beh" of Entity "control"
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Processor\Processor.vhd
+# Compile Entity "processor"
+# Entity `processor' has been skipped - no difference detected.
+# Compile Architecture "beh" of Entity "processor"
+# File: E:\Study\3rd\Data\2nd\Hardware Design\Project\Single-Cycle-Processor\Design0\design0\src\Processor\componentsPackage.vhd
+# Compile Package "component_package"
+# Package `component_package' has been skipped - no difference detected.
+# File: .\MIPS.vhd
+# Compile Entity "MIPS"
+# Entity `MIPS' has been skipped - no difference detected.
+# Compile Architecture "MIPS" of Entity "MIPS"
+# Compile success 0 Errors 0 Warnings  Analysis time :  2.0 [s]

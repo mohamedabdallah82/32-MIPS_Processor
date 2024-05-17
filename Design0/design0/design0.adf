@@ -28,85 +28,9 @@ UCF=
 
 [HierarchyViewer]
 SortInfo=u
-HierarchyInformation=mips|mips|0 processor|beh|0 
+HierarchyInformation=alu_tb|behavior|0 mips|mips|0 processor|beh|0 
 ShowHide=ShowTopLevel
 Selected=
-
-[Files.Data]
-.\src\Add_ALU\addAlu_block.bde=Block Diagram
-.\src\Add_ALU\Add-ALU.vhd=VHDL Source Code
-.\src\Add_ALU\Add_ALU waveform.awf=Waveform File
-.\src\Add_ALU\Add-ALU_tb waveform.awf=Waveform File
-.\src\Add_ALU\Add-ALU_tb.vhd=VHDL Test Bench
-.\src\ALU\alu_block.bde=Block Diagram
-.\src\ALU\ALU.vhd=VHDL Source Code
-.\src\ALU\ALU_tb.vhd=VHDL Test Bench
-.\src\ALU\ALU_tb_waveform.awf=Waveform File
-.\src\Data memory\dataMemory_block.bde=Block Diagram
-.\src\Data memory\Data memory.vhd=VHDL Source Code
-.\src\Data memory\data_memory_tb.vhd=VHDL Test Bench
-.\src\Data memory\DATA_MEMORY_WAVEFORM.awf=Waveform File
-.\src\Instruction memory\instructionMemory_block.bde=Block Diagram
-.\src\Instruction memory\Instruction memory.vhd=VHDL Source Code
-.\src\Instruction memory\InstructionMemory_TB_waveform.awf=Waveform File
-.\src\Instruction memory\tb_instructionMemory.vhd=VHDL Test Bench
-.\src\MUX\mux-32bit_block.bde=Block Diagram
-.\src\MUX\MUX-5bit.vhd=VHDL Source Code
-.\src\MUX\MUX-32bit.vhd=VHDL Source Code
-.\src\MUX\MUX_waveform.awf=Waveform File
-.\src\MUX\MUX-32bit_tb waveform.awf=Waveform File
-.\src\MUX\MUX-32bit_tp.vhd=VHDL Test Bench
-.\src\PC\pc_block.bde=Block Diagram
-.\src\PC\PC waveform.awf=Waveform File
-.\src\PC\PC.vhd=VHDL Source Code
-.\src\PC\PC_tb waveform.awf=Waveform File
-.\src\PC\PC_tb.vhd=VHDL Test Bench
-.\src\Registers\regFiles_block.bde=Block Diagram
-.\src\Registers\Registers.vhd=VHDL Source Code
-.\src\Registers\Registers_tb.vhd=VHDL Test Bench
-.\src\Registers\Registers_tb_waveform.awf=Waveform File
-.\src\Shift left 2\shiftLeft2_block.bde=Block Diagram
-.\src\Shift left 2\Shift left 2.vhd=VHDL Source Code
-.\src\Shift left 2\Shift_Left_2_Waveform.awf=Waveform File
-.\src\Shift left 2\Shift_Left_2_tb.vhd=VHDL Test Bench
-.\src\Shift left 2\Shift_Left_2_tb_Waveform.awf=Waveform File
-.\src\Signed-extend\signed-extend_block.bde=Block Diagram
-.\src\Signed-extend\Signed-extend.vhd=VHDL Source Code
-.\src\Signed-extend\Sign_Extend_Waveform.awf=Waveform File
-.\src\Signed-extend\Sign_Extend_tb.vhd=VHDL Test Bench
-.\src\Signed-extend\Sign_Extend_tb_Waveform.awf=Waveform File
-.\src\Control unit\CU_block.bde=Block Diagram
-.\src\Control unit\ControlUnit_tb.vhd=VHDL Test Bench
-.\src\Control unit\ALU Control.vhd=VHDL Source Code
-.\src\Control unit\Control Unit.vhd=VHDL Source Code
-.\src\Control unit\Control.vhd=VHDL Source Code
-.\src\Control unit\ControlUnit_tb_waveform.awf=Waveform File
-.\src\Processor\MIPS.bde=Block Diagram
-.\src\Processor\componentsPackage.vhd=VHDL Source Code
-.\src\Processor\Processor.vhd=VHDL Source Code
-.\src\Processor\Processor_waveform.awf=Waveform File
-.\compile\addAlu_block.vhd=VHDL Source Code
-.\compile\alu_block.vhd=VHDL Source Code
-.\compile\dataMemory_block.vhd=VHDL Source Code
-.\compile\instructionMemory_block.vhd=VHDL Source Code
-.\compile\mux-32bit_block.vhd=VHDL Source Code
-.\compile\pc_block.vhd=VHDL Source Code
-.\compile\regFiles_block.vhd=VHDL Source Code
-.\compile\shiftLeft2_block.vhd=VHDL Source Code
-.\compile\signed-extend_block.vhd=VHDL Source Code
-.\compile\CU_block.vhd=VHDL Source Code
-.\compile\MIPS.vhd=VHDL Source Code
-
-
-
-
-
-
-
-
-
-
-
 
 [Groups]
 Add_ALU=1
@@ -170,30 +94,95 @@ Control unit/ALU Control.vhd=-1
 Control unit/Control Unit.vhd=-1
 Control unit/Control.vhd=-1
 Control unit/ControlUnit_tb_waveform.awf=-1
-Processor/Processor_waveform.awf=-1
 Processor/Processor.vhd=-1
 Processor/componentsPackage.vhd=-1
 Processor/MIPS.bde=-1
+Processor/Processor_waveform.awf=-1
+
+[Files.Data]
+.\src\Add_ALU\addAlu_block.bde=Block Diagram
+.\src\Add_ALU\Add-ALU.vhd=VHDL Source Code
+.\src\Add_ALU\Add_ALU waveform.awf=Waveform File
+.\src\Add_ALU\Add-ALU_tb waveform.awf=Waveform File
+.\src\Add_ALU\Add-ALU_tb.vhd=VHDL Test Bench
+.\src\ALU\alu_block.bde=Block Diagram
+.\src\ALU\ALU.vhd=VHDL Source Code
+.\src\ALU\ALU_tb.vhd=VHDL Test Bench
+.\src\ALU\ALU_tb_waveform.awf=Waveform File
+.\src\Data memory\dataMemory_block.bde=Block Diagram
+.\src\Data memory\Data memory.vhd=VHDL Source Code
+.\src\Data memory\data_memory_tb.vhd=VHDL Test Bench
+.\src\Data memory\DATA_MEMORY_WAVEFORM.awf=Waveform File
+.\src\Instruction memory\instructionMemory_block.bde=Block Diagram
+.\src\Instruction memory\Instruction memory.vhd=VHDL Source Code
+.\src\Instruction memory\InstructionMemory_TB_waveform.awf=Waveform File
+.\src\Instruction memory\tb_instructionMemory.vhd=VHDL Test Bench
+.\src\MUX\mux-32bit_block.bde=Block Diagram
+.\src\MUX\MUX-5bit.vhd=VHDL Source Code
+.\src\MUX\MUX-32bit.vhd=VHDL Source Code
+.\src\MUX\MUX_waveform.awf=Waveform File
+.\src\MUX\MUX-32bit_tb waveform.awf=Waveform File
+.\src\MUX\MUX-32bit_tp.vhd=VHDL Test Bench
+.\src\PC\pc_block.bde=Block Diagram
+.\src\PC\PC waveform.awf=Waveform File
+.\src\PC\PC.vhd=VHDL Source Code
+.\src\PC\PC_tb waveform.awf=Waveform File
+.\src\PC\PC_tb.vhd=VHDL Test Bench
+.\src\Registers\regFiles_block.bde=Block Diagram
+.\src\Registers\Registers.vhd=VHDL Source Code
+.\src\Registers\Registers_tb.vhd=VHDL Test Bench
+.\src\Registers\Registers_tb_waveform.awf=Waveform File
+.\src\Shift left 2\shiftLeft2_block.bde=Block Diagram
+.\src\Shift left 2\Shift left 2.vhd=VHDL Source Code
+.\src\Shift left 2\Shift_Left_2_Waveform.awf=Waveform File
+.\src\Shift left 2\Shift_Left_2_tb.vhd=VHDL Test Bench
+.\src\Shift left 2\Shift_Left_2_tb_Waveform.awf=Waveform File
+.\src\Signed-extend\signed-extend_block.bde=Block Diagram
+.\src\Signed-extend\Signed-extend.vhd=VHDL Source Code
+.\src\Signed-extend\Sign_Extend_Waveform.awf=Waveform File
+.\src\Signed-extend\Sign_Extend_tb.vhd=VHDL Test Bench
+.\src\Signed-extend\Sign_Extend_tb_Waveform.awf=Waveform File
+.\src\Control unit\CU_block.bde=Block Diagram
+.\src\Control unit\ControlUnit_tb.vhd=VHDL Test Bench
+.\src\Control unit\ALU Control.vhd=VHDL Source Code
+.\src\Control unit\Control Unit.vhd=VHDL Source Code
+.\src\Control unit\Control.vhd=VHDL Source Code
+.\src\Control unit\ControlUnit_tb_waveform.awf=Waveform File
+.\src\Processor\Processor.vhd=VHDL Source Code
+.\src\Processor\componentsPackage.vhd=VHDL Source Code
+.\src\Processor\MIPS.bde=Block Diagram
+.\src\Processor\Processor_waveform.awf=Waveform File
 
 [file_out:Add_ALU/addAlu_block.bde]
 Add_ALU/\compile\addAlu_block.vhd=-1
+
 [file_out:ALU/alu_block.bde]
 ALU/\compile\alu_block.vhd=-1
+
 [file_out:Data memory/dataMemory_block.bde]
 Data memory/\compile\dataMemory_block.vhd=-1
+
 [file_out:Instruction memory/instructionMemory_block.bde]
 Instruction memory/\compile\instructionMemory_block.vhd=-1
+
 [file_out:MUX/mux-32bit_block.bde]
 MUX/\compile\mux-32bit_block.vhd=-1
+
 [file_out:PC/pc_block.bde]
 PC/\compile\pc_block.vhd=-1
+
 [file_out:Registers/regFiles_block.bde]
 Registers/\compile\regFiles_block.vhd=-1
+
 [file_out:Shift left 2/shiftLeft2_block.bde]
 Shift left 2/\compile\shiftLeft2_block.vhd=-1
+
 [file_out:Signed-extend/signed-extend_block.bde]
 Signed-extend/\compile\signed-extend_block.vhd=-1
+
 [file_out:Control unit/CU_block.bde]
 Control unit/\compile\CU_block.vhd=-1
+
 [file_out:Processor/MIPS.bde]
 Processor/\compile\MIPS.vhd=-1
+

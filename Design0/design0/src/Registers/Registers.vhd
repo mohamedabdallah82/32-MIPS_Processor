@@ -69,7 +69,7 @@ begin
     --writing in file register
      process(clk)
      begin	
-	 if(rising_edge(clk)) then
+	 if(falling_edge(clk)) then
 		 if(RegWrit='1')then
 			 reg_array(to_integer(unsigned( WData_add))) <= WData;	 
 		 end if;

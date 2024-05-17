@@ -71,7 +71,7 @@ ARCHITECTURE Behavioral OF data_Memory IS
 BEGIN
     PROCESS (clk)
     BEGIN
-        IF rising_edge(clk) THEN  -- Process only on rising edge of the clock
+        IF falling_edge(clk) THEN  -- Process only on rising edge of the clock
             IF (memWrite = '1') THEN
                 dm(to_integer(unsigned(addr)) / 4) <= wr_Data;
             END IF;

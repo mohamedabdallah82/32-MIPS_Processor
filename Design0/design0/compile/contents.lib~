@@ -1,4 +1,4 @@
-3803
+4239
 ~E 1 "./compile/CU_block.vhd" 25 cu_block
 ~A 1 "./compile/CU_block.vhd" 28 cu_block
 ~E 1 "./src/ALU/ALU_tb.vhd" 5 alu_tb

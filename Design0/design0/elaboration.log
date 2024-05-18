@@ -1,22 +1,22 @@
-elbread.dll ver. 1.0.5.365 Fri May 17 14:34:15 2024
+elbread.dll ver. 1.0.5.365 Sat May 18 17:06:42 2024
 
 
 -------------------------------------------
 Entity             | Architecture | Library
 -------------------------------------------
-processor          | beh          | design0
+mips               | mips         | design0
 add_alu            | behavioral   | design0
+sign_extend        | behavioral   | design0
+mux_5bit           | behavioral   | design0
+mux_32bit          | behavioral   | design0
+shift_left_2       | behavioral   | design0
 alucontrol         | beh          | design0
 alu                | behav        | design0
 data_memory        | behavioral   | design0
 control            | beh          | design0
-mux_32bit          | behavioral   | design0
 instructionmemory  | behavioral   | design0
 pc                 | behavioral   | design0
 register_file      | behavioural  | design0
-sign_extend        | behavioral   | design0
-mux_5bit           | behavioral   | design0
-shift_left_2       | behavioral   | design0
 -------------------------------------------
 
 -----------------------------
@@ -24,7 +24,6 @@ Package             | Library
 -----------------------------
 standard            | std
 std_logic_1164      | ieee
-component_package   | design0
 std_logic_arith     | ieee
 numeric_std         | ieee
 std_logic_unsigned  | ieee

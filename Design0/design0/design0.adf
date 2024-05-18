@@ -28,9 +28,12 @@ UCF=
 
 [HierarchyViewer]
 SortInfo=u
-HierarchyInformation=alu_tb|behavior|0 mips|mips|0 processor|beh|0 
+HierarchyInformation=mips|mips|0 processor|beh|0 
 ShowHide=ShowTopLevel
 Selected=
+
+[file_out:Processor/MIPS.bde]
+Processor/\compile\MIPS.vhd=-1
 
 [Groups]
 Add_ALU=1
@@ -43,7 +46,40 @@ Registers=1
 Shift left 2=1
 Signed-extend=1
 Control unit=1
-Processor=1
+Datapath=1
+
+[file_out:Add_ALU/addAlu_block.bde]
+Add_ALU/\compile\addAlu_block.vhd=-1
+
+[file_out:ALU/alu_block.bde]
+ALU/\compile\alu_block.vhd=-1
+
+[file_out:Data memory/dataMemory_block.bde]
+Data memory/\compile\dataMemory_block.vhd=-1
+
+[file_out:Instruction memory/instructionMemory_block.bde]
+Instruction memory/\compile\instructionMemory_block.vhd=-1
+
+[file_out:MUX/mux-32bit_block.bde]
+MUX/\compile\mux-32bit_block.vhd=-1
+
+[file_out:PC/pc_block.bde]
+PC/\compile\pc_block.vhd=-1
+
+[file_out:Registers/regFiles_block.bde]
+Registers/\compile\regFiles_block.vhd=-1
+
+[file_out:Shift left 2/shiftLeft2_block.bde]
+Shift left 2/\compile\shiftLeft2_block.vhd=-1
+
+[file_out:Signed-extend/signed-extend_block.bde]
+Signed-extend/\compile\signed-extend_block.vhd=-1
+
+[file_out:Control unit/CU_block.bde]
+Control unit/\compile\CU_block.vhd=-1
+
+[file_out:Datapath/MIPS.bde]
+Datapath/\compile\MIPS.vhd=-1
 
 [Files]
 Add_ALU/addAlu_block.bde=-1
@@ -94,10 +130,10 @@ Control unit/ALU Control.vhd=-1
 Control unit/Control Unit.vhd=-1
 Control unit/Control.vhd=-1
 Control unit/ControlUnit_tb_waveform.awf=-1
-Processor/Processor.vhd=-1
-Processor/componentsPackage.vhd=-1
-Processor/MIPS.bde=-1
-Processor/Processor_waveform.awf=-1
+Datapath/Processor.vhd=-1
+Datapath/componentsPackage.vhd=-1
+Datapath/MIPS.bde=-1
+Datapath/Processor_waveform.awf=-1
 
 [Files.Data]
 .\src\Add_ALU\addAlu_block.bde=Block Diagram
@@ -148,41 +184,8 @@ Processor/Processor_waveform.awf=-1
 .\src\Control unit\Control Unit.vhd=VHDL Source Code
 .\src\Control unit\Control.vhd=VHDL Source Code
 .\src\Control unit\ControlUnit_tb_waveform.awf=Waveform File
-.\src\Processor\Processor.vhd=VHDL Source Code
-.\src\Processor\componentsPackage.vhd=VHDL Source Code
-.\src\Processor\MIPS.bde=Block Diagram
-.\src\Processor\Processor_waveform.awf=Waveform File
-
-[file_out:Add_ALU/addAlu_block.bde]
-Add_ALU/\compile\addAlu_block.vhd=-1
-
-[file_out:ALU/alu_block.bde]
-ALU/\compile\alu_block.vhd=-1
-
-[file_out:Data memory/dataMemory_block.bde]
-Data memory/\compile\dataMemory_block.vhd=-1
-
-[file_out:Instruction memory/instructionMemory_block.bde]
-Instruction memory/\compile\instructionMemory_block.vhd=-1
-
-[file_out:MUX/mux-32bit_block.bde]
-MUX/\compile\mux-32bit_block.vhd=-1
-
-[file_out:PC/pc_block.bde]
-PC/\compile\pc_block.vhd=-1
-
-[file_out:Registers/regFiles_block.bde]
-Registers/\compile\regFiles_block.vhd=-1
-
-[file_out:Shift left 2/shiftLeft2_block.bde]
-Shift left 2/\compile\shiftLeft2_block.vhd=-1
-
-[file_out:Signed-extend/signed-extend_block.bde]
-Signed-extend/\compile\signed-extend_block.vhd=-1
-
-[file_out:Control unit/CU_block.bde]
-Control unit/\compile\CU_block.vhd=-1
-
-[file_out:Processor/MIPS.bde]
-Processor/\compile\MIPS.vhd=-1
+.\src\Datapath\Processor.vhd=VHDL Source Code
+.\src\Datapath\componentsPackage.vhd=VHDL Source Code
+.\src\Datapath\MIPS.bde=Block Diagram
+.\src\Datapath\Processor_waveform.awf=Waveform File
 

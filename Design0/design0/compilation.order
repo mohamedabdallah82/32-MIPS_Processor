@@ -31,6 +31,6 @@
 .\src\Control unit\ALU Control.vhd
 .\src\Control unit\Control Unit.vhd
 .\src\Control unit\Control.vhd
-.\src\Processor\Processor.vhd
-.\src\Processor\componentsPackage.vhd
-.\src\Processor\MIPS.bde
+.\src\Datapath\Processor.vhd
+.\src\Datapath\componentsPackage.vhd
+.\src\Datapath\MIPS.bde

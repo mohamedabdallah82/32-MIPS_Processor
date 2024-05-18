@@ -1,0 +1,54 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "e#9#std_logicc9 UX01ZWLH-"
+$S 1 1 regDst
+$S 5 1 aluSrc
+$S 9 1 memRead
+$S +4 1 memWrite
+$S +4 1 memToReg
+$S +4 1 addrSel
+$S +4 1 branch
+$S +4 1 zf
+$S +4 1 regWrite
+I 2 "a#28#std_logic_vector(4 downto 0)1 ricd4 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S 57 2 5 rd
+$SC 37-53/4
+I 3 "a#29#std_logic_vector(31 downto 0)1 ricd31 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S 186 3 32 regOutput1
+$SC 58-182/4
+$BUS S 315 3 32 9 0 "2"
+$SC 187-311/4
+I 4 "a#28#std_logic_vector(1 downto 0)1 ricd1 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S +13 4 2 ALUop
+$SC +-8 +4
+$BUS S 453 3 32 dataMemOutput
+$SC 325-449/4
+$BUS S 582 3 32 offsetX4
+$SC 454-578/4
+$BUS S 711 3 32 nextAddr
+$SC 583-707/4
+$BUS S 840 3 32 dest
+$SC 712-836/4
+$BUS S 969 3 32 pc_input
+$SC 841-965/4
+$BUS S +133 3 32 offset
+$SC 970-+124/4
+$BUS S +133 3 32 dataMemWrData
+$SC 1099-+124/4
+I 5 "a#28#std_logic_vector(2 downto 0)1 ricd2 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S +17 5 3 opSel
+$SC +-12-+8/4
+$BUS S +133 3 32 aluResult
+$SC 1241-+124/4
+$BUS S +133 3 32 pcOut
+$SC 1370-+124/4
+$BUS S +133 3 32 rgfileDataWr
+$SC 1499-+124/4
+$BUS S +133 3 32 Instruction
+$SC 1628-+124/4
+$BUS S +133 3 32 Number4
+$SC 1757-+124/4
+$IN +5 1 clk
+$IN +4 1 rst
+$OUT +4 1 j
+$ENDWAVE

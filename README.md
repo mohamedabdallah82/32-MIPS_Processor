@@ -29,3 +29,6 @@ x"018E7820"  -- 0x0040 003C: sub    $t6,   $t4,   $t6     -- write on $t6 x"0000
 ## Block Diagram
 
 ![block_diagram](https://github.com/mohamedabdallah82/Single-Cycle-Processor/blob/main/docs/block_diagram.png) 
+
+### You Can Scan the QR For The Presentation
+![qr_code](https://github.com/mohamedabdallah82/Single-Cycle-Processor/blob/main/docs/pres.jpg)

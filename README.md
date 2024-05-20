@@ -11,7 +11,7 @@ The Single-Cycle Processor is implemented in VHDL and simulated using tools like
 x"02119001", -- 0x0040 0000: and    $s2,   $s0,   $s1				-- write on $S2 x"00000000"
 x"0253a002", -- 0x0040 0004: or     $s4,   $s2,   $s3				-- write on $S4 x"00000036"
 x"02b6b804", -- 0x0040 0008: nor    $s7,   $s5,   $s6				-- 
-x"01095008", -- 0x0040 000C: xor    $t2,	  $t0,   $t1				-- 
+x"01095008", -- 0x0040 000C: xor    $t2,	  $t0,   $t1			
 x"8e320030", -- 0x0040 0010: lw     $s2,   48($s1)					-- write on $S2 x"00000000"
 x"AEB40012", -- 0x0040 0014: sw     $s4,   18($s5)					-- write on 20th location x"00000036"
 x"8EAC0012", -- 0x0040 0018: lw     $t4,   18($s5)					-- write on $t4 x"00000036"

@@ -6,8 +6,8 @@ This repository contains the VHDL code for a 32 bit MIPS single cycle processor.
 The Single-Cycle Processor is implemented in VHDL and simulated using tools like ModelSim. It provides support for basic arithmetic and logical operations, as well as memory access and control flow instructions.
 
 ## Instruction Set
-![[Pasted image 20240520180900.png]]
+![[https://github.com/mohamedabdallah82/Single-Cycle-Processor/blob/main/docs/instructions.png]]
 ## Block Diagram
 
-![[Pasted image 20240520180329.png]]
+![[https://github.com/mohamedabdallah82/Single-Cycle-Processor/blob/main/docs/block_diagram.png]]
 
